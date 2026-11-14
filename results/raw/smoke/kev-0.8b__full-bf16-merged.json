@@ -1,0 +1,183 @@
+{
+  "combo": {
+    "id": "kev-0.8b/full-bf16-merged",
+    "model": "kev-0.8b",
+    "variant": "full-bf16-merged",
+    "backend": "mlx",
+    "kind": "kev",
+    "params": {
+      "run": "~/jevlike_cache/models/merged/kev-0.8b-stream/checkpoint",
+      "device": "mps",
+      "backend": "mlx"
+    },
+    "needs": [
+      "merge-kev-0.8b-stream"
+    ],
+    "repo": "kev",
+    "hf": "jaredpalmer/kev-0.8b@9a45d25eb2ab761841196625383fa1dff0e56c1e (README Kev 1.0 weights rev); base Qwen/Qwen3.5-0.8B-Base@dc7cdfe2ee4154fa7e30f5b51ca41bfa40174e68 (Kev-0.8B base) -> merged locally (kev_merge_stream.py)",
+    "notes": "parity check of our streaming merge: kev.mlx_model.load_full path; compare with kev-0.8b/bf16"
+  },
+  "request_path": "<project>/code/smoke_request.json",
+  "request_sha256": "c800242e8a37638b3e374f3815a10a7da1240e8b8eca32fe63bd273181e88ed3",
+  "repo_sha_actual": "2074cc44256200bb37540103fa4572901faa10f3",
+  "started": "2026-11-13T15:50:25+0300",
+  "before": {
+    "label": "before kev-0.8b/full-bf16-merged",
+    "time": "2026-11-13T15:50:35+0300",
+    "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+    "pmset_batt": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=<redacted>)\t80%; AC attached; not charging present: true",
+    "memory_pressure": "The system has 17179869184 (1048576 pages with a page size of 16384).\nSystem-wide memory free percentage: 78%",
+    "swapusage": "vm.swapusage: total = 4096.00M  used = 2943.56M  free = 1152.44M  (encrypted)",
+    "mem_total_gb": 17.18,
+    "mem_available_gb": 10.133,
+    "swap_used_gb": 3.087,
+    "cpu_percent": 25.9
+  },
+  "guard": {
+    "returncode": 0,
+    "killed_reason": null,
+    "wall_s": 4.38,
+    "peak_rss_gb": 2.167,
+    "peak_phys_footprint_gb": 2.47,
+    "guard_metric": "physical footprint",
+    "min_avail_gb": 7.205,
+    "swap_start_gb": 3.087,
+    "swap_peak_gb": 3.087,
+    "swap_guard": "active",
+    "tail": []
+  },
+  "worker": {
+    "combo_id": "kev-0.8b/full-bf16-merged",
+    "started": "2026-11-13T15:50:35+0300",
+    "stage": "done",
+    "ok": true,
+    "import_s": 0.544,
+    "load_s": 2.593,
+    "info": {
+      "runner": "kev",
+      "run": "~/jevlike_cache/models/merged/kev-0.8b-stream/checkpoint",
+      "resolved_path": "~/jevlike_cache/models/merged/kev-0.8b-stream/checkpoint",
+      "full_weights": true,
+      "backend": "mlx",
+      "dtype": "bfloat16",
+      "device": "mps",
+      "load_options": "LoadOptions(dtype=None, merge=True, attn=None, lora_scale=1.0, temperature=None, backend='mlx', cuda_graphs=None, fused=None)",
+      "temperature": 2.3510958125672174,
+      "base": "Qwen/Qwen3.5-0.8B-Base",
+      "base_revision": "dc7cdfe2ee4154fa7e30f5b51ca41bfa40174e68",
+      "weights_dtype": "bf16",
+      "quantization": null
+    },
+    "mem_after_load": {
+      "rss": 2156019712,
+      "phys_footprint": 2060831096,
+      "mlx_active": 1504786056,
+      "mps_driver": 1506246656
+    },
+    "latency_ms_single": 553.3,
+    "response": {
+      "model": "kev-latest",
+      "answers": {
+        "defective": {
+          "type": "noul",
+          "noul": 0.7047
+        },
+        "department": {
+          "type": "choice",
+          "choice": "returns",
+          "confidence": 0.8096,
+          "probabilities": {
+            "returns": 0.873,
+            "shipping": 0.1185,
+            "billing": 0.0084
+          }
+        },
+        "urgency": {
+          "type": "score",
+          "score": 1.1402,
+          "legend": {
+            "0": "Low",
+            "1": "Medium",
+            "2": "High"
+          },
+          "probabilities": {
+            "0": 0.2475,
+            "1": 0.3647,
+            "2": 0.3877
+          },
+          "confidence": 0.0
+        }
+      },
+      "usage": {
+        "input_tokens": 121,
+        "output_tokens": 172
+      },
+      "latency_ms": 552.0
+    },
+    "latency_ms_warm": 59.1,
+    "response_warm": {
+      "model": "kev-latest",
+      "answers": {
+        "defective": {
+          "type": "noul",
+          "noul": 0.7047
+        },
+        "department": {
+          "type": "choice",
+          "choice": "returns",
+          "confidence": 0.8096,
+          "probabilities": {
+            "returns": 0.873,
+            "shipping": 0.1185,
+            "billing": 0.0084
+          }
+        },
+        "urgency": {
+          "type": "score",
+          "score": 1.1402,
+          "legend": {
+            "0": "Low",
+            "1": "Medium",
+            "2": "High"
+          },
+          "probabilities": {
+            "0": 0.2475,
+            "1": 0.3647,
+            "2": 0.3877
+          },
+          "confidence": 0.0
+        }
+      },
+      "usage": {
+        "input_tokens": 121,
+        "output_tokens": 172
+      },
+      "latency_ms": 58.2
+    },
+    "validation": {
+      "valid": true,
+      "problems": []
+    },
+    "rss_peak_gb": 2.167,
+    "phys_footprint_peak_gb": 2.47,
+    "mlx_active_peak_gb": 1.687,
+    "mps_driver_peak_gb": 1.907,
+    "sampler_samples": 36,
+    "phys_footprint_lifetime_max_gb": 2.47,
+    "mlx_peak_gb": 1.821,
+    "finished": "2026-11-13T15:50:39+0300"
+  },
+  "after": {
+    "label": "after kev-0.8b/full-bf16-merged",
+    "time": "2026-11-13T15:50:40+0300",
+    "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+    "pmset_batt": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=<redacted>)\t80%; AC attached; not charging present: true",
+    "memory_pressure": "The system has 17179869184 (1048576 pages with a page size of 16384).\nSystem-wide memory free percentage: 78%",
+    "swapusage": "vm.swapusage: total = 4096.00M  used = 2943.56M  free = 1152.44M  (encrypted)",
+    "mem_total_gb": 17.18,
+    "mem_available_gb": 10.107,
+    "swap_used_gb": 3.087,
+    "cpu_percent": 24.1
+  },
+  "finished": "2026-11-13T15:50:40+0300"
+}

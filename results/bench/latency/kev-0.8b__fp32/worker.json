@@ -1,0 +1,30 @@
+{
+  "combo_id": "kev-0.8b/fp32",
+  "started": "2026-11-13T18:55:05+0300",
+  "ok": false,
+  "load_s": 7.601,
+  "info": {
+    "runner": "kev",
+    "run": "jaredpalmer/kev-0.8b@9a45d25eb2ab761841196625383fa1dff0e56c1e",
+    "resolved_path": "~/jevlike_cache/hf/hub/models--jaredpalmer--kev-0.8b/snapshots/9a45d25eb2ab761841196625383fa1dff0e56c1e",
+    "full_weights": false,
+    "backend": "torch",
+    "dtype": "float32",
+    "device": "mps",
+    "load_options": "LoadOptions(dtype=torch.float32, merge=True, attn='sdpa', lora_scale=1.0, temperature=None, backend='torch', cuda_graphs=None, fused=None)",
+    "temperature": 2.3510958125672174,
+    "base": "Qwen/Qwen3.5-0.8B-Base",
+    "base_revision": "dc7cdfe2ee4154fa7e30f5b51ca41bfa40174e68",
+    "weights_dtype": "fp32",
+    "quantization": null
+  },
+  "after_load": {
+    "rss": 564969472,
+    "phys_footprint": 4855777656,
+    "mlx_active": 0,
+    "mps_driver": 3332767744
+  },
+  "error": "in-process memory guard: mps_driver 15.93 GB > limit 14 GB",
+  "guard": "in-process",
+  "cells_done": 7
+}

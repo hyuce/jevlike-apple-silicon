@@ -1,0 +1,36 @@
+{
+  "combo_id": "kev-0.8b/fp32-cpu",
+  "started": "2026-11-13T19:00:11+0300",
+  "ok": false,
+  "load_s": 6.319,
+  "info": {
+    "runner": "kev",
+    "run": "jaredpalmer/kev-0.8b@9a45d25eb2ab761841196625383fa1dff0e56c1e",
+    "resolved_path": "~/jevlike_cache/hf/hub/models--jaredpalmer--kev-0.8b/snapshots/9a45d25eb2ab761841196625383fa1dff0e56c1e",
+    "full_weights": false,
+    "backend": "torch",
+    "dtype": "float32",
+    "device": "cpu",
+    "load_options": "LoadOptions(dtype=torch.float32, merge=True, attn=None, lora_scale=1.0, temperature=None, backend='torch', cuda_graphs=None, fused=None)",
+    "temperature": 2.3510958125672174,
+    "base": "Qwen/Qwen3.5-0.8B-Base",
+    "base_revision": "dc7cdfe2ee4154fa7e30f5b51ca41bfa40174e68",
+    "weights_dtype": "fp32",
+    "quantization": null
+  },
+  "after_load": {
+    "rss": 5288050688,
+    "phys_footprint": 3683996520,
+    "mlx_active": 0,
+    "mps_driver": 393216
+  },
+  "error": "KeyboardInterrupt: ",
+  "traceback": "Traceback (most recent call last):\n  File \"<project>/code/bench_latency.py\", line 246, in worker\n    run_cell(f\"A_q{nq}\", nq, lambda: ticket())\n  File \"<project>/code/bench_latency.py\", line 232, in run_cell\n    ms, ok, err = call(cell, \"warm\", i, same)\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<project>/code/bench_latency.py\", line 194, in call\n    body = runner.answer(r)\n           ^^^^^^^^^^^^^^^^\n  File \"<project>/code/adapters.py\", line 102, in answer\n    return self.server.answer(SystemOneRequest.model_validate(req))\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"~/jevlike_cache/repos/kev/kev/serve.py\", line 203, in answer\n    return self._body(req, meta, *self.probs(rec))\n                                  ^^^^^^^^^^^^^^^\n  File \"~/jevlike_cache/repos/kev/kev/serve.py\", line 148, in probs\n    return self.submit(rec).result()\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"~/.local/share/uv/python/cpython-3.12.16-macos-aarch64-none/lib/python3.12/concurrent/futures/_base.py\", line 451, in result\n    self._condition.wait(timeout)\n  File \"~/.local/share/uv/python/cpython-3.12.16-macos-aarch64-none/lib/python3.12/threading.py\", line 355, in wait\n    waiter.acquire()\nKeyboardInterrupt\n",
+  "rss_peak_gb": 5.549,
+  "phys_footprint_peak_gb": 3.92,
+  "mlx_active_peak_gb": 0.0,
+  "mps_driver_peak_gb": 0.0,
+  "sampler_samples": 3047,
+  "phys_footprint_lifetime_max_gb": 3.931,
+  "finished": "2026-11-13T19:05:36+0300"
+}

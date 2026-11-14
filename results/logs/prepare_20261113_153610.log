@@ -1,0 +1,136 @@
+[err] 
+[err] Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[err] 
+[err] Fetching 9 files:  11%|█         | 1/9 [00:00<00:02,  2.98it/s]
+[err] Fetching 9 files:  67%|██████▋   | 6/9 [00:00<00:00, 13.94it/s]
+[err] Fetching 9 files:  89%|████████▉ | 8/9 [00:02<00:00,  3.16it/s]
+[err] Fetching 9 files: 100%|██████████| 9/9 [00:03<00:00,  2.66it/s]
+[out] {"task": "dl-kev-0.8b", "ok": true}
+[guard] returncode=0 killed_reason=None wall_s=5.0 peak_rss_gb=0.315 peak_phys_footprint_gb=0.259
+[err] 
+[err] Fetching 13 files:   0%|          | 0/13 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[err] 
+[err] Fetching 13 files:   8%|▊         | 1/13 [00:00<00:02,  5.11it/s]
+[err] Fetching 13 files:  54%|█████▍    | 7/13 [00:00<00:00, 21.15it/s]
+[err] Fetching 13 files:  85%|████████▍ | 11/13 [00:00<00:00, 18.40it/s]
+[err] Fetching 13 files: 100%|██████████| 13/13 [00:12<00:00,  1.46s/it]
+[err] Fetching 13 files: 100%|██████████| 13/13 [00:12<00:00,  1.08it/s]
+[out] {"task": "dl-kev-4b", "ok": true}
+[guard] returncode=0 killed_reason=None wall_s=13.2 peak_rss_gb=0.372 peak_phys_footprint_gb=0.316
+[err] 
+[err] Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[err] 
+[err] Fetching 9 files:  11%|█         | 1/9 [00:00<00:01,  5.23it/s]
+[err] Fetching 9 files:  78%|███████▊  | 7/9 [00:00<00:00, 14.86it/s]
+[err] Fetching 9 files:  89%|████████▉ | 8/9 [00:20<00:00, 14.86it/s]
+[err] Fetching 9 files: 100%|██████████| 9/9 [01:02<00:00,  9.29s/it]
+[err] Fetching 9 files: 100%|██████████| 9/9 [01:02<00:00,  6.93s/it]
+[out] {"task": "dl-qwen3.5-0.8b-base", "ok": true}
+[guard] returncode=0 killed_reason=None wall_s=62.9 peak_rss_gb=1.837 peak_phys_footprint_gb=1.820
+[err] 
+[err] Fetching 10 files:   0%|          | 0/10 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[err] 
+[err] Fetching 10 files:  10%|█         | 1/10 [00:00<00:01,  5.41it/s]
+[err] Fetching 10 files:  60%|██████    | 6/10 [00:00<00:00, 22.83it/s]
+[err] Fetching 10 files:  80%|████████  | 8/10 [00:20<00:00, 22.83it/s]
+[err] Fetching 10 files:  90%|█████████ | 9/10 [04:50<00:41, 41.61s/it]
+[err] Fetching 10 files: 100%|██████████| 10/10 [05:18<00:00, 39.30s/it]
+[err] Fetching 10 files: 100%|██████████| 10/10 [05:18<00:00, 31.90s/it]
+[out] {"task": "dl-qwen3.5-4b-base", "ok": true}
+[guard] returncode=0 killed_reason=None wall_s=319.6 peak_rss_gb=3.360 peak_phys_footprint_gb=4.067
+[err] 
+[err] Fetching 5 files:   0%|          | 0/5 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[err] 
+[err] Fetching 5 files:  20%|██        | 1/5 [00:00<00:00,  5.07it/s]
+[err] Fetching 5 files: 100%|██████████| 5/5 [00:40<00:00,  8.58s/it]
+[err] Fetching 5 files: 100%|██████████| 5/5 [00:40<00:00,  8.08s/it]
+[out] {"task": "dl-laya", "ok": true}
+[guard] returncode=0 killed_reason=None wall_s=41.1 peak_rss_gb=0.684 peak_phys_footprint_gb=0.665
+[err] 
+[err] Fetching 5 files:   0%|          | 0/5 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[err] 
+[err] Fetching 5 files:  20%|██        | 1/5 [00:00<00:00,  5.01it/s]
+[err] Fetching 5 files:  80%|████████  | 4/5 [00:23<00:06,  6.38s/it]
+[err] Fetching 5 files: 100%|██████████| 5/5 [00:31<00:00,  6.81s/it]
+[err] Fetching 5 files: 100%|██████████| 5/5 [00:31<00:00,  6.32s/it]
+[out] {"task": "dl-laya-multilingual", "ok": true}
+[guard] returncode=0 killed_reason=None wall_s=32.1 peak_rss_gb=0.753 peak_phys_footprint_gb=0.734
+[err] 
+[err] Fetching 6 files:   0%|          | 0/6 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[err] 
+[err] Fetching 6 files:  17%|█▋        | 1/6 [00:00<00:01,  3.86it/s]
+[err] Fetching 6 files:  50%|█████     | 3/6 [00:00<00:00,  6.54it/s]
+[err] Fetching 6 files:  83%|████████▎ | 5/6 [00:02<00:00,  1.53it/s]
+[err] Fetching 6 files: 100%|██████████| 6/6 [01:35<00:00, 25.36s/it]
+[err] Fetching 6 files: 100%|██████████| 6/6 [01:35<00:00, 15.89s/it]
+[out] {"task": "dl-nanojev", "ok": true}
+[guard] returncode=0 killed_reason=None wall_s=95.9 peak_rss_gb=1.064 peak_phys_footprint_gb=1.994
+[err] 
+[err] Fetching 6 files:   0%|          | 0/6 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[err] 
+[err] Fetching 6 files:  17%|█▋        | 1/6 [00:00<00:00,  5.07it/s]
+[err] Fetching 6 files: 100%|██████████| 6/6 [00:34<00:00,  6.07s/it]
+[err] Fetching 6 files: 100%|██████████| 6/6 [00:34<00:00,  5.78s/it]
+[out] {"task": "dl-laya-mlx", "ok": true}
+[guard] returncode=0 killed_reason=None wall_s=35.2 peak_rss_gb=0.770 peak_phys_footprint_gb=0.790
+[err] 
+[err] Fetching 6 files:   0%|          | 0/6 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[err] 
+[err] Fetching 6 files:  17%|█▋        | 1/6 [00:00<00:00,  5.72it/s]
+[err] Fetching 6 files: 100%|██████████| 6/6 [00:34<00:00,  6.12s/it]
+[err] Fetching 6 files: 100%|██████████| 6/6 [00:34<00:00,  5.82s/it]
+[out] {"task": "dl-laya-multilingual-mlx", "ok": true}
+[guard] returncode=0 killed_reason=None wall_s=35.5 peak_rss_gb=0.352 peak_phys_footprint_gb=0.702
+[err] Traceback (most recent call last):
+[err]   File "~/jevlike_cache/repos/kev/scripts/merge_lora_checkpoint.py", line 46, in <module>
+[err]     from scripts.interpolate_checkpoint import load_lora, shard_layout  # noqa: E402
+[err]     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[err] ModuleNotFoundError: No module named 'scripts.interpolate_checkpoint'
+[err] Traceback (most recent call last):
+[err]   File "<project>/code/prepare_models.py", line 214, in <module>
+[err]     main()
+[err]   File "<project>/code/prepare_models.py", line 139, in main
+[err]     result = run_task(task)
+[err]              ^^^^^^^^^^^^^^
+[err]   File "<project>/code/prepare_models.py", line 78, in run_task
+[err]     raise RuntimeError(f"merge_lora_checkpoint.py exited {r.returncode}")
+[err] RuntimeError: merge_lora_checkpoint.py exited 1
+[guard] returncode=1 killed_reason=None wall_s=26.5 peak_rss_gb=0.482 peak_phys_footprint_gb=0.419
+[err] 
+[err] Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]
+[err] Fetching 9 files: 100%|██████████| 9/9 [00:00<00:00, 5703.95it/s]
+[err] 
+[err] Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]
+[err] Fetching 9 files: 100%|██████████| 9/9 [00:00<00:00, 6864.65it/s]
+[out] base Qwen/Qwen3.5-0.8B-Base@dc7cdfe2ee4154fa7e30f5b51ca41bfa40174e68 -> ~/jevlike_cache/hf/hub/models--Qwen--Qwen3.5-0.8B-Base/snapshots/dc7cdfe2ee4154fa7e30f5b51ca41bfa40174e68; adapter r=16 alpha=32 scaling=2.0
+[out] 320 backbone tensors, 186 adapted
+[out] -> ~/jevlike_cache/models/merged/kev-0.8b-stream/checkpoint: 320 tensors (186 adapted), 1.50 GB, 4.8 s
+[out] {"task": "merge-kev-0.8b-stream", "ok": true}
+[guard] returncode=0 killed_reason=None wall_s=8.6 peak_rss_gb=2.601 peak_phys_footprint_gb=1.477
+[err] 
+[err] Fetching 13 files:   0%|          | 0/13 [00:00<?, ?it/s]
+[err] Fetching 13 files: 100%|██████████| 13/13 [00:00<00:00, 5829.78it/s]
+[err] 
+[err] Fetching 10 files:   0%|          | 0/10 [00:00<?, ?it/s]
+[err] Fetching 10 files: 100%|██████████| 10/10 [00:00<00:00, 7073.03it/s]
+[out] base Qwen/Qwen3.5-4B-Base@1001bb4d826a52d1f399e183466143f4da7b741b -> ~/jevlike_cache/hf/hub/models--Qwen--Qwen3.5-4B-Base/snapshots/1001bb4d826a52d1f399e183466143f4da7b741b; adapter r=16 alpha=32 scaling=2.0
+[out] 426 backbone tensors, 248 adapted
+[out] -> ~/jevlike_cache/models/merged/kev-4b-stream/checkpoint: 426 tensors (248 adapted), 8.41 GB, 29.1 s
+[out] {"task": "merge-kev-4b-stream", "ok": true}
+[guard] returncode=0 killed_reason=None wall_s=33.1 peak_rss_gb=4.458 peak_phys_footprint_gb=3.004
+[out] {"task": "link-jevmlx-Qwen3.5-0.8B-Base", "ok": true}
+[guard] returncode=0 killed_reason=None wall_s=1.3 peak_rss_gb=0.049 peak_phys_footprint_gb=0.037
+[out] [INFO] Loading
+[out] [INFO] Using dtype: bfloat16
+[out] [INFO] Quantizing
+[out] [INFO] Quantized model with 4.508 bits per weight.
+[out] {"task": "convert-q4-Qwen3.5-0.8B-Base", "ok": true}
+[guard] returncode=0 killed_reason=None wall_s=13.8 peak_rss_gb=1.353 peak_phys_footprint_gb=2.394
+[out] {"task": "link-jevmlx-Qwen3.5-4B-Base", "ok": true}
+[guard] returncode=0 killed_reason=None wall_s=0.3 peak_rss_gb=0.051 peak_phys_footprint_gb=0.039
+[out] [INFO] Loading
+[out] [INFO] Using dtype: bfloat16
+[out] [INFO] Quantizing
+[out] [INFO] Quantized model with 4.503 bits per weight.
+[out] {"task": "convert-q4-Qwen3.5-4B-Base", "ok": true}
+[guard] returncode=0 killed_reason=None wall_s=10.5 peak_rss_gb=3.196 peak_phys_footprint_gb=6.114

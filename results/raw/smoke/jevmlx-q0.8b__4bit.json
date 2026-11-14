@@ -1,0 +1,180 @@
+{
+  "combo": {
+    "id": "jevmlx-q0.8b/4bit",
+    "model": "jevmlx-q0.8b",
+    "variant": "4-bit",
+    "backend": "mlx",
+    "kind": "jevmlx",
+    "params": {
+      "model_path": "~/jevlike_cache/models/jevmlx/Qwen3.5-0.8B-Base-4bit-g64"
+    },
+    "needs": [
+      "convert-q4-Qwen3.5-0.8B-Base"
+    ],
+    "repo": "jevmlx",
+    "hf": "Qwen/Qwen3.5-0.8B-Base@dc7cdfe2ee4154fa7e30f5b51ca41bfa40174e68 (Kev-0.8B base) -> mlx_lm.convert q4 g64 locally",
+    "notes": "OURS: mlx_lm.convert(quantize=True, q_bits=4, q_group_size=64) of the same checkpoint"
+  },
+  "request_path": "<project>/code/smoke_request.json",
+  "request_sha256": "c800242e8a37638b3e374f3815a10a7da1240e8b8eca32fe63bd273181e88ed3",
+  "repo_sha_actual": "5f94ae262c1cf4f226b436433946be281ec1ac99",
+  "started": "2026-11-13T15:55:19+0300",
+  "before": {
+    "label": "before jevmlx-q0.8b/4bit",
+    "time": "2026-11-13T15:55:29+0300",
+    "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+    "pmset_batt": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=<redacted>)\t80%; AC attached; not charging present: true",
+    "memory_pressure": "The system has 17179869184 (1048576 pages with a page size of 16384).\nSystem-wide memory free percentage: 82%",
+    "swapusage": "vm.swapusage: total = 5120.00M  used = 3505.38M  free = 1614.62M  (encrypted)",
+    "mem_total_gb": 17.18,
+    "mem_available_gb": 10.845,
+    "swap_used_gb": 3.676,
+    "cpu_percent": 19.8
+  },
+  "guard": {
+    "returncode": 0,
+    "killed_reason": null,
+    "wall_s": 4.69,
+    "peak_rss_gb": 1.369,
+    "peak_phys_footprint_gb": 4.035,
+    "guard_metric": "physical footprint",
+    "min_avail_gb": 6.3,
+    "swap_start_gb": 3.676,
+    "swap_peak_gb": 3.676,
+    "swap_guard": "active",
+    "tail": [
+      "[err] Width-slope probe failed (ValueError: implausible width slope 16.233282022786376); budgeting keeps the assumed floor slope 1.0",
+      "[err] drift envelope unrecorded for ~/jevlike_cache/models/jevmlx/Qwen3.5-0.8B-Base-4bit-g64/m2pro — running the load-time canary and writing the record (run benchmarks/driftprobe.py for the full matrix)"
+    ]
+  },
+  "worker": {
+    "combo_id": "jevmlx-q0.8b/4bit",
+    "started": "2026-11-13T15:55:29+0300",
+    "stage": "done",
+    "ok": true,
+    "import_s": 0.047,
+    "load_s": 3.785,
+    "info": {
+      "runner": "jevmlx",
+      "model_path": "~/jevlike_cache/models/jevmlx/Qwen3.5-0.8B-Base-4bit-g64",
+      "model_id": "~/jevlike_cache/models/jevmlx/Qwen3.5-0.8B-Base-4bit-g64",
+      "revision": null,
+      "weight_bytes": 423938240,
+      "profile": "PromptProfile(template_kwargs={'enable_thinking': False}, supports_system=True)",
+      "temperature": 1.0
+    },
+    "mem_after_load": {
+      "rss": 1293582336,
+      "phys_footprint": 3577038696,
+      "mlx_active": 423938250,
+      "mps_driver": 2807152640
+    },
+    "latency_ms_single": 123.6,
+    "response": {
+      "model": "~/jevlike_cache/models/jevmlx/Qwen3.5-0.8B-Base-4bit-g64",
+      "answers": {
+        "defective": {
+          "type": "noul",
+          "noul": 0.8670357598021708,
+          "confidence": 0.7340715196043416
+        },
+        "department": {
+          "type": "choice",
+          "choice": "returns",
+          "confidence": 0.11195921552352706,
+          "probabilities": {
+            "returns": 0.5061465274520766,
+            "shipping": 0.3941873119285495,
+            "billing": 0.09966616061937399
+          }
+        },
+        "urgency": {
+          "type": "score",
+          "score": 1.0,
+          "argmax_level": "Low",
+          "probabilities": {
+            "Low": 0.3836517311905507,
+            "High": 0.3836517311905507,
+            "Medium": 0.23269653761889864
+          },
+          "legend": {
+            "0": "Low",
+            "1": "Medium",
+            "2": "High"
+          }
+        }
+      },
+      "usage": {
+        "prompt_tokens": 228,
+        "computed_positions": 15
+      },
+      "latency_ms": 121.19
+    },
+    "latency_ms_warm": 119.5,
+    "response_warm": {
+      "model": "~/jevlike_cache/models/jevmlx/Qwen3.5-0.8B-Base-4bit-g64",
+      "answers": {
+        "defective": {
+          "type": "noul",
+          "noul": 0.8670357598021708,
+          "confidence": 0.7340715196043416
+        },
+        "department": {
+          "type": "choice",
+          "choice": "returns",
+          "confidence": 0.11195921552352706,
+          "probabilities": {
+            "returns": 0.5061465274520766,
+            "shipping": 0.3941873119285495,
+            "billing": 0.09966616061937399
+          }
+        },
+        "urgency": {
+          "type": "score",
+          "score": 1.0,
+          "argmax_level": "Low",
+          "probabilities": {
+            "Low": 0.3836517311905507,
+            "High": 0.3836517311905507,
+            "Medium": 0.23269653761889864
+          },
+          "legend": {
+            "0": "Low",
+            "1": "Medium",
+            "2": "High"
+          }
+        }
+      },
+      "usage": {
+        "prompt_tokens": 228,
+        "computed_positions": 15
+      },
+      "latency_ms": 118.67
+    },
+    "validation": {
+      "valid": true,
+      "problems": []
+    },
+    "rss_peak_gb": 1.353,
+    "phys_footprint_peak_gb": 4.035,
+    "mlx_active_peak_gb": 1.406,
+    "mps_driver_peak_gb": 3.265,
+    "sampler_samples": 37,
+    "phys_footprint_lifetime_max_gb": 4.035,
+    "mlx_peak_gb": 0.764,
+    "finished": "2026-11-13T15:55:33+0300"
+  },
+  "after": {
+    "label": "after jevmlx-q0.8b/4bit",
+    "time": "2026-11-13T15:55:34+0300",
+    "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+    "pmset_batt": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=<redacted>)\t80%; AC attached; not charging present: true",
+    "memory_pressure": "The system has 17179869184 (1048576 pages with a page size of 16384).\nSystem-wide memory free percentage: 82%",
+    "swapusage": "vm.swapusage: total = 5120.00M  used = 3505.38M  free = 1614.62M  (encrypted)",
+    "mem_total_gb": 17.18,
+    "mem_available_gb": 6.3,
+    "swap_used_gb": 3.676,
+    "cpu_percent": 26.2
+  },
+  "finished": "2026-11-13T15:55:34+0300"
+}

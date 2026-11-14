@@ -1,0 +1,169 @@
+{
+  "combo": {
+    "id": "nanojev/bf16-cpu",
+    "model": "nanojev",
+    "variant": "bf16 (CPU)",
+    "backend": "torch-cpu",
+    "kind": "nanojev",
+    "params": {
+      "checkpoint_dir": "~/jevlike_cache/models/nanojev/unified-games-v1",
+      "repo": "~/jevlike_cache/repos/nanojev",
+      "mode": "port",
+      "precision": "bf16",
+      "device": "cpu"
+    },
+    "needs": [
+      "dl-nanojev"
+    ],
+    "repo": "nanojev",
+    "hf": "C-Tianyu/NanoJev@047b927b30882a1138fc504821b82ac145a4b81a (tag unified-games-v1)",
+    "notes": "OUR device=cpu port (bf16 autocast on CPU); fallback if MPS fails"
+  },
+  "request_path": "<project>/code/smoke_request.json",
+  "request_sha256": "c800242e8a37638b3e374f3815a10a7da1240e8b8eca32fe63bd273181e88ed3",
+  "repo_sha_actual": "45b629283ddeb3b3784806f352bbf5e97f71dd40",
+  "started": "2026-11-13T15:54:16+0300",
+  "before": {
+    "label": "before nanojev/bf16-cpu",
+    "time": "2026-11-13T15:54:26+0300",
+    "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+    "pmset_batt": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=<redacted>)\t80%; AC attached; not charging present: true",
+    "memory_pressure": "The system has 17179869184 (1048576 pages with a page size of 16384).\nSystem-wide memory free percentage: 82%",
+    "swapusage": "vm.swapusage: total = 5120.00M  used = 3529.38M  free = 1590.62M  (encrypted)",
+    "mem_total_gb": 17.18,
+    "mem_available_gb": 9.321,
+    "swap_used_gb": 3.701,
+    "cpu_percent": 32.8
+  },
+  "guard": {
+    "returncode": 0,
+    "killed_reason": null,
+    "wall_s": 16.33,
+    "peak_rss_gb": 3.881,
+    "peak_phys_footprint_gb": 3.787,
+    "guard_metric": "physical footprint",
+    "min_avail_gb": 7.103,
+    "swap_start_gb": 3.701,
+    "swap_peak_gb": 3.701,
+    "swap_guard": "active",
+    "tail": []
+  },
+  "worker": {
+    "combo_id": "nanojev/bf16-cpu",
+    "started": "2026-11-13T15:54:26+0300",
+    "stage": "done",
+    "ok": true,
+    "import_s": 0.506,
+    "load_s": 10.527,
+    "info": {
+      "runner": "nanojev",
+      "mode": "port",
+      "precision": "bf16",
+      "temperature": 1.0,
+      "base_model": "Qwen/Qwen3-0.6B",
+      "base_revision": "c1899de289a04d12100db370d81485cdf75e47ca",
+      "set_head": "attention",
+      "max_length": 8192,
+      "device": "cpu",
+      "port_note": "device=cpu port of DecisionPredictor (ours)"
+    },
+    "mem_after_load": {
+      "rss": 2963636224,
+      "phys_footprint": 2867514368,
+      "mlx_active": 0,
+      "mps_driver": 393216
+    },
+    "latency_ms_single": 2366.9,
+    "response": {
+      "model": "kev-latest",
+      "answers": {
+        "defective": {
+          "type": "noul",
+          "noul": 0.8397339582443237
+        },
+        "department": {
+          "type": "choice",
+          "choice": "returns",
+          "probabilities": {
+            "returns": 0.3825140595436096,
+            "shipping": 0.24890665709972382,
+            "billing": 0.36857935786247253
+          }
+        },
+        "urgency": {
+          "type": "score",
+          "score": 1.2516124546527863,
+          "probabilities": {
+            "0": 0.15011437237262726,
+            "1": 0.44815871119499207,
+            "2": 0.4017268717288971
+          },
+          "legend": {
+            "0": "Low",
+            "1": "Medium",
+            "2": "High"
+          }
+        }
+      },
+      "latency_ms": 2366.9
+    },
+    "latency_ms_warm": 2336.1,
+    "response_warm": {
+      "model": "kev-latest",
+      "answers": {
+        "defective": {
+          "type": "noul",
+          "noul": 0.8397339582443237
+        },
+        "department": {
+          "type": "choice",
+          "choice": "returns",
+          "probabilities": {
+            "returns": 0.3825140595436096,
+            "shipping": 0.24890665709972382,
+            "billing": 0.36857935786247253
+          }
+        },
+        "urgency": {
+          "type": "score",
+          "score": 1.2516124546527863,
+          "probabilities": {
+            "0": 0.15011437237262726,
+            "1": 0.44815871119499207,
+            "2": 0.4017268717288971
+          },
+          "legend": {
+            "0": "Low",
+            "1": "Medium",
+            "2": "High"
+          }
+        }
+      },
+      "latency_ms": 2336.1
+    },
+    "validation": {
+      "valid": true,
+      "problems": []
+    },
+    "rss_peak_gb": 4.721,
+    "phys_footprint_peak_gb": 3.794,
+    "mlx_active_peak_gb": 0.0,
+    "mps_driver_peak_gb": 0.0,
+    "sampler_samples": 147,
+    "phys_footprint_lifetime_max_gb": 3.794,
+    "finished": "2026-11-13T15:54:42+0300"
+  },
+  "after": {
+    "label": "after nanojev/bf16-cpu",
+    "time": "2026-11-13T15:54:42+0300",
+    "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+    "pmset_batt": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=<redacted>)\t80%; AC attached; not charging present: true",
+    "memory_pressure": "The system has 17179869184 (1048576 pages with a page size of 16384).\nSystem-wide memory free percentage: 82%",
+    "swapusage": "vm.swapusage: total = 5120.00M  used = 3521.38M  free = 1598.62M  (encrypted)",
+    "mem_total_gb": 17.18,
+    "mem_available_gb": 9.318,
+    "swap_used_gb": 3.692,
+    "cpu_percent": 26.1
+  },
+  "finished": "2026-11-13T15:54:43+0300"
+}

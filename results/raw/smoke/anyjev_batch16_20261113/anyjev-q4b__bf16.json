@@ -1,0 +1,68 @@
+{
+  "combo": {
+    "id": "anyjev-q4b/bf16",
+    "model": "anyjev-q4b",
+    "variant": "bf16",
+    "backend": "torch-mps",
+    "kind": "anyjev",
+    "params": {
+      "model_name": "Qwen/Qwen3.5-4B-Base",
+      "revision": "1001bb4d826a52d1f399e183466143f4da7b741b",
+      "device": "mps",
+      "dtype": "bfloat16"
+    },
+    "needs": [
+      "dl-qwen3.5-4b-base"
+    ],
+    "repo": "anyjev",
+    "hf": "Qwen/Qwen3.5-4B-Base@1001bb4d826a52d1f399e183466143f4da7b741b (Kev-4B base)",
+    "notes": "AnyJev Decider L0 (defaults) over HFBackend on Qwen3.5-4B-Base; batch prior needs >= 8 states, so a single request runs without it"
+  },
+  "request_path": "<project>/code/smoke_request.json",
+  "request_sha256": "c800242e8a37638b3e374f3815a10a7da1240e8b8eca32fe63bd273181e88ed3",
+  "repo_sha_actual": "35311c58955716cb8955ce1368a665988bc63735",
+  "started": "2026-11-13T15:55:34+0300",
+  "before": {
+    "label": "before anyjev-q4b/bf16",
+    "time": "2026-11-13T15:55:44+0300",
+    "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+    "pmset_batt": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=<redacted>)\t80%; AC attached; not charging present: true",
+    "memory_pressure": "The system has 17179869184 (1048576 pages with a page size of 16384).\nSystem-wide memory free percentage: 82%",
+    "swapusage": "vm.swapusage: total = 5120.00M  used = 3505.38M  free = 1614.62M  (encrypted)",
+    "mem_total_gb": 17.18,
+    "mem_available_gb": 10.806,
+    "swap_used_gb": 3.676,
+    "cpu_percent": 29.1
+  },
+  "guard": {
+    "returncode": -9,
+    "killed_reason": "swap guard: system available 0.70 GB < 0.75 GB and swap grew 5.99 GB (> 2 GB) after 11.4 s",
+    "wall_s": 11.64,
+    "peak_rss_gb": 0.659,
+    "peak_phys_footprint_gb": 9.317,
+    "guard_metric": "physical footprint",
+    "min_avail_gb": 0.704,
+    "swap_start_gb": 3.676,
+    "swap_peak_gb": 9.664,
+    "swap_guard": "active",
+    "tail": [
+      "[err] ",
+      "[err] Loading weights:   0%|          | 0/426 [00:00<?, ?it/s]",
+      "[err] Loading weights: 100%|██████████| 426/426 [00:00<00:00, 6150.92it/s]"
+    ]
+  },
+  "worker": null,
+  "after": {
+    "label": "after anyjev-q4b/bf16",
+    "time": "2026-11-13T15:55:56+0300",
+    "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+    "pmset_batt": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=<redacted>)\t80%; AC attached; not charging present: true",
+    "memory_pressure": "The system has 17179869184 (1048576 pages with a page size of 16384).\nSystem-wide memory free percentage: 55%",
+    "swapusage": "vm.swapusage: total = 9216.00M  used = 4302.94M  free = 4913.06M  (encrypted)",
+    "mem_total_gb": 17.18,
+    "mem_available_gb": 8.6,
+    "swap_used_gb": 4.512,
+    "cpu_percent": 40.1
+  },
+  "finished": "2026-11-13T15:55:56+0300"
+}

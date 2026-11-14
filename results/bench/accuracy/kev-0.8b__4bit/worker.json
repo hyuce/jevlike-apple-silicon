@@ -1,0 +1,44 @@
+{
+  "combo_id": "kev-0.8b/4bit",
+  "started": "2026-11-13T19:12:40+0300",
+  "n_total": 764,
+  "n_already_done": 0,
+  "ok": true,
+  "load_s": 3.871,
+  "info": {
+    "runner": "kev",
+    "run": "jaredpalmer/kev-0.8b@9a45d25eb2ab761841196625383fa1dff0e56c1e",
+    "resolved_path": "~/jevlike_cache/hf/hub/models--jaredpalmer--kev-0.8b/snapshots/9a45d25eb2ab761841196625383fa1dff0e56c1e",
+    "full_weights": false,
+    "backend": "mlx",
+    "dtype": "uint32",
+    "device": "mps",
+    "load_options": "LoadOptions(dtype=None, merge=True, attn=None, lora_scale=1.0, temperature=None, backend='mlx', cuda_graphs=None, fused=None)",
+    "temperature": 2.3510958125672174,
+    "base": "Qwen/Qwen3.5-0.8B-Base",
+    "base_revision": "dc7cdfe2ee4154fa7e30f5b51ca41bfa40174e68",
+    "weights_dtype": "fp32",
+    "quantization": {
+      "method": "mlx.nn.quantize(model.text, mode='affine') with mlx-lm's quantize_model predicate",
+      "bits": 4,
+      "group_size": 64,
+      "quantized_modules": 187,
+      "skipped_modules": [],
+      "backbone_bytes_before": 1504791232,
+      "backbone_bytes_after": 423942848,
+      "pointer_head_dtypes": [
+        "torch.float32"
+      ],
+      "pointer_head_quantized": false,
+      "seconds": 0.06
+    }
+  },
+  "rss_peak_gb": 3.181,
+  "phys_footprint_peak_gb": 3.084,
+  "mlx_active_peak_gb": 2.427,
+  "mps_driver_peak_gb": 2.533,
+  "sampler_samples": 397,
+  "phys_footprint_lifetime_max_gb": 3.238,
+  "mlx_peak_gb": 2.573,
+  "finished": "2026-11-13T19:13:24+0300"
+}

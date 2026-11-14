@@ -1,0 +1,198 @@
+{
+  "combo": {
+    "id": "kev-4b/4bit",
+    "model": "kev-4b",
+    "variant": "4-bit",
+    "backend": "mlx",
+    "kind": "kev",
+    "params": {
+      "run": "~/jevlike_cache/models/merged/kev-4b-stream/checkpoint",
+      "device": "mps",
+      "backend": "mlx",
+      "quant_bits": 4,
+      "group_size": 64
+    },
+    "needs": [
+      "merge-kev-4b-stream"
+    ],
+    "repo": "kev",
+    "hf": "jaredpalmer/kev-4b@139fdd94f1b6a6ad80cc15e08fcb99cac885a101 (README Kev 1.0 weights rev); base Qwen/Qwen3.5-4B-Base@1001bb4d826a52d1f399e183466143f4da7b741b (Kev-4B base) -> merged locally",
+    "notes": "OURS: mlx.nn.quantize(affine, group_size=64) on the merged bf16 Qwen3.5 backbone with mlx-lm's predicate; pointer head kept fp32 (torch); Kev has no native quantized path; loaded via load_full then quantized"
+  },
+  "request_path": "<project>/code/smoke_request.json",
+  "request_sha256": "c800242e8a37638b3e374f3815a10a7da1240e8b8eca32fe63bd273181e88ed3",
+  "repo_sha_actual": "2074cc44256200bb37540103fa4572901faa10f3",
+  "started": "2026-11-13T15:51:30+0300",
+  "before": {
+    "label": "before kev-4b/4bit",
+    "time": "2026-11-13T15:51:40+0300",
+    "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+    "pmset_batt": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=<redacted>)\t80%; AC attached; not charging present: true",
+    "memory_pressure": "The system has 17179869184 (1048576 pages with a page size of 16384).\nSystem-wide memory free percentage: 83%",
+    "swapusage": "vm.swapusage: total = 5120.00M  used = 3911.06M  free = 1208.94M  (encrypted)",
+    "mem_total_gb": 17.18,
+    "mem_available_gb": 11.18,
+    "swap_used_gb": 4.101,
+    "cpu_percent": 22.4
+  },
+  "guard": {
+    "returncode": 0,
+    "killed_reason": null,
+    "wall_s": 9.34,
+    "peak_rss_gb": 4.503,
+    "peak_phys_footprint_gb": 9.29,
+    "guard_metric": "physical footprint",
+    "min_avail_gb": 2.408,
+    "swap_start_gb": 4.101,
+    "swap_peak_gb": 4.464,
+    "swap_guard": "active",
+    "tail": []
+  },
+  "worker": {
+    "combo_id": "kev-4b/4bit",
+    "started": "2026-11-13T15:51:41+0300",
+    "stage": "done",
+    "ok": true,
+    "import_s": 0.679,
+    "load_s": 7.01,
+    "info": {
+      "runner": "kev",
+      "run": "~/jevlike_cache/models/merged/kev-4b-stream/checkpoint",
+      "resolved_path": "~/jevlike_cache/models/merged/kev-4b-stream/checkpoint",
+      "full_weights": true,
+      "backend": "mlx",
+      "dtype": "uint32",
+      "device": "mps",
+      "load_options": "LoadOptions(dtype=None, merge=True, attn=None, lora_scale=1.0, temperature=None, backend='mlx', cuda_graphs=None, fused=None)",
+      "temperature": 2.406050072164233,
+      "base": "Qwen/Qwen3.5-4B-Base",
+      "base_revision": "1001bb4d826a52d1f399e183466143f4da7b741b",
+      "weights_dtype": "bf16",
+      "quantization": {
+        "method": "mlx.nn.quantize(model.text, mode='affine') with mlx-lm's quantize_model predicate",
+        "bits": 4,
+        "group_size": 64,
+        "quantized_modules": 249,
+        "skipped_modules": [],
+        "backbone_bytes_before": 8411502592,
+        "backbone_bytes_after": 2367117312,
+        "pointer_head_dtypes": [
+          "torch.float32"
+        ],
+        "pointer_head_quantized": false,
+        "seconds": 2.066
+      }
+    },
+    "mem_after_load": {
+      "rss": 534839296,
+      "phys_footprint": 5287202728,
+      "mlx_active": 2367526920,
+      "mps_driver": 2369028096
+    },
+    "latency_ms_single": 543.6,
+    "response": {
+      "model": "kev-latest",
+      "answers": {
+        "defective": {
+          "type": "noul",
+          "noul": 0.8267
+        },
+        "department": {
+          "type": "choice",
+          "choice": "returns",
+          "confidence": 0.8098,
+          "probabilities": {
+            "returns": 0.8732,
+            "shipping": 0.1175,
+            "billing": 0.0094
+          }
+        },
+        "urgency": {
+          "type": "score",
+          "score": 1.2455,
+          "legend": {
+            "0": "Low",
+            "1": "Medium",
+            "2": "High"
+          },
+          "probabilities": {
+            "0": 0.1736,
+            "1": 0.4072,
+            "2": 0.4191
+          },
+          "confidence": 0.0
+        }
+      },
+      "usage": {
+        "input_tokens": 121,
+        "output_tokens": 173
+      },
+      "latency_ms": 523.9
+    },
+    "latency_ms_warm": 358.4,
+    "response_warm": {
+      "model": "kev-latest",
+      "answers": {
+        "defective": {
+          "type": "noul",
+          "noul": 0.8267
+        },
+        "department": {
+          "type": "choice",
+          "choice": "returns",
+          "confidence": 0.8098,
+          "probabilities": {
+            "returns": 0.8732,
+            "shipping": 0.1175,
+            "billing": 0.0094
+          }
+        },
+        "urgency": {
+          "type": "score",
+          "score": 1.2455,
+          "legend": {
+            "0": "Low",
+            "1": "Medium",
+            "2": "High"
+          },
+          "probabilities": {
+            "0": 0.1736,
+            "1": 0.4072,
+            "2": 0.4191
+          },
+          "confidence": 0.0
+        }
+      },
+      "usage": {
+        "input_tokens": 121,
+        "output_tokens": 173
+      },
+      "latency_ms": 357.4
+    },
+    "validation": {
+      "valid": true,
+      "problems": []
+    },
+    "rss_peak_gb": 4.505,
+    "phys_footprint_peak_gb": 9.242,
+    "mlx_active_peak_gb": 8.75,
+    "mps_driver_peak_gb": 8.992,
+    "sampler_samples": 81,
+    "phys_footprint_lifetime_max_gb": 9.291,
+    "mlx_peak_gb": 8.75,
+    "finished": "2026-11-13T15:51:49+0300"
+  },
+  "after": {
+    "label": "after kev-4b/4bit",
+    "time": "2026-11-13T15:51:50+0300",
+    "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+    "pmset_batt": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=<redacted>)\t80%; AC attached; not charging present: true",
+    "memory_pressure": "The system has 17179869184 (1048576 pages with a page size of 16384).\nSystem-wide memory free percentage: 83%",
+    "swapusage": "vm.swapusage: total = 5120.00M  used = 3969.38M  free = 1150.62M  (encrypted)",
+    "mem_total_gb": 17.18,
+    "mem_available_gb": 11.176,
+    "swap_used_gb": 4.162,
+    "cpu_percent": 29.0
+  },
+  "finished": "2026-11-13T15:51:50+0300"
+}

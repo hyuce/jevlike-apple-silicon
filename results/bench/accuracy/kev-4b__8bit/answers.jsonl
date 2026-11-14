@@ -1,0 +1,764 @@
+{"id": "mmlu/test/13292", "latency_ms": 274.94, "model_latency_ms": 270.5, "probabilities": {"answer": {"a": 0.3219, "b": 0.1305, "c": 0.2695, "d": 0.2781}}, "ok": true}
+{"id": "mmlu/test/588", "latency_ms": 232.29, "model_latency_ms": 231.2, "probabilities": {"answer": {"a": 0.0011, "b": 0.0034, "c": 0.9864, "d": 0.009}}, "ok": true}
+{"id": "mmlu/test/4589", "latency_ms": 302.82, "model_latency_ms": 302.0, "probabilities": {"answer": {"a": 0.9454, "b": 0.0177, "c": 0.0161, "d": 0.0207}}, "ok": true}
+{"id": "mmlu/test/6099", "latency_ms": 235.85, "model_latency_ms": 234.9, "probabilities": {"answer": {"a": 0.801, "b": 0.1214, "c": 0.0367, "d": 0.0408}}, "ok": true}
+{"id": "mmlu/test/6139", "latency_ms": 233.95, "model_latency_ms": 233.3, "probabilities": {"answer": {"a": 0.0051, "b": 0.0061, "c": 0.9865, "d": 0.0023}}, "ok": true}
+{"id": "mmlu/test/13810", "latency_ms": 237.19, "model_latency_ms": 236.3, "probabilities": {"answer": {"a": 0.9012, "b": 0.0503, "c": 0.0147, "d": 0.0338}}, "ok": true}
+{"id": "mmlu/test/12434", "latency_ms": 623.76, "model_latency_ms": 622.2, "probabilities": {"answer": {"a": 0.0209, "b": 0.1359, "c": 0.0213, "d": 0.822}}, "ok": true}
+{"id": "mmlu/test/123", "latency_ms": 298.46, "model_latency_ms": 297.9, "probabilities": {"answer": {"a": 0.2457, "b": 0.1151, "c": 0.5611, "d": 0.0781}}, "ok": true}
+{"id": "mmlu/test/2785", "latency_ms": 301.12, "model_latency_ms": 300.3, "probabilities": {"answer": {"a": 0.1087, "b": 0.8756, "c": 0.0031, "d": 0.0126}}, "ok": true}
+{"id": "mmlu/test/5717", "latency_ms": 757.97, "model_latency_ms": 756.1, "probabilities": {"answer": {"a": 0.0034, "b": 0.0024, "c": 0.979, "d": 0.0152}}, "ok": true}
+{"id": "mmlu/test/8037", "latency_ms": 234.51, "model_latency_ms": 233.8, "probabilities": {"answer": {"a": 0.0807, "b": 0.3475, "c": 0.3828, "d": 0.189}}, "ok": true}
+{"id": "mmlu/test/1047", "latency_ms": 360.83, "model_latency_ms": 359.9, "probabilities": {"answer": {"a": 0.0489, "b": 0.1984, "c": 0.3265, "d": 0.4262}}, "ok": true}
+{"id": "mmlu/test/4518", "latency_ms": 298.2, "model_latency_ms": 297.4, "probabilities": {"answer": {"a": 0.1939, "b": 0.0118, "c": 0.0831, "d": 0.7112}}, "ok": true}
+{"id": "mmlu/test/1492", "latency_ms": 495.69, "model_latency_ms": 494.6, "probabilities": {"answer": {"a": 0.2492, "b": 0.0843, "c": 0.4528, "d": 0.2137}}, "ok": true}
+{"id": "mmlu/test/4063", "latency_ms": 300.92, "model_latency_ms": 300.2, "probabilities": {"answer": {"a": 0.5277, "b": 0.1391, "c": 0.2215, "d": 0.1117}}, "ok": true}
+{"id": "mmlu/test/11310", "latency_ms": 505.28, "model_latency_ms": 504.4, "probabilities": {"answer": {"a": 0.4296, "b": 0.0858, "c": 0.3974, "d": 0.0871}}, "ok": true}
+{"id": "mmlu/test/6610", "latency_ms": 237.94, "model_latency_ms": 237.2, "probabilities": {"answer": {"a": 0.0551, "b": 0.0734, "c": 0.0711, "d": 0.8003}}, "ok": true}
+{"id": "mmlu/test/9462", "latency_ms": 238.79, "model_latency_ms": 238.1, "probabilities": {"answer": {"a": 0.1064, "b": 0.081, "c": 0.7424, "d": 0.0702}}, "ok": true}
+{"id": "mmlu/test/5208", "latency_ms": 233.56, "model_latency_ms": 232.9, "probabilities": {"answer": {"a": 0.0038, "b": 0.0018, "c": 0.9855, "d": 0.0088}}, "ok": true}
+{"id": "mmlu/test/9213", "latency_ms": 368.54, "model_latency_ms": 367.7, "probabilities": {"answer": {"a": 0.2789, "b": 0.2312, "c": 0.1309, "d": 0.3591}}, "ok": true}
+{"id": "mmlu/test/12914", "latency_ms": 296.02, "model_latency_ms": 295.4, "probabilities": {"answer": {"a": 0.0735, "b": 0.0163, "c": 0.8852, "d": 0.0249}}, "ok": true}
+{"id": "mmlu/test/724", "latency_ms": 234.26, "model_latency_ms": 233.7, "probabilities": {"answer": {"a": 0.2954, "b": 0.1547, "c": 0.3047, "d": 0.2453}}, "ok": true}
+{"id": "mmlu/test/4454", "latency_ms": 435.47, "model_latency_ms": 434.7, "probabilities": {"answer": {"a": 0.4801, "b": 0.3059, "c": 0.1706, "d": 0.0434}}, "ok": true}
+{"id": "mmlu/test/8228", "latency_ms": 300.4, "model_latency_ms": 299.7, "probabilities": {"answer": {"a": 0.7265, "b": 0.0795, "c": 0.0231, "d": 0.1709}}, "ok": true}
+{"id": "mmlu/test/13238", "latency_ms": 305.87, "model_latency_ms": 305.1, "probabilities": {"answer": {"a": 0.3849, "b": 0.1821, "c": 0.0458, "d": 0.3872}}, "ok": true}
+{"id": "mmlu/test/11404", "latency_ms": 494.17, "model_latency_ms": 493.4, "probabilities": {"answer": {"a": 0.4611, "b": 0.1159, "c": 0.2401, "d": 0.183}}, "ok": true}
+{"id": "mmlu/test/6593", "latency_ms": 300.27, "model_latency_ms": 299.6, "probabilities": {"answer": {"a": 0.2214, "b": 0.3132, "c": 0.1893, "d": 0.276}}, "ok": true}
+{"id": "mmlu/test/3841", "latency_ms": 237.06, "model_latency_ms": 236.5, "probabilities": {"answer": {"a": 0.0295, "b": 0.3488, "c": 0.4657, "d": 0.156}}, "ok": true}
+{"id": "mmlu/test/11705", "latency_ms": 690.16, "model_latency_ms": 689.0, "probabilities": {"answer": {"a": 0.3378, "b": 0.3174, "c": 0.2055, "d": 0.1393}}, "ok": true}
+{"id": "mmlu/test/2862", "latency_ms": 234.77, "model_latency_ms": 234.2, "probabilities": {"answer": {"a": 0.0246, "b": 0.0007, "c": 0.0113, "d": 0.9634}}, "ok": true}
+{"id": "mmlu/test/9772", "latency_ms": 297.12, "model_latency_ms": 296.5, "probabilities": {"answer": {"a": 0.1087, "b": 0.0391, "c": 0.7911, "d": 0.0611}}, "ok": true}
+{"id": "mmlu/test/5094", "latency_ms": 235.97, "model_latency_ms": 235.4, "probabilities": {"answer": {"a": 0.9056, "b": 0.0743, "c": 0.0095, "d": 0.0106}}, "ok": true}
+{"id": "mmlu/test/10172", "latency_ms": 378.88, "model_latency_ms": 378.2, "probabilities": {"answer": {"a": 0.0064, "b": 0.0062, "c": 0.0206, "d": 0.9668}}, "ok": true}
+{"id": "mmlu/test/3349", "latency_ms": 700.69, "model_latency_ms": 698.4, "probabilities": {"answer": {"a": 0.0023, "b": 0.0051, "c": 0.0441, "d": 0.9485}}, "ok": true}
+{"id": "mmlu/test/5191", "latency_ms": 297.13, "model_latency_ms": 296.5, "probabilities": {"answer": {"a": 0.1672, "b": 0.0592, "c": 0.4381, "d": 0.3355}}, "ok": true}
+{"id": "mmlu/test/1808", "latency_ms": 362.65, "model_latency_ms": 361.9, "probabilities": {"answer": {"a": 0.9178, "b": 0.0129, "c": 0.0562, "d": 0.013}}, "ok": true}
+{"id": "mmlu/test/10509", "latency_ms": 438.35, "model_latency_ms": 437.7, "probabilities": {"answer": {"a": 0.1157, "b": 0.2177, "c": 0.4163, "d": 0.2503}}, "ok": true}
+{"id": "mmlu/test/13713", "latency_ms": 235.88, "model_latency_ms": 235.3, "probabilities": {"answer": {"a": 0.1354, "b": 0.0936, "c": 0.4782, "d": 0.2928}}, "ok": true}
+{"id": "mmlu/test/1807", "latency_ms": 369.0, "model_latency_ms": 368.3, "probabilities": {"answer": {"a": 0.0431, "b": 0.0246, "c": 0.8844, "d": 0.0479}}, "ok": true}
+{"id": "mmlu/test/4720", "latency_ms": 235.56, "model_latency_ms": 235.0, "probabilities": {"answer": {"a": 0.4742, "b": 0.4315, "c": 0.076, "d": 0.0183}}, "ok": true}
+{"id": "mmlu/test/12568", "latency_ms": 577.98, "model_latency_ms": 577.1, "probabilities": {"answer": {"a": 0.0778, "b": 0.1978, "c": 0.0933, "d": 0.6311}}, "ok": true}
+{"id": "mmlu/test/12163", "latency_ms": 514.05, "model_latency_ms": 513.1, "probabilities": {"answer": {"a": 0.1269, "b": 0.0467, "c": 0.3044, "d": 0.5219}}, "ok": true}
+{"id": "mmlu/test/6773", "latency_ms": 233.73, "model_latency_ms": 233.1, "probabilities": {"answer": {"a": 0.4368, "b": 0.1308, "c": 0.2626, "d": 0.1697}}, "ok": true}
+{"id": "mmlu/test/1982", "latency_ms": 232.53, "model_latency_ms": 231.9, "probabilities": {"answer": {"a": 0.0745, "b": 0.8096, "c": 0.0458, "d": 0.0701}}, "ok": true}
+{"id": "mmlu/test/3758", "latency_ms": 232.49, "model_latency_ms": 231.8, "probabilities": {"answer": {"a": 0.0017, "b": 0.0002, "c": 0.0007, "d": 0.9975}}, "ok": true}
+{"id": "mmlu/test/1857", "latency_ms": 300.67, "model_latency_ms": 299.9, "probabilities": {"answer": {"a": 0.0652, "b": 0.0109, "c": 0.8873, "d": 0.0366}}, "ok": true}
+{"id": "mmlu/test/2806", "latency_ms": 226.17, "model_latency_ms": 225.6, "probabilities": {"answer": {"a": 0.9807, "b": 0.0056, "c": 0.0095, "d": 0.0041}}, "ok": true}
+{"id": "mmlu/test/12630", "latency_ms": 232.66, "model_latency_ms": 232.1, "probabilities": {"answer": {"a": 0.0604, "b": 0.0965, "c": 0.6885, "d": 0.1546}}, "ok": true}
+{"id": "mmlu/test/8523", "latency_ms": 365.89, "model_latency_ms": 365.3, "probabilities": {"answer": {"a": 0.2032, "b": 0.471, "c": 0.0792, "d": 0.2466}}, "ok": true}
+{"id": "mmlu/test/13067", "latency_ms": 299.97, "model_latency_ms": 299.3, "probabilities": {"answer": {"a": 0.0309, "b": 0.2069, "c": 0.0178, "d": 0.7445}}, "ok": true}
+{"id": "mmlu/test/2282", "latency_ms": 237.35, "model_latency_ms": 236.8, "probabilities": {"answer": {"a": 0.8291, "b": 0.1681, "c": 0.0009, "d": 0.0019}}, "ok": true}
+{"id": "mmlu/test/10179", "latency_ms": 437.16, "model_latency_ms": 436.4, "probabilities": {"answer": {"a": 0.0889, "b": 0.0328, "c": 0.6531, "d": 0.2252}}, "ok": true}
+{"id": "mmlu/test/2982", "latency_ms": 378.07, "model_latency_ms": 377.4, "probabilities": {"answer": {"a": 0.9444, "b": 0.0187, "c": 0.0096, "d": 0.0272}}, "ok": true}
+{"id": "mmlu/test/10687", "latency_ms": 833.45, "model_latency_ms": 832.4, "probabilities": {"answer": {"a": 0.276, "b": 0.1003, "c": 0.0997, "d": 0.5241}}, "ok": true}
+{"id": "mmlu/test/931", "latency_ms": 308.27, "model_latency_ms": 307.7, "probabilities": {"answer": {"a": 0.2559, "b": 0.2411, "c": 0.2593, "d": 0.2437}}, "ok": true}
+{"id": "mmlu/test/10372", "latency_ms": 496.74, "model_latency_ms": 496.0, "probabilities": {"answer": {"a": 0.2482, "b": 0.2002, "c": 0.3326, "d": 0.2189}}, "ok": true}
+{"id": "mmlu/test/3523", "latency_ms": 236.2, "model_latency_ms": 235.6, "probabilities": {"answer": {"a": 0.1744, "b": 0.2144, "c": 0.1924, "d": 0.4189}}, "ok": true}
+{"id": "mmlu/test/6245", "latency_ms": 232.36, "model_latency_ms": 231.9, "probabilities": {"answer": {"a": 0.1961, "b": 0.2758, "c": 0.2101, "d": 0.318}}, "ok": true}
+{"id": "mmlu/test/9182", "latency_ms": 367.82, "model_latency_ms": 367.2, "probabilities": {"answer": {"a": 0.2045, "b": 0.2195, "c": 0.4729, "d": 0.1031}}, "ok": true}
+{"id": "mmlu/test/5150", "latency_ms": 303.38, "model_latency_ms": 302.8, "probabilities": {"answer": {"a": 0.9418, "b": 0.0232, "c": 0.0108, "d": 0.0242}}, "ok": true}
+{"id": "mmlu/test/282", "latency_ms": 232.5, "model_latency_ms": 232.0, "probabilities": {"answer": {"a": 0.453, "b": 0.0425, "c": 0.0536, "d": 0.4508}}, "ok": true}
+{"id": "mmlu/test/8524", "latency_ms": 367.27, "model_latency_ms": 366.7, "probabilities": {"answer": {"a": 0.2994, "b": 0.2756, "c": 0.115, "d": 0.3101}}, "ok": true}
+{"id": "mmlu/test/2715", "latency_ms": 298.53, "model_latency_ms": 298.0, "probabilities": {"answer": {"a": 0.0823, "b": 0.0411, "c": 0.0199, "d": 0.8567}}, "ok": true}
+{"id": "mmlu/test/7350", "latency_ms": 234.36, "model_latency_ms": 233.8, "probabilities": {"answer": {"a": 0.136, "b": 0.3828, "c": 0.232, "d": 0.2492}}, "ok": true}
+{"id": "mmlu/test/4527", "latency_ms": 437.82, "model_latency_ms": 437.2, "probabilities": {"answer": {"a": 0.007, "b": 0.0082, "c": 0.9735, "d": 0.0112}}, "ok": true}
+{"id": "mmlu/test/6364", "latency_ms": 230.01, "model_latency_ms": 229.5, "probabilities": {"answer": {"a": 0.2, "b": 0.3599, "c": 0.0272, "d": 0.4129}}, "ok": true}
+{"id": "mmlu/test/4563", "latency_ms": 300.64, "model_latency_ms": 300.1, "probabilities": {"answer": {"a": 0.3033, "b": 0.0945, "c": 0.086, "d": 0.5163}}, "ok": true}
+{"id": "mmlu/test/4441", "latency_ms": 303.75, "model_latency_ms": 303.2, "probabilities": {"answer": {"a": 0.2372, "b": 0.2579, "c": 0.2423, "d": 0.2626}}, "ok": true}
+{"id": "mmlu/test/6910", "latency_ms": 298.96, "model_latency_ms": 298.3, "probabilities": {"answer": {"a": 0.0696, "b": 0.3115, "c": 0.373, "d": 0.2458}}, "ok": true}
+{"id": "mmlu/test/8800", "latency_ms": 364.51, "model_latency_ms": 363.9, "probabilities": {"answer": {"a": 0.4935, "b": 0.2667, "c": 0.1829, "d": 0.0569}}, "ok": true}
+{"id": "mmlu/test/4472", "latency_ms": 441.71, "model_latency_ms": 441.0, "probabilities": {"answer": {"a": 0.1115, "b": 0.3072, "c": 0.4818, "d": 0.0995}}, "ok": true}
+{"id": "mmlu/test/5801", "latency_ms": 683.57, "model_latency_ms": 682.5, "probabilities": {"answer": {"a": 0.0031, "b": 0.0414, "c": 0.0013, "d": 0.9542}}, "ok": true}
+{"id": "mmlu/test/8718", "latency_ms": 369.6, "model_latency_ms": 369.0, "probabilities": {"answer": {"a": 0.1658, "b": 0.0118, "c": 0.8165, "d": 0.006}}, "ok": true}
+{"id": "mmlu/test/3557", "latency_ms": 294.14, "model_latency_ms": 293.6, "probabilities": {"answer": {"a": 0.0016, "b": 0.0108, "c": 0.9749, "d": 0.0127}}, "ok": true}
+{"id": "mmlu/test/13887", "latency_ms": 233.38, "model_latency_ms": 232.8, "probabilities": {"answer": {"a": 0.2296, "b": 0.0096, "c": 0.6739, "d": 0.0869}}, "ok": true}
+{"id": "mmlu/test/8047", "latency_ms": 228.78, "model_latency_ms": 228.1, "probabilities": {"answer": {"a": 0.0388, "b": 0.0072, "c": 0.9396, "d": 0.0144}}, "ok": true}
+{"id": "mmlu/test/9900", "latency_ms": 237.54, "model_latency_ms": 236.9, "probabilities": {"answer": {"a": 0.2413, "b": 0.6621, "c": 0.0481, "d": 0.0484}}, "ok": true}
+{"id": "mmlu/test/12517", "latency_ms": 230.44, "model_latency_ms": 229.9, "probabilities": {"answer": {"a": 0.049, "b": 0.5364, "c": 0.3313, "d": 0.0833}}, "ok": true}
+{"id": "mmlu/test/6949", "latency_ms": 231.84, "model_latency_ms": 231.3, "probabilities": {"answer": {"a": 0.0056, "b": 0.0455, "c": 0.9394, "d": 0.0095}}, "ok": true}
+{"id": "mmlu/test/4674", "latency_ms": 302.22, "model_latency_ms": 301.6, "probabilities": {"answer": {"a": 0.0612, "b": 0.4399, "c": 0.1173, "d": 0.3815}}, "ok": true}
+{"id": "emotion/test/1012", "latency_ms": 166.59, "model_latency_ms": 166.0, "probabilities": {"emotion": {"sadness": 0.0628, "joy": 0.1917, "love": 0.5503, "anger": 0.0281, "fear": 0.0368, "surprise": 0.1304}}, "ok": true}
+{"id": "emotion/test/876", "latency_ms": 162.37, "model_latency_ms": 161.8, "probabilities": {"emotion": {"sadness": 0.2149, "joy": 0.0163, "love": 0.0137, "anger": 0.5317, "fear": 0.0648, "surprise": 0.1585}}, "ok": true}
+{"id": "emotion/test/230", "latency_ms": 160.21, "model_latency_ms": 159.7, "probabilities": {"emotion": {"sadness": 0.828, "joy": 0.0024, "love": 0.0019, "anger": 0.0501, "fear": 0.099, "surprise": 0.0186}}, "ok": true}
+{"id": "emotion/test/20", "latency_ms": 233.04, "model_latency_ms": 232.4, "probabilities": {"emotion": {"sadness": 0.2046, "joy": 0.0965, "love": 0.6778, "anger": 0.0059, "fear": 0.008, "surprise": 0.0071}}, "ok": true}
+{"id": "emotion/test/1635", "latency_ms": 164.53, "model_latency_ms": 164.0, "probabilities": {"emotion": {"sadness": 0.0013, "joy": 0.9627, "love": 0.028, "anger": 0.0008, "fear": 0.001, "surprise": 0.0062}}, "ok": true}
+{"id": "emotion/test/1435", "latency_ms": 170.29, "model_latency_ms": 169.8, "probabilities": {"emotion": {"sadness": 0.2218, "joy": 0.2582, "love": 0.0682, "anger": 0.3552, "fear": 0.044, "surprise": 0.0526}}, "ok": true}
+{"id": "emotion/test/639", "latency_ms": 160.79, "model_latency_ms": 160.4, "probabilities": {"emotion": {"sadness": 0.0051, "joy": 0.3819, "love": 0.5493, "anger": 0.0065, "fear": 0.0067, "surprise": 0.0505}}, "ok": true}
+{"id": "emotion/test/281", "latency_ms": 160.44, "model_latency_ms": 160.0, "probabilities": {"emotion": {"sadness": 0.8998, "joy": 0.0023, "love": 0.0008, "anger": 0.0616, "fear": 0.0223, "surprise": 0.0132}}, "ok": true}
+{"id": "emotion/test/790", "latency_ms": 168.93, "model_latency_ms": 168.4, "probabilities": {"emotion": {"sadness": 0.0195, "joy": 0.7102, "love": 0.2241, "anger": 0.0051, "fear": 0.0061, "surprise": 0.0351}}, "ok": true}
+{"id": "emotion/test/1948", "latency_ms": 172.67, "model_latency_ms": 172.1, "probabilities": {"emotion": {"sadness": 0.5443, "joy": 0.0065, "love": 0.0064, "anger": 0.126, "fear": 0.1313, "surprise": 0.1856}}, "ok": true}
+{"id": "emotion/test/616", "latency_ms": 165.97, "model_latency_ms": 165.5, "probabilities": {"emotion": {"sadness": 0.7346, "joy": 0.0066, "love": 0.0037, "anger": 0.1402, "fear": 0.0799, "surprise": 0.0349}}, "ok": true}
+{"id": "emotion/test/1171", "latency_ms": 168.05, "model_latency_ms": 167.6, "probabilities": {"emotion": {"sadness": 0.0083, "joy": 0.8135, "love": 0.0998, "anger": 0.007, "fear": 0.0095, "surprise": 0.0619}}, "ok": true}
+{"id": "emotion/test/1126", "latency_ms": 236.77, "model_latency_ms": 236.3, "probabilities": {"emotion": {"sadness": 0.1053, "joy": 0.0898, "love": 0.7162, "anger": 0.0375, "fear": 0.0261, "surprise": 0.0251}}, "ok": true}
+{"id": "emotion/test/180", "latency_ms": 170.77, "model_latency_ms": 170.3, "probabilities": {"emotion": {"sadness": 0.223, "joy": 0.1727, "love": 0.0581, "anger": 0.012, "fear": 0.1066, "surprise": 0.4276}}, "ok": true}
+{"id": "emotion/test/1333", "latency_ms": 164.16, "model_latency_ms": 163.7, "probabilities": {"emotion": {"sadness": 0.1131, "joy": 0.062, "love": 0.776, "anger": 0.0144, "fear": 0.0181, "surprise": 0.0164}}, "ok": true}
+{"id": "emotion/test/254", "latency_ms": 166.64, "model_latency_ms": 166.2, "probabilities": {"emotion": {"sadness": 0.0006, "joy": 0.4845, "love": 0.5, "anger": 0.0009, "fear": 0.0009, "surprise": 0.0131}}, "ok": true}
+{"id": "emotion/test/1401", "latency_ms": 169.53, "model_latency_ms": 169.1, "probabilities": {"emotion": {"sadness": 0.814, "joy": 0.0041, "love": 0.0449, "anger": 0.0741, "fear": 0.0355, "surprise": 0.0274}}, "ok": true}
+{"id": "emotion/test/1025", "latency_ms": 170.0, "model_latency_ms": 169.5, "probabilities": {"emotion": {"sadness": 0.7354, "joy": 0.0062, "love": 0.016, "anger": 0.1299, "fear": 0.0711, "surprise": 0.0416}}, "ok": true}
+{"id": "emotion/test/1576", "latency_ms": 230.49, "model_latency_ms": 229.9, "probabilities": {"emotion": {"sadness": 0.8267, "joy": 0.0009, "love": 0.0011, "anger": 0.0574, "fear": 0.0897, "surprise": 0.0242}}, "ok": true}
+{"id": "emotion/test/1022", "latency_ms": 234.17, "model_latency_ms": 233.6, "probabilities": {"emotion": {"sadness": 0.8633, "joy": 0.0039, "love": 0.0027, "anger": 0.0499, "fear": 0.0615, "surprise": 0.0187}}, "ok": true}
+{"id": "emotion/test/688", "latency_ms": 163.45, "model_latency_ms": 163.0, "probabilities": {"emotion": {"sadness": 0.5189, "joy": 0.0019, "love": 0.0011, "anger": 0.4152, "fear": 0.0473, "surprise": 0.0156}}, "ok": true}
+{"id": "emotion/test/1156", "latency_ms": 231.41, "model_latency_ms": 230.9, "probabilities": {"emotion": {"sadness": 0.0013, "joy": 0.7968, "love": 0.0168, "anger": 0.0015, "fear": 0.0037, "surprise": 0.1799}}, "ok": true}
+{"id": "emotion/test/1762", "latency_ms": 169.37, "model_latency_ms": 168.9, "probabilities": {"emotion": {"sadness": 0.0849, "joy": 0.097, "love": 0.3921, "anger": 0.016, "fear": 0.3716, "surprise": 0.0383}}, "ok": true}
+{"id": "emotion/test/485", "latency_ms": 169.36, "model_latency_ms": 168.9, "probabilities": {"emotion": {"sadness": 0.0158, "joy": 0.281, "love": 0.6235, "anger": 0.0221, "fear": 0.0282, "surprise": 0.0294}}, "ok": true}
+{"id": "emotion/test/482", "latency_ms": 166.07, "model_latency_ms": 165.6, "probabilities": {"emotion": {"sadness": 0.3067, "joy": 0.1049, "love": 0.0548, "anger": 0.1433, "fear": 0.1234, "surprise": 0.2669}}, "ok": true}
+{"id": "emotion/test/959", "latency_ms": 160.61, "model_latency_ms": 160.2, "probabilities": {"emotion": {"sadness": 0.0028, "joy": 0.5634, "love": 0.4059, "anger": 0.0023, "fear": 0.0033, "surprise": 0.0224}}, "ok": true}
+{"id": "emotion/test/573", "latency_ms": 167.78, "model_latency_ms": 167.3, "probabilities": {"emotion": {"sadness": 0.9308, "joy": 0.0013, "love": 0.0015, "anger": 0.015, "fear": 0.0163, "surprise": 0.0351}}, "ok": true}
+{"id": "emotion/test/588", "latency_ms": 230.2, "model_latency_ms": 229.7, "probabilities": {"emotion": {"sadness": 0.3863, "joy": 0.1994, "love": 0.1411, "anger": 0.0813, "fear": 0.1172, "surprise": 0.0746}}, "ok": true}
+{"id": "emotion/test/1176", "latency_ms": 167.78, "model_latency_ms": 167.3, "probabilities": {"emotion": {"sadness": 0.0033, "joy": 0.861, "love": 0.0245, "anger": 0.0062, "fear": 0.0071, "surprise": 0.0978}}, "ok": true}
+{"id": "emotion/test/851", "latency_ms": 170.55, "model_latency_ms": 170.0, "probabilities": {"emotion": {"sadness": 0.7551, "joy": 0.0083, "love": 0.005, "anger": 0.051, "fear": 0.1092, "surprise": 0.0714}}, "ok": true}
+{"id": "emotion/test/445", "latency_ms": 170.14, "model_latency_ms": 169.6, "probabilities": {"emotion": {"sadness": 0.0008, "joy": 0.8353, "love": 0.1381, "anger": 0.001, "fear": 0.0021, "surprise": 0.0226}}, "ok": true}
+{"id": "emotion/test/856", "latency_ms": 167.47, "model_latency_ms": 167.0, "probabilities": {"emotion": {"sadness": 0.2965, "joy": 0.003, "love": 0.0021, "anger": 0.5817, "fear": 0.0911, "surprise": 0.0257}}, "ok": true}
+{"id": "emotion/test/690", "latency_ms": 169.34, "model_latency_ms": 168.9, "probabilities": {"emotion": {"sadness": 0.3037, "joy": 0.3674, "love": 0.2722, "anger": 0.0169, "fear": 0.0165, "surprise": 0.0232}}, "ok": true}
+{"id": "emotion/test/282", "latency_ms": 161.74, "model_latency_ms": 161.3, "probabilities": {"emotion": {"sadness": 0.6534, "joy": 0.0108, "love": 0.0038, "anger": 0.0556, "fear": 0.1632, "surprise": 0.1132}}, "ok": true}
+{"id": "emotion/test/166", "latency_ms": 163.93, "model_latency_ms": 163.4, "probabilities": {"emotion": {"sadness": 0.0474, "joy": 0.4594, "love": 0.3307, "anger": 0.0247, "fear": 0.0576, "surprise": 0.0802}}, "ok": true}
+{"id": "emotion/test/1873", "latency_ms": 168.0, "model_latency_ms": 167.5, "probabilities": {"emotion": {"sadness": 0.0331, "joy": 0.915, "love": 0.0274, "anger": 0.0028, "fear": 0.0034, "surprise": 0.0183}}, "ok": true}
+{"id": "emotion/test/1764", "latency_ms": 170.43, "model_latency_ms": 170.0, "probabilities": {"emotion": {"sadness": 0.8103, "joy": 0.0031, "love": 0.0744, "anger": 0.0098, "fear": 0.0582, "surprise": 0.0441}}, "ok": true}
+{"id": "emotion/test/1891", "latency_ms": 167.93, "model_latency_ms": 167.5, "probabilities": {"emotion": {"sadness": 0.0116, "joy": 0.6943, "love": 0.2588, "anger": 0.0038, "fear": 0.0035, "surprise": 0.0279}}, "ok": true}
+{"id": "emotion/test/1237", "latency_ms": 170.3, "model_latency_ms": 169.8, "probabilities": {"emotion": {"sadness": 0.6539, "joy": 0.0236, "love": 0.0044, "anger": 0.1286, "fear": 0.1035, "surprise": 0.086}}, "ok": true}
+{"id": "emotion/test/1045", "latency_ms": 170.09, "model_latency_ms": 169.5, "probabilities": {"emotion": {"sadness": 0.8958, "joy": 0.0082, "love": 0.0245, "anger": 0.0252, "fear": 0.0313, "surprise": 0.015}}, "ok": true}
+{"id": "emotion/test/1471", "latency_ms": 170.52, "model_latency_ms": 169.9, "probabilities": {"emotion": {"sadness": 0.6222, "joy": 0.0021, "love": 0.0207, "anger": 0.0265, "fear": 0.2987, "surprise": 0.0299}}, "ok": true}
+{"id": "emotion/test/19", "latency_ms": 167.7, "model_latency_ms": 167.2, "probabilities": {"emotion": {"sadness": 0.0032, "joy": 0.4782, "love": 0.4494, "anger": 0.0052, "fear": 0.0028, "surprise": 0.0613}}, "ok": true}
+{"id": "emotion/test/1889", "latency_ms": 169.58, "model_latency_ms": 169.0, "probabilities": {"emotion": {"sadness": 0.5176, "joy": 0.0023, "love": 0.0026, "anger": 0.0951, "fear": 0.3437, "surprise": 0.0387}}, "ok": true}
+{"id": "emotion/test/955", "latency_ms": 232.59, "model_latency_ms": 232.0, "probabilities": {"emotion": {"sadness": 0.0004, "joy": 0.5149, "love": 0.4682, "anger": 0.0013, "fear": 0.0006, "surprise": 0.0145}}, "ok": true}
+{"id": "emotion/test/1617", "latency_ms": 170.1, "model_latency_ms": 169.6, "probabilities": {"emotion": {"sadness": 0.0128, "joy": 0.582, "love": 0.2648, "anger": 0.0184, "fear": 0.0215, "surprise": 0.1005}}, "ok": true}
+{"id": "emotion/test/646", "latency_ms": 235.15, "model_latency_ms": 234.6, "probabilities": {"emotion": {"sadness": 0.003, "joy": 0.6648, "love": 0.2933, "anger": 0.0103, "fear": 0.0084, "surprise": 0.0202}}, "ok": true}
+{"id": "emotion/test/886", "latency_ms": 167.03, "model_latency_ms": 166.6, "probabilities": {"emotion": {"sadness": 0.0578, "joy": 0.3836, "love": 0.5374, "anger": 0.0051, "fear": 0.0061, "surprise": 0.0101}}, "ok": true}
+{"id": "emotion/test/509", "latency_ms": 232.51, "model_latency_ms": 231.9, "probabilities": {"emotion": {"sadness": 0.8837, "joy": 0.0013, "love": 0.0224, "anger": 0.0535, "fear": 0.0143, "surprise": 0.0248}}, "ok": true}
+{"id": "emotion/test/388", "latency_ms": 164.27, "model_latency_ms": 163.8, "probabilities": {"emotion": {"sadness": 0.5255, "joy": 0.0044, "love": 0.0024, "anger": 0.0646, "fear": 0.1779, "surprise": 0.2252}}, "ok": true}
+{"id": "emotion/test/26", "latency_ms": 161.58, "model_latency_ms": 161.2, "probabilities": {"emotion": {"sadness": 0.0155, "joy": 0.0005, "love": 0.0005, "anger": 0.948, "fear": 0.0127, "surprise": 0.0228}}, "ok": true}
+{"id": "emotion/test/1795", "latency_ms": 162.81, "model_latency_ms": 162.3, "probabilities": {"emotion": {"sadness": 0.5363, "joy": 0.0029, "love": 0.0011, "anger": 0.3591, "fear": 0.0673, "surprise": 0.0334}}, "ok": true}
+{"id": "emotion/test/190", "latency_ms": 160.6, "model_latency_ms": 160.2, "probabilities": {"emotion": {"sadness": 0.0021, "joy": 0.9376, "love": 0.0206, "anger": 0.003, "fear": 0.0026, "surprise": 0.0341}}, "ok": true}
+{"id": "emotion/test/283", "latency_ms": 165.99, "model_latency_ms": 165.5, "probabilities": {"emotion": {"sadness": 0.0018, "joy": 0.8283, "love": 0.0705, "anger": 0.0018, "fear": 0.0065, "surprise": 0.0912}}, "ok": true}
+{"id": "emotion/test/1080", "latency_ms": 166.23, "model_latency_ms": 165.8, "probabilities": {"emotion": {"sadness": 0.8661, "joy": 0.0021, "love": 0.0019, "anger": 0.0562, "fear": 0.0289, "surprise": 0.0447}}, "ok": true}
+{"id": "emotion/test/1724", "latency_ms": 169.48, "model_latency_ms": 169.0, "probabilities": {"emotion": {"sadness": 0.008, "joy": 0.7061, "love": 0.2433, "anger": 0.0049, "fear": 0.0033, "surprise": 0.0342}}, "ok": true}
+{"id": "emotion/test/147", "latency_ms": 231.44, "model_latency_ms": 231.0, "probabilities": {"emotion": {"sadness": 0.4593, "joy": 0.0082, "love": 0.0062, "anger": 0.2123, "fear": 0.1652, "surprise": 0.1489}}, "ok": true}
+{"id": "emotion/test/805", "latency_ms": 166.7, "model_latency_ms": 166.2, "probabilities": {"emotion": {"sadness": 0.0126, "joy": 0.3368, "love": 0.5158, "anger": 0.0233, "fear": 0.019, "surprise": 0.0925}}, "ok": true}
+{"id": "emotion/test/1273", "latency_ms": 162.94, "model_latency_ms": 162.5, "probabilities": {"emotion": {"sadness": 0.0082, "joy": 0.769, "love": 0.0417, "anger": 0.0099, "fear": 0.0135, "surprise": 0.1576}}, "ok": true}
+{"id": "emotion/test/1277", "latency_ms": 230.12, "model_latency_ms": 229.6, "probabilities": {"emotion": {"sadness": 0.5722, "joy": 0.1012, "love": 0.043, "anger": 0.1018, "fear": 0.1086, "surprise": 0.073}}, "ok": true}
+{"id": "emotion/test/608", "latency_ms": 169.24, "model_latency_ms": 168.8, "probabilities": {"emotion": {"sadness": 0.0474, "joy": 0.4238, "love": 0.2295, "anger": 0.0761, "fear": 0.0177, "surprise": 0.2056}}, "ok": true}
+{"id": "emotion/test/456", "latency_ms": 169.7, "model_latency_ms": 169.2, "probabilities": {"emotion": {"sadness": 0.0025, "joy": 0.5131, "love": 0.4614, "anger": 0.0021, "fear": 0.0017, "surprise": 0.0192}}, "ok": true}
+{"id": "emotion/test/1442", "latency_ms": 165.68, "model_latency_ms": 165.2, "probabilities": {"emotion": {"sadness": 0.0638, "joy": 0.5627, "love": 0.0502, "anger": 0.0166, "fear": 0.1742, "surprise": 0.1325}}, "ok": true}
+{"id": "emotion/test/978", "latency_ms": 169.82, "model_latency_ms": 169.3, "probabilities": {"emotion": {"sadness": 0.0099, "joy": 0.5246, "love": 0.4266, "anger": 0.0072, "fear": 0.0045, "surprise": 0.0271}}, "ok": true}
+{"id": "emotion/test/1744", "latency_ms": 165.95, "model_latency_ms": 165.5, "probabilities": {"emotion": {"sadness": 0.0206, "joy": 0.8059, "love": 0.0457, "anger": 0.0057, "fear": 0.0209, "surprise": 0.1012}}, "ok": true}
+{"id": "emotion/test/423", "latency_ms": 171.56, "model_latency_ms": 171.0, "probabilities": {"emotion": {"sadness": 0.0136, "joy": 0.6241, "love": 0.1092, "anger": 0.0352, "fear": 0.0146, "surprise": 0.2034}}, "ok": true}
+{"id": "emotion/test/897", "latency_ms": 166.39, "model_latency_ms": 166.0, "probabilities": {"emotion": {"sadness": 0.0014, "joy": 0.751, "love": 0.1662, "anger": 0.0018, "fear": 0.0023, "surprise": 0.0773}}, "ok": true}
+{"id": "emotion/test/37", "latency_ms": 165.88, "model_latency_ms": 165.5, "probabilities": {"emotion": {"sadness": 0.9585, "joy": 0.0012, "love": 0.0007, "anger": 0.0237, "fear": 0.0121, "surprise": 0.0038}}, "ok": true}
+{"id": "emotion/test/1216", "latency_ms": 171.38, "model_latency_ms": 170.9, "probabilities": {"emotion": {"sadness": 0.2318, "joy": 0.2165, "love": 0.1999, "anger": 0.0778, "fear": 0.1437, "surprise": 0.1303}}, "ok": true}
+{"id": "emotion/test/869", "latency_ms": 166.56, "model_latency_ms": 166.1, "probabilities": {"emotion": {"sadness": 0.3026, "joy": 0.1431, "love": 0.1955, "anger": 0.1248, "fear": 0.1316, "surprise": 0.1022}}, "ok": true}
+{"id": "emotion/test/327", "latency_ms": 169.72, "model_latency_ms": 169.3, "probabilities": {"emotion": {"sadness": 0.4904, "joy": 0.0058, "love": 0.0058, "anger": 0.4076, "fear": 0.0542, "surprise": 0.0363}}, "ok": true}
+{"id": "emotion/test/1253", "latency_ms": 172.74, "model_latency_ms": 172.2, "probabilities": {"emotion": {"sadness": 0.0382, "joy": 0.0053, "love": 0.0013, "anger": 0.0452, "fear": 0.0091, "surprise": 0.9008}}, "ok": true}
+{"id": "emotion/test/692", "latency_ms": 165.6, "model_latency_ms": 165.1, "probabilities": {"emotion": {"sadness": 0.279, "joy": 0.0079, "love": 0.0072, "anger": 0.0225, "fear": 0.6143, "surprise": 0.0691}}, "ok": true}
+{"id": "emotion/test/98", "latency_ms": 165.8, "model_latency_ms": 165.4, "probabilities": {"emotion": {"sadness": 0.8262, "joy": 0.0018, "love": 0.004, "anger": 0.0716, "fear": 0.0828, "surprise": 0.0136}}, "ok": true}
+{"id": "emotion/test/1536", "latency_ms": 231.62, "model_latency_ms": 231.2, "probabilities": {"emotion": {"sadness": 0.0007, "joy": 0.7339, "love": 0.2264, "anger": 0.0008, "fear": 0.0009, "surprise": 0.0372}}, "ok": true}
+{"id": "emotion/test/288", "latency_ms": 166.56, "model_latency_ms": 166.0, "probabilities": {"emotion": {"sadness": 0.2025, "joy": 0.1381, "love": 0.1169, "anger": 0.0582, "fear": 0.0486, "surprise": 0.4357}}, "ok": true}
+{"id": "emotion/test/1319", "latency_ms": 168.59, "model_latency_ms": 168.1, "probabilities": {"emotion": {"sadness": 0.8522, "joy": 0.0012, "love": 0.0006, "anger": 0.1112, "fear": 0.027, "surprise": 0.0078}}, "ok": true}
+{"id": "emotion/test/1951", "latency_ms": 129.35, "model_latency_ms": 128.9, "probabilities": {"emotion": {"sadness": 0.0017, "joy": 0.8399, "love": 0.1084, "anger": 0.0019, "fear": 0.0022, "surprise": 0.046}}, "ok": true}
+{"id": "emotion/test/1806", "latency_ms": 169.66, "model_latency_ms": 169.2, "probabilities": {"emotion": {"sadness": 0.7259, "joy": 0.0025, "love": 0.1042, "anger": 0.029, "fear": 0.1223, "surprise": 0.0162}}, "ok": true}
+{"id": "emotion/test/1741", "latency_ms": 167.51, "model_latency_ms": 167.1, "probabilities": {"emotion": {"sadness": 0.6055, "joy": 0.0038, "love": 0.0016, "anger": 0.2485, "fear": 0.1105, "surprise": 0.03}}, "ok": true}
+{"id": "emotion/test/1485", "latency_ms": 166.3, "model_latency_ms": 165.9, "probabilities": {"emotion": {"sadness": 0.1248, "joy": 0.0023, "love": 0.0014, "anger": 0.3848, "fear": 0.0635, "surprise": 0.4233}}, "ok": true}
+{"id": "tweet_offensive/test/468", "latency_ms": 232.59, "model_latency_ms": 232.1, "probabilities": {"offensive": {"true": 0.6049, "false": 0.3951}}, "ok": true}
+{"id": "tweet_offensive/test/80", "latency_ms": 233.98, "model_latency_ms": 233.6, "probabilities": {"offensive": {"true": 0.5008, "false": 0.4992}}, "ok": true}
+{"id": "tweet_offensive/test/469", "latency_ms": 229.76, "model_latency_ms": 229.4, "probabilities": {"offensive": {"true": 0.0493, "false": 0.9507}}, "ok": true}
+{"id": "tweet_offensive/test/266", "latency_ms": 239.27, "model_latency_ms": 238.8, "probabilities": {"offensive": {"true": 0.2436, "false": 0.7564}}, "ok": true}
+{"id": "tweet_offensive/test/190", "latency_ms": 232.18, "model_latency_ms": 231.7, "probabilities": {"offensive": {"true": 0.2655, "false": 0.7344999999999999}}, "ok": true}
+{"id": "tweet_offensive/test/294", "latency_ms": 170.82, "model_latency_ms": 170.4, "probabilities": {"offensive": {"true": 0.1175, "false": 0.8825000000000001}}, "ok": true}
+{"id": "tweet_offensive/test/429", "latency_ms": 231.99, "model_latency_ms": 231.5, "probabilities": {"offensive": {"true": 0.4299, "false": 0.5701}}, "ok": true}
+{"id": "tweet_offensive/test/104", "latency_ms": 170.12, "model_latency_ms": 169.7, "probabilities": {"offensive": {"true": 0.4632, "false": 0.5367999999999999}}, "ok": true}
+{"id": "tweet_offensive/test/374", "latency_ms": 230.21, "model_latency_ms": 229.7, "probabilities": {"offensive": {"true": 0.5582, "false": 0.44179999999999997}}, "ok": true}
+{"id": "tweet_offensive/test/274", "latency_ms": 236.64, "model_latency_ms": 236.2, "probabilities": {"offensive": {"true": 0.4689, "false": 0.5311}}, "ok": true}
+{"id": "tweet_offensive/test/705", "latency_ms": 237.92, "model_latency_ms": 237.5, "probabilities": {"offensive": {"true": 0.4715, "false": 0.5285}}, "ok": true}
+{"id": "tweet_offensive/test/565", "latency_ms": 234.64, "model_latency_ms": 234.2, "probabilities": {"offensive": {"true": 0.0497, "false": 0.9503}}, "ok": true}
+{"id": "tweet_offensive/test/319", "latency_ms": 171.0, "model_latency_ms": 170.5, "probabilities": {"offensive": {"true": 0.5357, "false": 0.46430000000000005}}, "ok": true}
+{"id": "tweet_offensive/test/6", "latency_ms": 166.28, "model_latency_ms": 165.8, "probabilities": {"offensive": {"true": 0.2869, "false": 0.7131000000000001}}, "ok": true}
+{"id": "tweet_offensive/test/81", "latency_ms": 233.08, "model_latency_ms": 232.6, "probabilities": {"offensive": {"true": 0.6199, "false": 0.3801}}, "ok": true}
+{"id": "tweet_offensive/test/717", "latency_ms": 171.43, "model_latency_ms": 171.0, "probabilities": {"offensive": {"true": 0.3485, "false": 0.6515}}, "ok": true}
+{"id": "tweet_offensive/test/342", "latency_ms": 300.84, "model_latency_ms": 300.3, "probabilities": {"offensive": {"true": 0.8456, "false": 0.15439999999999998}}, "ok": true}
+{"id": "tweet_offensive/test/795", "latency_ms": 233.79, "model_latency_ms": 233.3, "probabilities": {"offensive": {"true": 0.5549, "false": 0.44510000000000005}}, "ok": true}
+{"id": "tweet_offensive/test/123", "latency_ms": 170.21, "model_latency_ms": 169.8, "probabilities": {"offensive": {"true": 0.4259, "false": 0.5741}}, "ok": true}
+{"id": "tweet_offensive/test/456", "latency_ms": 299.14, "model_latency_ms": 298.6, "probabilities": {"offensive": {"true": 0.1582, "false": 0.8418}}, "ok": true}
+{"id": "tweet_offensive/test/313", "latency_ms": 235.44, "model_latency_ms": 234.9, "probabilities": {"offensive": {"true": 0.0575, "false": 0.9425}}, "ok": true}
+{"id": "tweet_offensive/test/485", "latency_ms": 231.11, "model_latency_ms": 230.7, "probabilities": {"offensive": {"true": 0.4181, "false": 0.5819}}, "ok": true}
+{"id": "tweet_offensive/test/48", "latency_ms": 299.55, "model_latency_ms": 299.1, "probabilities": {"offensive": {"true": 0.3454, "false": 0.6546000000000001}}, "ok": true}
+{"id": "tweet_offensive/test/253", "latency_ms": 236.29, "model_latency_ms": 235.8, "probabilities": {"offensive": {"true": 0.5107, "false": 0.48929999999999996}}, "ok": true}
+{"id": "tweet_offensive/test/376", "latency_ms": 299.52, "model_latency_ms": 299.0, "probabilities": {"offensive": {"true": 0.5515, "false": 0.4485}}, "ok": true}
+{"id": "tweet_offensive/test/27", "latency_ms": 169.96, "model_latency_ms": 169.5, "probabilities": {"offensive": {"true": 0.6453, "false": 0.3547}}, "ok": true}
+{"id": "tweet_offensive/test/283", "latency_ms": 230.31, "model_latency_ms": 229.9, "probabilities": {"offensive": {"true": 0.3212, "false": 0.6788000000000001}}, "ok": true}
+{"id": "tweet_offensive/test/606", "latency_ms": 118.07, "model_latency_ms": 117.7, "probabilities": {"offensive": {"true": 0.2651, "false": 0.7349}}, "ok": true}
+{"id": "tweet_offensive/test/846", "latency_ms": 169.21, "model_latency_ms": 168.8, "probabilities": {"offensive": {"true": 0.5739, "false": 0.42610000000000003}}, "ok": true}
+{"id": "tweet_offensive/test/653", "latency_ms": 233.0, "model_latency_ms": 232.6, "probabilities": {"offensive": {"true": 0.5495, "false": 0.4505}}, "ok": true}
+{"id": "tweet_offensive/test/107", "latency_ms": 167.88, "model_latency_ms": 167.5, "probabilities": {"offensive": {"true": 0.822, "false": 0.17800000000000005}}, "ok": true}
+{"id": "tweet_offensive/test/703", "latency_ms": 164.13, "model_latency_ms": 163.7, "probabilities": {"offensive": {"true": 0.0388, "false": 0.9612}}, "ok": true}
+{"id": "tweet_offensive/test/811", "latency_ms": 169.04, "model_latency_ms": 168.6, "probabilities": {"offensive": {"true": 0.1991, "false": 0.8009}}, "ok": true}
+{"id": "tweet_offensive/test/100", "latency_ms": 238.07, "model_latency_ms": 237.5, "probabilities": {"offensive": {"true": 0.3185, "false": 0.6815}}, "ok": true}
+{"id": "tweet_offensive/test/423", "latency_ms": 233.2, "model_latency_ms": 232.7, "probabilities": {"offensive": {"true": 0.5958, "false": 0.4042}}, "ok": true}
+{"id": "tweet_offensive/test/138", "latency_ms": 233.38, "model_latency_ms": 232.9, "probabilities": {"offensive": {"true": 0.0793, "false": 0.9207}}, "ok": true}
+{"id": "tweet_offensive/test/622", "latency_ms": 167.27, "model_latency_ms": 166.9, "probabilities": {"offensive": {"true": 0.033, "false": 0.967}}, "ok": true}
+{"id": "tweet_offensive/test/473", "latency_ms": 229.28, "model_latency_ms": 228.8, "probabilities": {"offensive": {"true": 0.2617, "false": 0.7383}}, "ok": true}
+{"id": "tweet_offensive/test/33", "latency_ms": 164.56, "model_latency_ms": 164.2, "probabilities": {"offensive": {"true": 0.2653, "false": 0.7347}}, "ok": true}
+{"id": "tweet_offensive/test/405", "latency_ms": 168.8, "model_latency_ms": 168.4, "probabilities": {"offensive": {"true": 0.0616, "false": 0.9384}}, "ok": true}
+{"id": "tweet_offensive/test/488", "latency_ms": 165.9, "model_latency_ms": 165.5, "probabilities": {"offensive": {"true": 0.313, "false": 0.687}}, "ok": true}
+{"id": "tweet_offensive/test/355", "latency_ms": 297.62, "model_latency_ms": 297.1, "probabilities": {"offensive": {"true": 0.0906, "false": 0.9094}}, "ok": true}
+{"id": "tweet_offensive/test/556", "latency_ms": 236.35, "model_latency_ms": 235.9, "probabilities": {"offensive": {"true": 0.0628, "false": 0.9372}}, "ok": true}
+{"id": "tweet_offensive/test/269", "latency_ms": 171.37, "model_latency_ms": 171.0, "probabilities": {"offensive": {"true": 0.1788, "false": 0.8212}}, "ok": true}
+{"id": "tweet_offensive/test/7", "latency_ms": 237.43, "model_latency_ms": 237.0, "probabilities": {"offensive": {"true": 0.0542, "false": 0.9458}}, "ok": true}
+{"id": "tweet_offensive/test/591", "latency_ms": 171.29, "model_latency_ms": 170.9, "probabilities": {"offensive": {"true": 0.8488, "false": 0.1512}}, "ok": true}
+{"id": "tweet_offensive/test/624", "latency_ms": 231.15, "model_latency_ms": 230.7, "probabilities": {"offensive": {"true": 0.1693, "false": 0.8307}}, "ok": true}
+{"id": "tweet_offensive/test/29", "latency_ms": 239.04, "model_latency_ms": 238.5, "probabilities": {"offensive": {"true": 0.0993, "false": 0.9007000000000001}}, "ok": true}
+{"id": "tweet_offensive/test/238", "latency_ms": 231.85, "model_latency_ms": 231.4, "probabilities": {"offensive": {"true": 0.3064, "false": 0.6936}}, "ok": true}
+{"id": "tweet_offensive/test/647", "latency_ms": 236.27, "model_latency_ms": 235.8, "probabilities": {"offensive": {"true": 0.4102, "false": 0.5898}}, "ok": true}
+{"id": "tweet_offensive/test/809", "latency_ms": 170.68, "model_latency_ms": 170.3, "probabilities": {"offensive": {"true": 0.1146, "false": 0.8854}}, "ok": true}
+{"id": "tweet_offensive/test/331", "latency_ms": 298.43, "model_latency_ms": 297.9, "probabilities": {"offensive": {"true": 0.2163, "false": 0.7837000000000001}}, "ok": true}
+{"id": "tweet_offensive/test/732", "latency_ms": 233.83, "model_latency_ms": 233.3, "probabilities": {"offensive": {"true": 0.3007, "false": 0.6993}}, "ok": true}
+{"id": "tweet_offensive/test/559", "latency_ms": 167.82, "model_latency_ms": 167.4, "probabilities": {"offensive": {"true": 0.8752, "false": 0.12480000000000002}}, "ok": true}
+{"id": "tweet_offensive/test/324", "latency_ms": 303.35, "model_latency_ms": 302.8, "probabilities": {"offensive": {"true": 0.1283, "false": 0.8717}}, "ok": true}
+{"id": "tweet_offensive/test/544", "latency_ms": 171.13, "model_latency_ms": 170.7, "probabilities": {"offensive": {"true": 0.6656, "false": 0.33440000000000003}}, "ok": true}
+{"id": "tweet_offensive/test/343", "latency_ms": 238.34, "model_latency_ms": 237.9, "probabilities": {"offensive": {"true": 0.2806, "false": 0.7194}}, "ok": true}
+{"id": "tweet_offensive/test/494", "latency_ms": 228.76, "model_latency_ms": 228.3, "probabilities": {"offensive": {"true": 0.1695, "false": 0.8305}}, "ok": true}
+{"id": "tweet_offensive/test/12", "latency_ms": 238.9, "model_latency_ms": 238.5, "probabilities": {"offensive": {"true": 0.0786, "false": 0.9214}}, "ok": true}
+{"id": "tweet_offensive/test/356", "latency_ms": 167.08, "model_latency_ms": 166.7, "probabilities": {"offensive": {"true": 0.1464, "false": 0.8536}}, "ok": true}
+{"id": "tweet_offensive/test/699", "latency_ms": 169.04, "model_latency_ms": 168.6, "probabilities": {"offensive": {"true": 0.4656, "false": 0.5344}}, "ok": true}
+{"id": "tweet_offensive/test/555", "latency_ms": 237.18, "model_latency_ms": 236.7, "probabilities": {"offensive": {"true": 0.3476, "false": 0.6524}}, "ok": true}
+{"id": "tweet_offensive/test/295", "latency_ms": 236.28, "model_latency_ms": 235.8, "probabilities": {"offensive": {"true": 0.512, "false": 0.488}}, "ok": true}
+{"id": "tweet_offensive/test/160", "latency_ms": 230.53, "model_latency_ms": 230.1, "probabilities": {"offensive": {"true": 0.386, "false": 0.614}}, "ok": true}
+{"id": "tweet_offensive/test/60", "latency_ms": 304.52, "model_latency_ms": 304.0, "probabilities": {"offensive": {"true": 0.1344, "false": 0.8656}}, "ok": true}
+{"id": "tweet_offensive/test/2", "latency_ms": 235.79, "model_latency_ms": 235.1, "probabilities": {"offensive": {"true": 0.4001, "false": 0.5999}}, "ok": true}
+{"id": "tweet_offensive/test/205", "latency_ms": 237.47, "model_latency_ms": 236.9, "probabilities": {"offensive": {"true": 0.6586, "false": 0.34140000000000004}}, "ok": true}
+{"id": "tweet_offensive/test/370", "latency_ms": 169.44, "model_latency_ms": 169.0, "probabilities": {"offensive": {"true": 0.1401, "false": 0.8599}}, "ok": true}
+{"id": "tweet_offensive/test/588", "latency_ms": 233.4, "model_latency_ms": 233.0, "probabilities": {"offensive": {"true": 0.6769, "false": 0.32310000000000005}}, "ok": true}
+{"id": "tweet_offensive/test/56", "latency_ms": 239.51, "model_latency_ms": 239.0, "probabilities": {"offensive": {"true": 0.195, "false": 0.8049999999999999}}, "ok": true}
+{"id": "tweet_offensive/test/545", "latency_ms": 233.55, "model_latency_ms": 233.1, "probabilities": {"offensive": {"true": 0.6376, "false": 0.36240000000000006}}, "ok": true}
+{"id": "tweet_offensive/test/8", "latency_ms": 231.48, "model_latency_ms": 231.1, "probabilities": {"offensive": {"true": 0.8105, "false": 0.1895}}, "ok": true}
+{"id": "tweet_offensive/test/782", "latency_ms": 239.71, "model_latency_ms": 239.3, "probabilities": {"offensive": {"true": 0.0406, "false": 0.9594}}, "ok": true}
+{"id": "tweet_offensive/test/141", "latency_ms": 236.5, "model_latency_ms": 236.0, "probabilities": {"offensive": {"true": 0.3264, "false": 0.6736}}, "ok": true}
+{"id": "tweet_offensive/test/91", "latency_ms": 164.37, "model_latency_ms": 164.0, "probabilities": {"offensive": {"true": 0.1901, "false": 0.8099000000000001}}, "ok": true}
+{"id": "tweet_offensive/test/678", "latency_ms": 298.99, "model_latency_ms": 298.5, "probabilities": {"offensive": {"true": 0.421, "false": 0.579}}, "ok": true}
+{"id": "tweet_offensive/test/830", "latency_ms": 230.2, "model_latency_ms": 229.8, "probabilities": {"offensive": {"true": 0.486, "false": 0.514}}, "ok": true}
+{"id": "tweet_offensive/test/98", "latency_ms": 302.37, "model_latency_ms": 301.9, "probabilities": {"offensive": {"true": 0.2916, "false": 0.7083999999999999}}, "ok": true}
+{"id": "tweet_offensive/test/509", "latency_ms": 232.42, "model_latency_ms": 231.9, "probabilities": {"offensive": {"true": 0.1174, "false": 0.8826}}, "ok": true}
+{"id": "tweet_offensive/test/263", "latency_ms": 239.11, "model_latency_ms": 238.6, "probabilities": {"offensive": {"true": 0.2522, "false": 0.7478}}, "ok": true}
+{"id": "qnli/validation/1714", "latency_ms": 298.54, "model_latency_ms": 296.6, "probabilities": {"answers": {"true": 0.9893, "false": 0.010700000000000043}}, "ok": true}
+{"id": "qnli/validation/1900", "latency_ms": 300.49, "model_latency_ms": 300.0, "probabilities": {"answers": {"true": 0.0158, "false": 0.9842}}, "ok": true}
+{"id": "qnli/validation/2575", "latency_ms": 168.94, "model_latency_ms": 168.5, "probabilities": {"answers": {"true": 0.8649, "false": 0.1351}}, "ok": true}
+{"id": "qnli/validation/1998", "latency_ms": 232.02, "model_latency_ms": 231.6, "probabilities": {"answers": {"true": 0.0217, "false": 0.9783}}, "ok": true}
+{"id": "qnli/validation/4117", "latency_ms": 433.42, "model_latency_ms": 432.8, "probabilities": {"answers": {"true": 0.9481, "false": 0.051899999999999946}}, "ok": true}
+{"id": "qnli/validation/3930", "latency_ms": 297.11, "model_latency_ms": 296.6, "probabilities": {"answers": {"true": 0.8777, "false": 0.12229999999999996}}, "ok": true}
+{"id": "qnli/validation/5417", "latency_ms": 229.97, "model_latency_ms": 229.5, "probabilities": {"answers": {"true": 0.3086, "false": 0.6914}}, "ok": true}
+{"id": "qnli/validation/182", "latency_ms": 169.06, "model_latency_ms": 168.7, "probabilities": {"answers": {"true": 0.2485, "false": 0.7515000000000001}}, "ok": true}
+{"id": "qnli/validation/416", "latency_ms": 234.62, "model_latency_ms": 234.2, "probabilities": {"answers": {"true": 0.0057, "false": 0.9943}}, "ok": true}
+{"id": "qnli/validation/2695", "latency_ms": 169.3, "model_latency_ms": 168.9, "probabilities": {"answers": {"true": 0.0129, "false": 0.9871}}, "ok": true}
+{"id": "qnli/validation/3379", "latency_ms": 234.66, "model_latency_ms": 233.3, "probabilities": {"answers": {"true": 0.0094, "false": 0.9906}}, "ok": true}
+{"id": "qnli/validation/4802", "latency_ms": 168.12, "model_latency_ms": 167.8, "probabilities": {"answers": {"true": 0.9057, "false": 0.09430000000000005}}, "ok": true}
+{"id": "qnli/validation/1028", "latency_ms": 297.34, "model_latency_ms": 296.9, "probabilities": {"answers": {"true": 0.9344, "false": 0.06559999999999999}}, "ok": true}
+{"id": "qnli/validation/1106", "latency_ms": 168.66, "model_latency_ms": 168.3, "probabilities": {"answers": {"true": 0.7206, "false": 0.2794}}, "ok": true}
+{"id": "qnli/validation/1945", "latency_ms": 231.54, "model_latency_ms": 231.1, "probabilities": {"answers": {"true": 0.9199, "false": 0.08009999999999995}}, "ok": true}
+{"id": "qnli/validation/1749", "latency_ms": 300.76, "model_latency_ms": 300.3, "probabilities": {"answers": {"true": 0.9222, "false": 0.07779999999999998}}, "ok": true}
+{"id": "qnli/validation/5119", "latency_ms": 292.8, "model_latency_ms": 292.4, "probabilities": {"answers": {"true": 0.7388, "false": 0.2612}}, "ok": true}
+{"id": "qnli/validation/4476", "latency_ms": 236.38, "model_latency_ms": 235.9, "probabilities": {"answers": {"true": 0.9837, "false": 0.01629999999999998}}, "ok": true}
+{"id": "qnli/validation/2679", "latency_ms": 166.67, "model_latency_ms": 166.3, "probabilities": {"answers": {"true": 0.0496, "false": 0.9504}}, "ok": true}
+{"id": "qnli/validation/4070", "latency_ms": 235.9, "model_latency_ms": 235.5, "probabilities": {"answers": {"true": 0.8012, "false": 0.19879999999999998}}, "ok": true}
+{"id": "qnli/validation/2378", "latency_ms": 232.79, "model_latency_ms": 232.4, "probabilities": {"answers": {"true": 0.0046, "false": 0.9954}}, "ok": true}
+{"id": "qnli/validation/3361", "latency_ms": 170.42, "model_latency_ms": 170.0, "probabilities": {"answers": {"true": 0.1472, "false": 0.8528}}, "ok": true}
+{"id": "qnli/validation/407", "latency_ms": 229.97, "model_latency_ms": 229.5, "probabilities": {"answers": {"true": 0.9018, "false": 0.09819999999999995}}, "ok": true}
+{"id": "qnli/validation/4731", "latency_ms": 231.94, "model_latency_ms": 231.5, "probabilities": {"answers": {"true": 0.9374, "false": 0.06259999999999999}}, "ok": true}
+{"id": "qnli/validation/946", "latency_ms": 163.01, "model_latency_ms": 162.5, "probabilities": {"answers": {"true": 0.987, "false": 0.013000000000000012}}, "ok": true}
+{"id": "qnli/validation/886", "latency_ms": 224.29, "model_latency_ms": 223.8, "probabilities": {"answers": {"true": 0.0099, "false": 0.9901}}, "ok": true}
+{"id": "qnli/validation/4136", "latency_ms": 161.26, "model_latency_ms": 160.9, "probabilities": {"answers": {"true": 0.2263, "false": 0.7737}}, "ok": true}
+{"id": "qnli/validation/3906", "latency_ms": 236.31, "model_latency_ms": 235.8, "probabilities": {"answers": {"true": 0.0144, "false": 0.9856}}, "ok": true}
+{"id": "qnli/validation/798", "latency_ms": 167.15, "model_latency_ms": 166.8, "probabilities": {"answers": {"true": 0.4532, "false": 0.5468}}, "ok": true}
+{"id": "qnli/validation/4307", "latency_ms": 170.38, "model_latency_ms": 170.0, "probabilities": {"answers": {"true": 0.0172, "false": 0.9828}}, "ok": true}
+{"id": "qnli/validation/3885", "latency_ms": 293.01, "model_latency_ms": 292.6, "probabilities": {"answers": {"true": 0.1147, "false": 0.8853}}, "ok": true}
+{"id": "qnli/validation/3088", "latency_ms": 236.76, "model_latency_ms": 236.3, "probabilities": {"answers": {"true": 0.8005, "false": 0.1995}}, "ok": true}
+{"id": "qnli/validation/1583", "latency_ms": 296.94, "model_latency_ms": 296.4, "probabilities": {"answers": {"true": 0.6635, "false": 0.3365}}, "ok": true}
+{"id": "qnli/validation/4729", "latency_ms": 305.44, "model_latency_ms": 304.9, "probabilities": {"answers": {"true": 0.6608, "false": 0.33919999999999995}}, "ok": true}
+{"id": "qnli/validation/821", "latency_ms": 232.23, "model_latency_ms": 231.8, "probabilities": {"answers": {"true": 0.6901, "false": 0.30989999999999995}}, "ok": true}
+{"id": "qnli/validation/3064", "latency_ms": 157.23, "model_latency_ms": 156.8, "probabilities": {"answers": {"true": 0.9746, "false": 0.025399999999999978}}, "ok": true}
+{"id": "qnli/validation/661", "latency_ms": 299.74, "model_latency_ms": 299.3, "probabilities": {"answers": {"true": 0.0523, "false": 0.9477}}, "ok": true}
+{"id": "qnli/validation/2972", "latency_ms": 233.5, "model_latency_ms": 233.1, "probabilities": {"answers": {"true": 0.9812, "false": 0.01880000000000004}}, "ok": true}
+{"id": "qnli/validation/4577", "latency_ms": 299.01, "model_latency_ms": 298.5, "probabilities": {"answers": {"true": 0.0123, "false": 0.9877}}, "ok": true}
+{"id": "qnli/validation/2081", "latency_ms": 294.31, "model_latency_ms": 293.9, "probabilities": {"answers": {"true": 0.3919, "false": 0.6081}}, "ok": true}
+{"id": "qnli/validation/4985", "latency_ms": 235.18, "model_latency_ms": 234.7, "probabilities": {"answers": {"true": 0.015, "false": 0.985}}, "ok": true}
+{"id": "qnli/validation/1574", "latency_ms": 231.06, "model_latency_ms": 230.6, "probabilities": {"answers": {"true": 0.0149, "false": 0.9851}}, "ok": true}
+{"id": "qnli/validation/5299", "latency_ms": 170.88, "model_latency_ms": 170.5, "probabilities": {"answers": {"true": 0.0015, "false": 0.9985}}, "ok": true}
+{"id": "qnli/validation/3092", "latency_ms": 297.76, "model_latency_ms": 297.3, "probabilities": {"answers": {"true": 0.8289, "false": 0.17110000000000003}}, "ok": true}
+{"id": "qnli/validation/2384", "latency_ms": 168.64, "model_latency_ms": 168.3, "probabilities": {"answers": {"true": 0.0076, "false": 0.9924}}, "ok": true}
+{"id": "qnli/validation/4306", "latency_ms": 230.4, "model_latency_ms": 230.0, "probabilities": {"answers": {"true": 0.0101, "false": 0.9899}}, "ok": true}
+{"id": "qnli/validation/78", "latency_ms": 225.44, "model_latency_ms": 225.0, "probabilities": {"answers": {"true": 0.9837, "false": 0.01629999999999998}}, "ok": true}
+{"id": "qnli/validation/1220", "latency_ms": 164.01, "model_latency_ms": 163.6, "probabilities": {"answers": {"true": 0.6532, "false": 0.3468}}, "ok": true}
+{"id": "qnli/validation/1877", "latency_ms": 370.05, "model_latency_ms": 369.5, "probabilities": {"answers": {"true": 0.0095, "false": 0.9905}}, "ok": true}
+{"id": "qnli/validation/289", "latency_ms": 167.57, "model_latency_ms": 167.2, "probabilities": {"answers": {"true": 0.3609, "false": 0.6391}}, "ok": true}
+{"id": "qnli/validation/4298", "latency_ms": 231.17, "model_latency_ms": 230.7, "probabilities": {"answers": {"true": 0.0157, "false": 0.9843}}, "ok": true}
+{"id": "qnli/validation/2560", "latency_ms": 299.59, "model_latency_ms": 299.1, "probabilities": {"answers": {"true": 0.1432, "false": 0.8568}}, "ok": true}
+{"id": "qnli/validation/3402", "latency_ms": 292.39, "model_latency_ms": 292.0, "probabilities": {"answers": {"true": 0.9609, "false": 0.039100000000000024}}, "ok": true}
+{"id": "qnli/validation/3821", "latency_ms": 230.36, "model_latency_ms": 230.0, "probabilities": {"answers": {"true": 0.9761, "false": 0.023900000000000032}}, "ok": true}
+{"id": "qnli/validation/2750", "latency_ms": 230.08, "model_latency_ms": 229.7, "probabilities": {"answers": {"true": 0.9742, "false": 0.025800000000000045}}, "ok": true}
+{"id": "qnli/validation/5134", "latency_ms": 166.04, "model_latency_ms": 165.7, "probabilities": {"answers": {"true": 0.3685, "false": 0.6315}}, "ok": true}
+{"id": "qnli/validation/2206", "latency_ms": 237.85, "model_latency_ms": 237.4, "probabilities": {"answers": {"true": 0.0061, "false": 0.9939}}, "ok": true}
+{"id": "qnli/validation/401", "latency_ms": 236.47, "model_latency_ms": 236.0, "probabilities": {"answers": {"true": 0.032, "false": 0.968}}, "ok": true}
+{"id": "qnli/validation/2203", "latency_ms": 170.87, "model_latency_ms": 170.5, "probabilities": {"answers": {"true": 0.9729, "false": 0.027100000000000013}}, "ok": true}
+{"id": "qnli/validation/4777", "latency_ms": 170.07, "model_latency_ms": 169.7, "probabilities": {"answers": {"true": 0.9676, "false": 0.032399999999999984}}, "ok": true}
+{"id": "qnli/validation/2373", "latency_ms": 166.28, "model_latency_ms": 165.9, "probabilities": {"answers": {"true": 0.1276, "false": 0.8724000000000001}}, "ok": true}
+{"id": "qnli/validation/4839", "latency_ms": 164.1, "model_latency_ms": 163.6, "probabilities": {"answers": {"true": 0.0143, "false": 0.9857}}, "ok": true}
+{"id": "qnli/validation/4933", "latency_ms": 232.11, "model_latency_ms": 231.7, "probabilities": {"answers": {"true": 0.0215, "false": 0.9785}}, "ok": true}
+{"id": "qnli/validation/3270", "latency_ms": 294.95, "model_latency_ms": 294.5, "probabilities": {"answers": {"true": 0.9276, "false": 0.07240000000000002}}, "ok": true}
+{"id": "qnli/validation/560", "latency_ms": 229.08, "model_latency_ms": 228.6, "probabilities": {"answers": {"true": 0.2703, "false": 0.7297}}, "ok": true}
+{"id": "qnli/validation/2807", "latency_ms": 293.47, "model_latency_ms": 293.0, "probabilities": {"answers": {"true": 0.9522, "false": 0.047799999999999954}}, "ok": true}
+{"id": "qnli/validation/300", "latency_ms": 230.83, "model_latency_ms": 230.4, "probabilities": {"answers": {"true": 0.16, "false": 0.84}}, "ok": true}
+{"id": "qnli/validation/717", "latency_ms": 298.88, "model_latency_ms": 298.3, "probabilities": {"answers": {"true": 0.9733, "false": 0.026699999999999946}}, "ok": true}
+{"id": "qnli/validation/3407", "latency_ms": 169.26, "model_latency_ms": 168.8, "probabilities": {"answers": {"true": 0.0257, "false": 0.9742999999999999}}, "ok": true}
+{"id": "qnli/validation/590", "latency_ms": 293.36, "model_latency_ms": 292.9, "probabilities": {"answers": {"true": 0.045, "false": 0.955}}, "ok": true}
+{"id": "qnli/validation/423", "latency_ms": 232.8, "model_latency_ms": 232.4, "probabilities": {"answers": {"true": 0.2711, "false": 0.7289}}, "ok": true}
+{"id": "qnli/validation/324", "latency_ms": 232.63, "model_latency_ms": 232.2, "probabilities": {"answers": {"true": 0.8242, "false": 0.17579999999999996}}, "ok": true}
+{"id": "qnli/validation/164", "latency_ms": 225.39, "model_latency_ms": 225.0, "probabilities": {"answers": {"true": 0.9902, "false": 0.009800000000000031}}, "ok": true}
+{"id": "qnli/validation/4871", "latency_ms": 166.27, "model_latency_ms": 165.9, "probabilities": {"answers": {"true": 0.34, "false": 0.6599999999999999}}, "ok": true}
+{"id": "qnli/validation/864", "latency_ms": 234.21, "model_latency_ms": 233.8, "probabilities": {"answers": {"true": 0.9564, "false": 0.04359999999999997}}, "ok": true}
+{"id": "qnli/validation/2945", "latency_ms": 298.68, "model_latency_ms": 298.2, "probabilities": {"answers": {"true": 0.8638, "false": 0.1362}}, "ok": true}
+{"id": "qnli/validation/3998", "latency_ms": 366.45, "model_latency_ms": 365.9, "probabilities": {"answers": {"true": 0.4152, "false": 0.5848}}, "ok": true}
+{"id": "qnli/validation/2896", "latency_ms": 230.84, "model_latency_ms": 230.4, "probabilities": {"answers": {"true": 0.0094, "false": 0.9906}}, "ok": true}
+{"id": "qnli/validation/2221", "latency_ms": 291.83, "model_latency_ms": 291.4, "probabilities": {"answers": {"true": 0.0785, "false": 0.9215}}, "ok": true}
+{"id": "qnli/validation/3538", "latency_ms": 170.54, "model_latency_ms": 170.2, "probabilities": {"answers": {"true": 0.1596, "false": 0.8404}}, "ok": true}
+{"id": "paws/test/856", "latency_ms": 237.89, "model_latency_ms": 237.4, "probabilities": {"paraphrase": {"true": 0.6266, "false": 0.37339999999999995}}, "ok": true}
+{"id": "paws/test/2686", "latency_ms": 364.19, "model_latency_ms": 363.7, "probabilities": {"paraphrase": {"true": 0.5, "false": 0.5}}, "ok": true}
+{"id": "paws/test/4712", "latency_ms": 297.9, "model_latency_ms": 297.4, "probabilities": {"paraphrase": {"true": 0.0267, "false": 0.9733}}, "ok": true}
+{"id": "paws/test/3056", "latency_ms": 363.32, "model_latency_ms": 362.8, "probabilities": {"paraphrase": {"true": 0.9751, "false": 0.024900000000000033}}, "ok": true}
+{"id": "paws/test/3990", "latency_ms": 232.02, "model_latency_ms": 231.6, "probabilities": {"paraphrase": {"true": 0.9391, "false": 0.060899999999999954}}, "ok": true}
+{"id": "paws/test/529", "latency_ms": 300.88, "model_latency_ms": 300.4, "probabilities": {"paraphrase": {"true": 0.8108, "false": 0.18920000000000003}}, "ok": true}
+{"id": "paws/test/116", "latency_ms": 294.96, "model_latency_ms": 294.5, "probabilities": {"paraphrase": {"true": 0.7358, "false": 0.2642}}, "ok": true}
+{"id": "paws/test/2414", "latency_ms": 235.09, "model_latency_ms": 234.7, "probabilities": {"paraphrase": {"true": 0.9617, "false": 0.0383}}, "ok": true}
+{"id": "paws/test/2795", "latency_ms": 236.38, "model_latency_ms": 236.0, "probabilities": {"paraphrase": {"true": 0.9544, "false": 0.045599999999999974}}, "ok": true}
+{"id": "paws/test/4273", "latency_ms": 367.63, "model_latency_ms": 367.1, "probabilities": {"paraphrase": {"true": 0.8351, "false": 0.16490000000000005}}, "ok": true}
+{"id": "paws/test/6236", "latency_ms": 239.55, "model_latency_ms": 239.1, "probabilities": {"paraphrase": {"true": 0.1445, "false": 0.8555}}, "ok": true}
+{"id": "paws/test/1125", "latency_ms": 294.36, "model_latency_ms": 293.9, "probabilities": {"paraphrase": {"true": 0.9449, "false": 0.05510000000000004}}, "ok": true}
+{"id": "paws/test/3102", "latency_ms": 242.06, "model_latency_ms": 241.6, "probabilities": {"paraphrase": {"true": 0.7649, "false": 0.23509999999999998}}, "ok": true}
+{"id": "paws/test/4325", "latency_ms": 293.8, "model_latency_ms": 293.3, "probabilities": {"paraphrase": {"true": 0.9016, "false": 0.09840000000000004}}, "ok": true}
+{"id": "paws/test/2474", "latency_ms": 237.2, "model_latency_ms": 236.8, "probabilities": {"paraphrase": {"true": 0.6258, "false": 0.3742}}, "ok": true}
+{"id": "paws/test/1182", "latency_ms": 234.76, "model_latency_ms": 234.4, "probabilities": {"paraphrase": {"true": 0.8449, "false": 0.15510000000000002}}, "ok": true}
+{"id": "paws/test/504", "latency_ms": 233.23, "model_latency_ms": 232.8, "probabilities": {"paraphrase": {"true": 0.7231, "false": 0.27690000000000003}}, "ok": true}
+{"id": "paws/test/5828", "latency_ms": 236.76, "model_latency_ms": 236.3, "probabilities": {"paraphrase": {"true": 0.8931, "false": 0.1069}}, "ok": true}
+{"id": "paws/test/6633", "latency_ms": 237.24, "model_latency_ms": 236.8, "probabilities": {"paraphrase": {"true": 0.0094, "false": 0.9906}}, "ok": true}
+{"id": "paws/test/6102", "latency_ms": 235.96, "model_latency_ms": 235.6, "probabilities": {"paraphrase": {"true": 0.9146, "false": 0.08540000000000003}}, "ok": true}
+{"id": "paws/test/6859", "latency_ms": 241.29, "model_latency_ms": 240.9, "probabilities": {"paraphrase": {"true": 0.7692, "false": 0.2308}}, "ok": true}
+{"id": "paws/test/1560", "latency_ms": 232.04, "model_latency_ms": 231.6, "probabilities": {"paraphrase": {"true": 0.808, "false": 0.19199999999999995}}, "ok": true}
+{"id": "paws/test/7712", "latency_ms": 364.85, "model_latency_ms": 364.4, "probabilities": {"paraphrase": {"true": 0.7966, "false": 0.20340000000000003}}, "ok": true}
+{"id": "paws/test/3530", "latency_ms": 298.8, "model_latency_ms": 298.3, "probabilities": {"paraphrase": {"true": 0.0308, "false": 0.9692}}, "ok": true}
+{"id": "paws/test/5349", "latency_ms": 236.84, "model_latency_ms": 236.4, "probabilities": {"paraphrase": {"true": 0.6256, "false": 0.37439999999999996}}, "ok": true}
+{"id": "paws/test/5078", "latency_ms": 364.83, "model_latency_ms": 364.3, "probabilities": {"paraphrase": {"true": 0.9569, "false": 0.04310000000000003}}, "ok": true}
+{"id": "paws/test/3539", "latency_ms": 241.57, "model_latency_ms": 240.9, "probabilities": {"paraphrase": {"true": 0.0302, "false": 0.9698}}, "ok": true}
+{"id": "paws/test/4865", "latency_ms": 238.34, "model_latency_ms": 237.9, "probabilities": {"paraphrase": {"true": 0.1241, "false": 0.8759}}, "ok": true}
+{"id": "paws/test/1721", "latency_ms": 228.21, "model_latency_ms": 227.7, "probabilities": {"paraphrase": {"true": 0.8982, "false": 0.1018}}, "ok": true}
+{"id": "paws/test/2075", "latency_ms": 360.55, "model_latency_ms": 360.1, "probabilities": {"paraphrase": {"true": 0.0795, "false": 0.9205}}, "ok": true}
+{"id": "paws/test/3572", "latency_ms": 242.69, "model_latency_ms": 242.1, "probabilities": {"paraphrase": {"true": 0.0826, "false": 0.9174}}, "ok": true}
+{"id": "paws/test/4653", "latency_ms": 289.85, "model_latency_ms": 289.3, "probabilities": {"paraphrase": {"true": 0.6325, "false": 0.36750000000000005}}, "ok": true}
+{"id": "paws/test/3117", "latency_ms": 235.3, "model_latency_ms": 234.8, "probabilities": {"paraphrase": {"true": 0.817, "false": 0.18300000000000005}}, "ok": true}
+{"id": "paws/test/5245", "latency_ms": 361.47, "model_latency_ms": 361.0, "probabilities": {"paraphrase": {"true": 0.6456, "false": 0.35440000000000005}}, "ok": true}
+{"id": "paws/test/4147", "latency_ms": 300.03, "model_latency_ms": 299.6, "probabilities": {"paraphrase": {"true": 0.5757, "false": 0.4243}}, "ok": true}
+{"id": "paws/test/848", "latency_ms": 232.71, "model_latency_ms": 232.3, "probabilities": {"paraphrase": {"true": 0.6201, "false": 0.3799}}, "ok": true}
+{"id": "paws/test/7456", "latency_ms": 239.33, "model_latency_ms": 238.9, "probabilities": {"paraphrase": {"true": 0.013, "false": 0.987}}, "ok": true}
+{"id": "paws/test/3320", "latency_ms": 364.79, "model_latency_ms": 364.3, "probabilities": {"paraphrase": {"true": 0.9192, "false": 0.08079999999999998}}, "ok": true}
+{"id": "paws/test/6578", "latency_ms": 235.75, "model_latency_ms": 235.3, "probabilities": {"paraphrase": {"true": 0.9066, "false": 0.09340000000000004}}, "ok": true}
+{"id": "paws/test/4291", "latency_ms": 298.08, "model_latency_ms": 297.6, "probabilities": {"paraphrase": {"true": 0.929, "false": 0.07099999999999995}}, "ok": true}
+{"id": "paws/test/5566", "latency_ms": 238.81, "model_latency_ms": 238.4, "probabilities": {"paraphrase": {"true": 0.756, "false": 0.244}}, "ok": true}
+{"id": "paws/test/1507", "latency_ms": 231.12, "model_latency_ms": 230.7, "probabilities": {"paraphrase": {"true": 0.7205, "false": 0.27949999999999997}}, "ok": true}
+{"id": "paws/test/4799", "latency_ms": 298.2, "model_latency_ms": 297.8, "probabilities": {"paraphrase": {"true": 0.7948, "false": 0.20520000000000005}}, "ok": true}
+{"id": "paws/test/7027", "latency_ms": 234.0, "model_latency_ms": 233.6, "probabilities": {"paraphrase": {"true": 0.8444, "false": 0.15559999999999996}}, "ok": true}
+{"id": "paws/test/4634", "latency_ms": 239.95, "model_latency_ms": 239.5, "probabilities": {"paraphrase": {"true": 0.0374, "false": 0.9626}}, "ok": true}
+{"id": "paws/test/4925", "latency_ms": 236.33, "model_latency_ms": 235.9, "probabilities": {"paraphrase": {"true": 0.0795, "false": 0.9205}}, "ok": true}
+{"id": "paws/test/3171", "latency_ms": 231.63, "model_latency_ms": 231.2, "probabilities": {"paraphrase": {"true": 0.0296, "false": 0.9704}}, "ok": true}
+{"id": "paws/test/2022", "latency_ms": 236.7, "model_latency_ms": 236.3, "probabilities": {"paraphrase": {"true": 0.8701, "false": 0.12990000000000002}}, "ok": true}
+{"id": "paws/test/3545", "latency_ms": 301.14, "model_latency_ms": 300.7, "probabilities": {"paraphrase": {"true": 0.1778, "false": 0.8222}}, "ok": true}
+{"id": "paws/test/7941", "latency_ms": 233.08, "model_latency_ms": 232.7, "probabilities": {"paraphrase": {"true": 0.3437, "false": 0.6563}}, "ok": true}
+{"id": "paws/test/7910", "latency_ms": 237.52, "model_latency_ms": 237.1, "probabilities": {"paraphrase": {"true": 0.0244, "false": 0.9756}}, "ok": true}
+{"id": "paws/test/5301", "latency_ms": 294.03, "model_latency_ms": 293.6, "probabilities": {"paraphrase": {"true": 0.5838, "false": 0.4162}}, "ok": true}
+{"id": "paws/test/6991", "latency_ms": 235.85, "model_latency_ms": 235.4, "probabilities": {"paraphrase": {"true": 0.0313, "false": 0.9687}}, "ok": true}
+{"id": "paws/test/6910", "latency_ms": 297.67, "model_latency_ms": 297.2, "probabilities": {"paraphrase": {"true": 0.0197, "false": 0.9803}}, "ok": true}
+{"id": "paws/test/3920", "latency_ms": 230.74, "model_latency_ms": 230.3, "probabilities": {"paraphrase": {"true": 0.8933, "false": 0.10670000000000002}}, "ok": true}
+{"id": "paws/test/1760", "latency_ms": 361.12, "model_latency_ms": 360.6, "probabilities": {"paraphrase": {"true": 0.0196, "false": 0.9804}}, "ok": true}
+{"id": "paws/test/1127", "latency_ms": 361.65, "model_latency_ms": 361.1, "probabilities": {"paraphrase": {"true": 0.4079, "false": 0.5921000000000001}}, "ok": true}
+{"id": "paws/test/5558", "latency_ms": 237.73, "model_latency_ms": 237.3, "probabilities": {"paraphrase": {"true": 0.0093, "false": 0.9907}}, "ok": true}
+{"id": "paws/test/4037", "latency_ms": 369.91, "model_latency_ms": 369.4, "probabilities": {"paraphrase": {"true": 0.9036, "false": 0.09640000000000004}}, "ok": true}
+{"id": "paws/test/2810", "latency_ms": 361.2, "model_latency_ms": 360.6, "probabilities": {"paraphrase": {"true": 0.021, "false": 0.979}}, "ok": true}
+{"id": "paws/test/1152", "latency_ms": 365.14, "model_latency_ms": 364.6, "probabilities": {"paraphrase": {"true": 0.4778, "false": 0.5222}}, "ok": true}
+{"id": "paws/test/4011", "latency_ms": 231.93, "model_latency_ms": 231.5, "probabilities": {"paraphrase": {"true": 0.5446, "false": 0.4554}}, "ok": true}
+{"id": "paws/test/4702", "latency_ms": 236.47, "model_latency_ms": 236.0, "probabilities": {"paraphrase": {"true": 0.8782, "false": 0.12180000000000002}}, "ok": true}
+{"id": "paws/test/2345", "latency_ms": 237.87, "model_latency_ms": 237.4, "probabilities": {"paraphrase": {"true": 0.9133, "false": 0.0867}}, "ok": true}
+{"id": "paws/test/7244", "latency_ms": 232.83, "model_latency_ms": 232.4, "probabilities": {"paraphrase": {"true": 0.952, "false": 0.04800000000000004}}, "ok": true}
+{"id": "paws/test/2543", "latency_ms": 372.5, "model_latency_ms": 372.0, "probabilities": {"paraphrase": {"true": 0.0401, "false": 0.9599}}, "ok": true}
+{"id": "paws/test/739", "latency_ms": 366.32, "model_latency_ms": 365.8, "probabilities": {"paraphrase": {"true": 0.8805, "false": 0.11950000000000005}}, "ok": true}
+{"id": "paws/test/595", "latency_ms": 298.21, "model_latency_ms": 297.7, "probabilities": {"paraphrase": {"true": 0.0124, "false": 0.9876}}, "ok": true}
+{"id": "paws/test/7832", "latency_ms": 364.5, "model_latency_ms": 364.0, "probabilities": {"paraphrase": {"true": 0.8168, "false": 0.18320000000000003}}, "ok": true}
+{"id": "paws/test/1573", "latency_ms": 231.59, "model_latency_ms": 231.1, "probabilities": {"paraphrase": {"true": 0.8504, "false": 0.14959999999999996}}, "ok": true}
+{"id": "paws/test/2789", "latency_ms": 234.94, "model_latency_ms": 234.5, "probabilities": {"paraphrase": {"true": 0.0149, "false": 0.9851}}, "ok": true}
+{"id": "paws/test/3522", "latency_ms": 362.39, "model_latency_ms": 361.9, "probabilities": {"paraphrase": {"true": 0.3622, "false": 0.6377999999999999}}, "ok": true}
+{"id": "paws/test/7620", "latency_ms": 237.0, "model_latency_ms": 236.6, "probabilities": {"paraphrase": {"true": 0.9523, "false": 0.047699999999999965}}, "ok": true}
+{"id": "paws/test/2134", "latency_ms": 240.7, "model_latency_ms": 240.3, "probabilities": {"paraphrase": {"true": 0.1604, "false": 0.8396}}, "ok": true}
+{"id": "paws/test/7174", "latency_ms": 368.59, "model_latency_ms": 368.1, "probabilities": {"paraphrase": {"true": 0.1414, "false": 0.8586}}, "ok": true}
+{"id": "paws/test/684", "latency_ms": 237.79, "model_latency_ms": 237.3, "probabilities": {"paraphrase": {"true": 0.4033, "false": 0.5967}}, "ok": true}
+{"id": "paws/test/7060", "latency_ms": 300.51, "model_latency_ms": 300.0, "probabilities": {"paraphrase": {"true": 0.2367, "false": 0.7633}}, "ok": true}
+{"id": "paws/test/5639", "latency_ms": 361.49, "model_latency_ms": 361.1, "probabilities": {"paraphrase": {"true": 0.0254, "false": 0.9746}}, "ok": true}
+{"id": "paws/test/3183", "latency_ms": 237.15, "model_latency_ms": 236.7, "probabilities": {"paraphrase": {"true": 0.1927, "false": 0.8073}}, "ok": true}
+{"id": "paws/test/1916", "latency_ms": 365.73, "model_latency_ms": 365.3, "probabilities": {"paraphrase": {"true": 0.9152, "false": 0.08479999999999999}}, "ok": true}
+{"id": "sciq/test/936", "latency_ms": 438.72, "model_latency_ms": 438.0, "probabilities": {"answer": {"a": 0.0015, "b": 0.9853, "c": 0.0089, "d": 0.0043}}, "ok": true}
+{"id": "sciq/test/925", "latency_ms": 232.25, "model_latency_ms": 231.7, "probabilities": {"answer": {"a": 0.0814, "b": 0.0756, "c": 0.0625, "d": 0.7806}}, "ok": true}
+{"id": "sciq/test/269", "latency_ms": 359.82, "model_latency_ms": 359.3, "probabilities": {"answer": {"a": 0.9924, "b": 0.0039, "c": 0.0013, "d": 0.0023}}, "ok": true}
+{"id": "sciq/test/258", "latency_ms": 301.37, "model_latency_ms": 300.8, "probabilities": {"answer": {"a": 0.0018, "b": 0.0034, "c": 0.0257, "d": 0.9691}}, "ok": true}
+{"id": "sciq/test/46", "latency_ms": 363.66, "model_latency_ms": 363.1, "probabilities": {"answer": {"a": 0.0049, "b": 0.7941, "c": 0.1909, "d": 0.01}}, "ok": true}
+{"id": "sciq/test/670", "latency_ms": 234.11, "model_latency_ms": 233.6, "probabilities": {"answer": {"a": 0.9605, "b": 0.0158, "c": 0.0088, "d": 0.0149}}, "ok": true}
+{"id": "sciq/test/731", "latency_ms": 434.05, "model_latency_ms": 433.3, "probabilities": {"answer": {"a": 0.0015, "b": 0.988, "c": 0.0055, "d": 0.0051}}, "ok": true}
+{"id": "sciq/test/955", "latency_ms": 237.33, "model_latency_ms": 236.8, "probabilities": {"answer": {"a": 0.001, "b": 0.9896, "c": 0.0027, "d": 0.0067}}, "ok": true}
+{"id": "sciq/test/490", "latency_ms": 489.3, "model_latency_ms": 488.7, "probabilities": {"answer": {"a": 0.9376, "b": 0.0375, "c": 0.0099, "d": 0.015}}, "ok": true}
+{"id": "sciq/test/633", "latency_ms": 375.51, "model_latency_ms": 374.9, "probabilities": {"answer": {"a": 0.0036, "b": 0.0052, "c": 0.0047, "d": 0.9865}}, "ok": true}
+{"id": "sciq/test/889", "latency_ms": 298.01, "model_latency_ms": 297.5, "probabilities": {"answer": {"a": 0.0184, "b": 0.0055, "c": 0.0004, "d": 0.9757}}, "ok": true}
+{"id": "sciq/test/291", "latency_ms": 878.42, "model_latency_ms": 877.4, "probabilities": {"answer": {"a": 0.01, "b": 0.0041, "c": 0.9849, "d": 0.001}}, "ok": true}
+{"id": "sciq/test/558", "latency_ms": 498.06, "model_latency_ms": 497.2, "probabilities": {"answer": {"a": 0.0019, "b": 0.0069, "c": 0.9515, "d": 0.0397}}, "ok": true}
+{"id": "sciq/test/712", "latency_ms": 438.12, "model_latency_ms": 437.4, "probabilities": {"answer": {"a": 0.9759, "b": 0.0101, "c": 0.0068, "d": 0.0072}}, "ok": true}
+{"id": "sciq/test/651", "latency_ms": 367.09, "model_latency_ms": 366.5, "probabilities": {"answer": {"a": 0.0035, "b": 0.0012, "c": 0.0007, "d": 0.9947}}, "ok": true}
+{"id": "sciq/test/524", "latency_ms": 625.27, "model_latency_ms": 624.4, "probabilities": {"answer": {"a": 0.0013, "b": 0.9787, "c": 0.0125, "d": 0.0075}}, "ok": true}
+{"id": "sciq/test/512", "latency_ms": 755.53, "model_latency_ms": 754.5, "probabilities": {"answer": {"a": 0.247, "b": 0.0268, "c": 0.0726, "d": 0.6536}}, "ok": true}
+{"id": "sciq/test/246", "latency_ms": 490.81, "model_latency_ms": 490.0, "probabilities": {"answer": {"a": 0.9761, "b": 0.0097, "c": 0.0073, "d": 0.0069}}, "ok": true}
+{"id": "sciq/test/844", "latency_ms": 232.83, "model_latency_ms": 232.3, "probabilities": {"answer": {"a": 0.9796, "b": 0.0102, "c": 0.0038, "d": 0.0064}}, "ok": true}
+{"id": "sciq/test/810", "latency_ms": 226.89, "model_latency_ms": 226.3, "probabilities": {"answer": {"a": 0.9921, "b": 0.0015, "c": 0.0021, "d": 0.0043}}, "ok": true}
+{"id": "sciq/test/788", "latency_ms": 304.51, "model_latency_ms": 303.9, "probabilities": {"answer": {"a": 0.0015, "b": 0.002, "c": 0.2137, "d": 0.7829}}, "ok": true}
+{"id": "sciq/test/410", "latency_ms": 299.22, "model_latency_ms": 298.7, "probabilities": {"answer": {"a": 0.0024, "b": 0.9923, "c": 0.0024, "d": 0.0029}}, "ok": true}
+{"id": "sciq/test/686", "latency_ms": 167.25, "model_latency_ms": 166.7, "probabilities": {"answer": {"a": 0.3917, "b": 0.0266, "c": 0.5636, "d": 0.0181}}, "ok": true}
+{"id": "sciq/test/976", "latency_ms": 297.68, "model_latency_ms": 297.0, "probabilities": {"answer": {"a": 0.9762, "b": 0.0042, "c": 0.0122, "d": 0.0074}}, "ok": true}
+{"id": "sciq/test/137", "latency_ms": 492.82, "model_latency_ms": 492.1, "probabilities": {"answer": {"a": 0.0016, "b": 0.0007, "c": 0.9953, "d": 0.0024}}, "ok": true}
+{"id": "sciq/test/35", "latency_ms": 229.48, "model_latency_ms": 229.0, "probabilities": {"answer": {"a": 0.2511, "b": 0.6657, "c": 0.0437, "d": 0.0396}}, "ok": true}
+{"id": "sciq/test/147", "latency_ms": 236.48, "model_latency_ms": 235.9, "probabilities": {"answer": {"a": 0.0004, "b": 0.0058, "c": 0.0804, "d": 0.9134}}, "ok": true}
+{"id": "sciq/test/587", "latency_ms": 233.4, "model_latency_ms": 232.9, "probabilities": {"answer": {"a": 0.0016, "b": 0.0031, "c": 0.9898, "d": 0.0055}}, "ok": true}
+{"id": "sciq/test/391", "latency_ms": 294.16, "model_latency_ms": 293.6, "probabilities": {"answer": {"a": 0.0036, "b": 0.9715, "c": 0.0142, "d": 0.0108}}, "ok": true}
+{"id": "sciq/test/152", "latency_ms": 495.86, "model_latency_ms": 495.2, "probabilities": {"answer": {"a": 0.0013, "b": 0.9812, "c": 0.0034, "d": 0.0142}}, "ok": true}
+{"id": "sciq/test/639", "latency_ms": 624.62, "model_latency_ms": 623.7, "probabilities": {"answer": {"a": 0.9824, "b": 0.0034, "c": 0.0078, "d": 0.0065}}, "ok": true}
+{"id": "sciq/test/834", "latency_ms": 566.85, "model_latency_ms": 566.0, "probabilities": {"answer": {"a": 0.2523, "b": 0.0858, "c": 0.0484, "d": 0.6135}}, "ok": true}
+{"id": "sciq/test/390", "latency_ms": 366.28, "model_latency_ms": 365.7, "probabilities": {"answer": {"a": 0.0032, "b": 0.0004, "c": 0.0006, "d": 0.9958}}, "ok": true}
+{"id": "sciq/test/54", "latency_ms": 367.9, "model_latency_ms": 367.3, "probabilities": {"answer": {"a": 0.9658, "b": 0.0102, "c": 0.01, "d": 0.014}}, "ok": true}
+{"id": "sciq/test/830", "latency_ms": 170.56, "model_latency_ms": 170.1, "probabilities": {"answer": {"a": 0.0253, "b": 0.9261, "c": 0.0433, "d": 0.0054}}, "ok": true}
+{"id": "sciq/test/450", "latency_ms": 811.31, "model_latency_ms": 810.3, "probabilities": {"answer": {"a": 0.9842, "b": 0.0092, "c": 0.0028, "d": 0.0037}}, "ok": true}
+{"id": "sciq/test/884", "latency_ms": 166.67, "model_latency_ms": 166.2, "probabilities": {"answer": {"a": 0.4532, "b": 0.3969, "c": 0.082, "d": 0.0679}}, "ok": true}
+{"id": "sciq/test/764", "latency_ms": 366.97, "model_latency_ms": 366.3, "probabilities": {"answer": {"a": 0.997, "b": 0.0016, "c": 0.0007, "d": 0.0007}}, "ok": true}
+{"id": "sciq/test/49", "latency_ms": 229.55, "model_latency_ms": 229.0, "probabilities": {"answer": {"a": 0.1605, "b": 0.0472, "c": 0.0499, "d": 0.7423}}, "ok": true}
+{"id": "sciq/test/693", "latency_ms": 236.95, "model_latency_ms": 236.4, "probabilities": {"answer": {"a": 0.001, "b": 0.9653, "c": 0.0235, "d": 0.0102}}, "ok": true}
+{"id": "sciq/test/523", "latency_ms": 439.3, "model_latency_ms": 438.6, "probabilities": {"answer": {"a": 0.0124, "b": 0.9772, "c": 0.0052, "d": 0.0052}}, "ok": true}
+{"id": "sciq/test/151", "latency_ms": 170.72, "model_latency_ms": 170.2, "probabilities": {"answer": {"a": 0.0031, "b": 0.0029, "c": 0.9843, "d": 0.0097}}, "ok": true}
+{"id": "sciq/test/791", "latency_ms": 375.72, "model_latency_ms": 375.1, "probabilities": {"answer": {"a": 0.0185, "b": 0.9521, "c": 0.0269, "d": 0.0025}}, "ok": true}
+{"id": "sciq/test/949", "latency_ms": 232.76, "model_latency_ms": 232.2, "probabilities": {"answer": {"a": 0.008, "b": 0.0163, "c": 0.9529, "d": 0.0228}}, "ok": true}
+{"id": "sciq/test/404", "latency_ms": 440.16, "model_latency_ms": 439.4, "probabilities": {"answer": {"a": 0.0009, "b": 0.9943, "c": 0.0019, "d": 0.0029}}, "ok": true}
+{"id": "sciq/test/199", "latency_ms": 561.54, "model_latency_ms": 560.8, "probabilities": {"answer": {"a": 0.9784, "b": 0.0038, "c": 0.0067, "d": 0.0112}}, "ok": true}
+{"id": "sciq/test/248", "latency_ms": 161.67, "model_latency_ms": 161.2, "probabilities": {"answer": {"a": 0.0228, "b": 0.0265, "c": 0.0283, "d": 0.9223}}, "ok": true}
+{"id": "sciq/test/245", "latency_ms": 363.03, "model_latency_ms": 362.5, "probabilities": {"answer": {"a": 0.0007, "b": 0.0023, "c": 0.0048, "d": 0.9922}}, "ok": true}
+{"id": "sciq/test/470", "latency_ms": 374.64, "model_latency_ms": 373.9, "probabilities": {"answer": {"a": 0.0024, "b": 0.0008, "c": 0.9927, "d": 0.0041}}, "ok": true}
+{"id": "sciq/test/80", "latency_ms": 234.27, "model_latency_ms": 233.8, "probabilities": {"answer": {"a": 0.9865, "b": 0.0091, "c": 0.0022, "d": 0.0022}}, "ok": true}
+{"id": "sciq/test/477", "latency_ms": 378.08, "model_latency_ms": 377.5, "probabilities": {"answer": {"a": 0.054, "b": 0.898, "c": 0.0306, "d": 0.0175}}, "ok": true}
+{"id": "sciq/test/438", "latency_ms": 224.45, "model_latency_ms": 223.9, "probabilities": {"answer": {"a": 0.003, "b": 0.0026, "c": 0.0003, "d": 0.9941}}, "ok": true}
+{"id": "sciq/test/229", "latency_ms": 359.84, "model_latency_ms": 359.3, "probabilities": {"answer": {"a": 0.0016, "b": 0.0039, "c": 0.9849, "d": 0.0097}}, "ok": true}
+{"id": "sciq/test/6", "latency_ms": 879.41, "model_latency_ms": 878.5, "probabilities": {"answer": {"a": 0.003, "b": 0.0035, "c": 0.9822, "d": 0.0114}}, "ok": true}
+{"id": "sciq/test/805", "latency_ms": 373.27, "model_latency_ms": 372.7, "probabilities": {"answer": {"a": 0.0015, "b": 0.0024, "c": 0.0001, "d": 0.996}}, "ok": true}
+{"id": "sciq/test/714", "latency_ms": 303.92, "model_latency_ms": 303.4, "probabilities": {"answer": {"a": 0.0123, "b": 0.9501, "c": 0.0296, "d": 0.0081}}, "ok": true}
+{"id": "sciq/test/869", "latency_ms": 234.36, "model_latency_ms": 233.8, "probabilities": {"answer": {"a": 0.0055, "b": 0.9847, "c": 0.0024, "d": 0.0074}}, "ok": true}
+{"id": "sciq/test/636", "latency_ms": 376.1, "model_latency_ms": 375.5, "probabilities": {"answer": {"a": 0.0066, "b": 0.0023, "c": 0.9831, "d": 0.008}}, "ok": true}
+{"id": "sciq/test/780", "latency_ms": 490.16, "model_latency_ms": 489.4, "probabilities": {"answer": {"a": 0.0038, "b": 0.9857, "c": 0.0053, "d": 0.0053}}, "ok": true}
+{"id": "sciq/test/502", "latency_ms": 362.48, "model_latency_ms": 361.9, "probabilities": {"answer": {"a": 0.9697, "b": 0.0107, "c": 0.0065, "d": 0.0131}}, "ok": true}
+{"id": "sciq/test/475", "latency_ms": 497.19, "model_latency_ms": 496.4, "probabilities": {"answer": {"a": 0.9815, "b": 0.0031, "c": 0.0036, "d": 0.0118}}, "ok": true}
+{"id": "sciq/test/418", "latency_ms": 238.0, "model_latency_ms": 237.4, "probabilities": {"answer": {"a": 0.0014, "b": 0.0024, "c": 0.0031, "d": 0.9932}}, "ok": true}
+{"id": "sciq/test/360", "latency_ms": 560.07, "model_latency_ms": 559.3, "probabilities": {"answer": {"a": 0.0007, "b": 0.0242, "c": 0.0057, "d": 0.9695}}, "ok": true}
+{"id": "sciq/test/537", "latency_ms": 239.77, "model_latency_ms": 239.2, "probabilities": {"answer": {"a": 0.9834, "b": 0.0084, "c": 0.0041, "d": 0.004}}, "ok": true}
+{"id": "sciq/test/457", "latency_ms": 374.59, "model_latency_ms": 373.9, "probabilities": {"answer": {"a": 0.9941, "b": 0.0015, "c": 0.0007, "d": 0.0038}}, "ok": true}
+{"id": "sciq/test/752", "latency_ms": 436.85, "model_latency_ms": 436.0, "probabilities": {"answer": {"a": 0.9695, "b": 0.0176, "c": 0.006, "d": 0.0069}}, "ok": true}
+{"id": "sciq/test/981", "latency_ms": 304.78, "model_latency_ms": 304.1, "probabilities": {"answer": {"a": 0.9703, "b": 0.0089, "c": 0.0049, "d": 0.0159}}, "ok": true}
+{"id": "sciq/test/588", "latency_ms": 168.62, "model_latency_ms": 168.2, "probabilities": {"answer": {"a": 0.0103, "b": 0.0208, "c": 0.6594, "d": 0.3095}}, "ok": true}
+{"id": "sciq/test/183", "latency_ms": 498.69, "model_latency_ms": 497.9, "probabilities": {"answer": {"a": 0.9823, "b": 0.0056, "c": 0.0021, "d": 0.01}}, "ok": true}
+{"id": "sciq/test/190", "latency_ms": 876.71, "model_latency_ms": 875.7, "probabilities": {"answer": {"a": 0.9558, "b": 0.0029, "c": 0.0036, "d": 0.0377}}, "ok": true}
+{"id": "sciq/test/654", "latency_ms": 231.9, "model_latency_ms": 231.3, "probabilities": {"answer": {"a": 0.8524, "b": 0.0479, "c": 0.0206, "d": 0.0791}}, "ok": true}
+{"id": "sciq/test/737", "latency_ms": 226.81, "model_latency_ms": 226.2, "probabilities": {"answer": {"a": 0.0029, "b": 0.7147, "c": 0.2698, "d": 0.0125}}, "ok": true}
+{"id": "sciq/test/877", "latency_ms": 433.52, "model_latency_ms": 432.9, "probabilities": {"answer": {"a": 0.7181, "b": 0.0536, "c": 0.0521, "d": 0.1762}}, "ok": true}
+{"id": "sciq/test/510", "latency_ms": 304.88, "model_latency_ms": 304.3, "probabilities": {"answer": {"a": 0.0021, "b": 0.9713, "c": 0.0174, "d": 0.0092}}, "ok": true}
+{"id": "sciq/test/499", "latency_ms": 428.73, "model_latency_ms": 428.0, "probabilities": {"answer": {"a": 0.0008, "b": 0.0021, "c": 0.9902, "d": 0.0068}}, "ok": true}
+{"id": "sciq/test/846", "latency_ms": 295.95, "model_latency_ms": 295.3, "probabilities": {"answer": {"a": 0.0013, "b": 0.0011, "c": 0.9265, "d": 0.071}}, "ok": true}
+{"id": "sciq/test/630", "latency_ms": 439.07, "model_latency_ms": 438.4, "probabilities": {"answer": {"a": 0.9786, "b": 0.0024, "c": 0.0036, "d": 0.0154}}, "ok": true}
+{"id": "sciq/test/255", "latency_ms": 232.29, "model_latency_ms": 231.8, "probabilities": {"answer": {"a": 0.0024, "b": 0.0004, "c": 0.993, "d": 0.0042}}, "ok": true}
+{"id": "sciq/test/708", "latency_ms": 363.75, "model_latency_ms": 363.2, "probabilities": {"answer": {"a": 0.0014, "b": 0.927, "c": 0.0646, "d": 0.007}}, "ok": true}
+{"id": "sciq/test/207", "latency_ms": 229.52, "model_latency_ms": 229.0, "probabilities": {"answer": {"a": 0.9915, "b": 0.0009, "c": 0.0062, "d": 0.0014}}, "ok": true}
+{"id": "mmlu/test/13292/none_present", "latency_ms": 306.19, "model_latency_ms": 305.5, "probabilities": {"answer": {"c": 0.2986, "a": 0.1399, "none_of_these": 0.3151, "d": 0.1206, "b": 0.1258}}, "ok": true}
+{"id": "mmlu/test/13292/none_absent", "latency_ms": 216.83, "model_latency_ms": 216.2, "probabilities": {"answer": {"a": 0.2601, "d": 0.1894, "none_of_these": 0.3606, "b": 0.1898}}, "ok": true}
+{"id": "mmlu/test/13292/permuted", "latency_ms": 147.51, "model_latency_ms": 147.0, "probabilities": {"answer": {"a": 0.2624, "c": 0.2924, "d": 0.2291, "b": 0.2161}}, "ok": true}
+{"id": "mmlu/test/588/none_present", "latency_ms": 238.12, "model_latency_ms": 237.6, "probabilities": {"answer": {"a": 0.001, "c": 0.9413, "d": 0.0067, "none_of_these": 0.0457, "b": 0.0053}}, "ok": true}
+{"id": "mmlu/test/588/none_absent", "latency_ms": 153.71, "model_latency_ms": 153.3, "probabilities": {"answer": {"d": 0.0247, "none_of_these": 0.9442, "a": 0.0034, "b": 0.0277}}, "ok": true}
+{"id": "mmlu/test/588/permuted", "latency_ms": 152.08, "model_latency_ms": 151.7, "probabilities": {"answer": {"c": 0.9814, "d": 0.0091, "a": 0.003, "b": 0.0065}}, "ok": true}
+{"id": "mmlu/test/4589/none_present", "latency_ms": 307.22, "model_latency_ms": 306.7, "probabilities": {"answer": {"a": 0.764, "none_of_these": 0.2032, "b": 0.0107, "c": 0.0099, "d": 0.0122}}, "ok": true}
+{"id": "mmlu/test/4589/none_absent", "latency_ms": 220.98, "model_latency_ms": 220.5, "probabilities": {"answer": {"b": 0.0826, "c": 0.0501, "d": 0.0522, "none_of_these": 0.8151}}, "ok": true}
+{"id": "mmlu/test/4589/permuted", "latency_ms": 221.85, "model_latency_ms": 221.4, "probabilities": {"answer": {"a": 0.9454, "b": 0.0177, "c": 0.0161, "d": 0.0207}}, "ok": true}
+{"id": "mmlu/test/6099/none_present", "latency_ms": 300.41, "model_latency_ms": 299.8, "probabilities": {"answer": {"a": 0.3775, "b": 0.0567, "d": 0.0286, "c": 0.0152, "none_of_these": 0.522}}, "ok": true}
+{"id": "mmlu/test/6099/none_absent", "latency_ms": 154.79, "model_latency_ms": 154.3, "probabilities": {"answer": {"b": 0.1577, "c": 0.0428, "none_of_these": 0.7803, "d": 0.0193}}, "ok": true}
+{"id": "mmlu/test/6099/permuted", "latency_ms": 155.64, "model_latency_ms": 155.1, "probabilities": {"answer": {"a": 0.7897, "b": 0.1191, "d": 0.0595, "c": 0.0317}}, "ok": true}
+{"id": "mmlu/test/6139/none_present", "latency_ms": 297.27, "model_latency_ms": 296.8, "probabilities": {"answer": {"c": 0.8921, "a": 0.0064, "b": 0.0071, "d": 0.0023, "none_of_these": 0.0921}}, "ok": true}
+{"id": "mmlu/test/6139/none_absent", "latency_ms": 153.97, "model_latency_ms": 153.5, "probabilities": {"answer": {"d": 0.0181, "a": 0.0339, "b": 0.0286, "none_of_these": 0.9195}}, "ok": true}
+{"id": "mmlu/test/6139/permuted", "latency_ms": 154.73, "model_latency_ms": 154.3, "probabilities": {"answer": {"c": 0.9828, "a": 0.0071, "b": 0.0076, "d": 0.0025}}, "ok": true}
+{"id": "mmlu/test/13810/none_present", "latency_ms": 301.31, "model_latency_ms": 300.8, "probabilities": {"answer": {"c": 0.004, "d": 0.0132, "b": 0.0658, "none_of_these": 0.171, "a": 0.7461}}, "ok": true}
+{"id": "mmlu/test/13810/none_absent", "latency_ms": 156.16, "model_latency_ms": 155.7, "probabilities": {"answer": {"d": 0.0239, "c": 0.0068, "none_of_these": 0.21, "a": 0.7593}}, "ok": true}
+{"id": "mmlu/test/13810/permuted", "latency_ms": 156.02, "model_latency_ms": 155.5, "probabilities": {"answer": {"c": 0.0052, "b": 0.1395, "d": 0.0145, "a": 0.8408}}, "ok": true}
+{"id": "mmlu/test/12434/none_present", "latency_ms": 628.03, "model_latency_ms": 627.2, "probabilities": {"answer": {"a": 0.0092, "d": 0.4392, "none_of_these": 0.4683, "b": 0.0716, "c": 0.0117}}, "ok": true}
+{"id": "mmlu/test/12434/none_absent", "latency_ms": 153.76, "model_latency_ms": 153.0, "probabilities": {"answer": {"none_of_these": 0.8742, "b": 0.0931, "a": 0.0202, "c": 0.0125}}, "ok": true}
+{"id": "mmlu/test/12434/permuted", "latency_ms": 152.53, "model_latency_ms": 151.8, "probabilities": {"answer": {"d": 0.8008, "b": 0.148, "a": 0.0273, "c": 0.0239}}, "ok": true}
+{"id": "mmlu/test/123/none_present", "latency_ms": 302.51, "model_latency_ms": 301.9, "probabilities": {"answer": {"a": 0.0577, "c": 0.1808, "d": 0.0182, "none_of_these": 0.7187, "b": 0.0245}}, "ok": true}
+{"id": "mmlu/test/123/none_absent", "latency_ms": 218.03, "model_latency_ms": 217.5, "probabilities": {"answer": {"d": 0.0231, "none_of_these": 0.7824, "a": 0.0933, "c": 0.1013}}, "ok": true}
+{"id": "mmlu/test/123/permuted", "latency_ms": 217.45, "model_latency_ms": 217.0, "probabilities": {"answer": {"c": 0.5705, "d": 0.0739, "a": 0.2784, "b": 0.0772}}, "ok": true}
+{"id": "mmlu/test/2785/none_present", "latency_ms": 366.46, "model_latency_ms": 365.9, "probabilities": {"answer": {"a": 0.0927, "d": 0.0065, "none_of_these": 0.0918, "c": 0.0015, "b": 0.8074}}, "ok": true}
+{"id": "mmlu/test/2785/none_absent", "latency_ms": 156.32, "model_latency_ms": 155.8, "probabilities": {"answer": {"a": 0.4761, "d": 0.0297, "none_of_these": 0.4877, "c": 0.0065}}, "ok": true}
+{"id": "mmlu/test/2785/permuted", "latency_ms": 156.89, "model_latency_ms": 156.3, "probabilities": {"answer": {"a": 0.1046, "c": 0.0024, "d": 0.0064, "b": 0.8866}}, "ok": true}
+{"id": "mmlu/test/5717/none_present", "latency_ms": 820.89, "model_latency_ms": 819.9, "probabilities": {"answer": {"d": 0.0029, "none_of_these": 0.1333, "b": 0.0022, "c": 0.8577, "a": 0.0039}}, "ok": true}
+{"id": "mmlu/test/5717/none_absent", "latency_ms": 158.42, "model_latency_ms": 157.6, "probabilities": {"answer": {"none_of_these": 0.9645, "d": 0.012, "b": 0.0121, "a": 0.0114}}, "ok": true}
+{"id": "mmlu/test/5717/permuted", "latency_ms": 157.67, "model_latency_ms": 156.9, "probabilities": {"answer": {"d": 0.0051, "c": 0.9846, "b": 0.004, "a": 0.0063}}, "ok": true}
+{"id": "mmlu/test/8037/none_present", "latency_ms": 237.26, "model_latency_ms": 236.7, "probabilities": {"answer": {"a": 0.017, "c": 0.1275, "none_of_these": 0.6259, "b": 0.1768, "d": 0.0528}}, "ok": true}
+{"id": "mmlu/test/8037/none_absent", "latency_ms": 152.05, "model_latency_ms": 151.5, "probabilities": {"answer": {"c": 0.1056, "b": 0.1125, "a": 0.0451, "none_of_these": 0.7368}}, "ok": true}
+{"id": "mmlu/test/8037/permuted", "latency_ms": 148.38, "model_latency_ms": 148.0, "probabilities": {"answer": {"c": 0.3301, "b": 0.3522, "a": 0.1392, "d": 0.1784}}, "ok": true}
+{"id": "mmlu/test/1047/none_present", "latency_ms": 365.39, "model_latency_ms": 364.8, "probabilities": {"answer": {"a": 0.039, "none_of_these": 0.29, "d": 0.2705, "b": 0.1838, "c": 0.2166}}, "ok": true}
+{"id": "mmlu/test/1047/none_absent", "latency_ms": 152.14, "model_latency_ms": 151.5, "probabilities": {"answer": {"none_of_these": 0.3083, "c": 0.3287, "a": 0.0599, "d": 0.3032}}, "ok": true}
+{"id": "mmlu/test/1047/permuted", "latency_ms": 148.73, "model_latency_ms": 148.2, "probabilities": {"answer": {"d": 0.3795, "b": 0.2581, "a": 0.0658, "c": 0.2965}}, "ok": true}
+{"id": "emotion/test/1012/none_present", "latency_ms": 232.06, "model_latency_ms": 231.6, "probabilities": {"emotion": {"none_of_these": 0.4825, "joy": 0.1001, "surprise": 0.0659, "anger": 0.0097, "fear": 0.0153, "love": 0.2958, "sadness": 0.0307}}, "ok": true}
+{"id": "emotion/test/1012/none_absent", "latency_ms": 151.56, "model_latency_ms": 151.1, "probabilities": {"emotion": {"none_of_these": 0.5766, "love": 0.2733, "surprise": 0.084, "fear": 0.0216, "anger": 0.0101, "sadness": 0.0344}}, "ok": true}
+{"id": "emotion/test/1012/permuted", "latency_ms": 87.23, "model_latency_ms": 86.8, "probabilities": {"emotion": {"surprise": 0.1455, "joy": 0.225, "fear": 0.0411, "anger": 0.0243, "love": 0.4947, "sadness": 0.0694}}, "ok": true}
+{"id": "emotion/test/876/none_present", "latency_ms": 226.94, "model_latency_ms": 226.5, "probabilities": {"emotion": {"sadness": 0.0466, "surprise": 0.0447, "joy": 0.0022, "love": 0.0022, "anger": 0.1085, "fear": 0.0151, "none_of_these": 0.7807}}, "ok": true}
+{"id": "emotion/test/876/none_absent", "latency_ms": 149.15, "model_latency_ms": 148.7, "probabilities": {"emotion": {"joy": 0.0023, "none_of_these": 0.8452, "love": 0.0018, "anger": 0.106, "fear": 0.014, "surprise": 0.0307}}, "ok": true}
+{"id": "emotion/test/876/permuted", "latency_ms": 88.26, "model_latency_ms": 87.9, "probabilities": {"emotion": {"sadness": 0.2171, "surprise": 0.203, "joy": 0.0089, "love": 0.0094, "anger": 0.4953, "fear": 0.0663}}, "ok": true}
+{"id": "emotion/test/230/none_present", "latency_ms": 223.72, "model_latency_ms": 223.3, "probabilities": {"emotion": {"joy": 0.0003, "none_of_these": 0.4186, "sadness": 0.4944, "anger": 0.033, "love": 0.0005, "surprise": 0.0048, "fear": 0.0483}}, "ok": true}
+{"id": "emotion/test/230/none_absent", "latency_ms": 149.0, "model_latency_ms": 148.6, "probabilities": {"emotion": {"love": 0.001, "none_of_these": 0.8561, "joy": 0.0009, "fear": 0.0839, "anger": 0.0474, "surprise": 0.0108}}, "ok": true}
+{"id": "emotion/test/230/permuted", "latency_ms": 86.85, "model_latency_ms": 86.5, "probabilities": {"emotion": {"joy": 0.0005, "surprise": 0.0139, "sadness": 0.8564, "anger": 0.0596, "love": 0.0009, "fear": 0.0688}}, "ok": true}
+{"id": "emotion/test/20/none_present", "latency_ms": 298.67, "model_latency_ms": 298.2, "probabilities": {"emotion": {"anger": 0.0022, "surprise": 0.0054, "sadness": 0.1705, "fear": 0.0077, "joy": 0.0527, "love": 0.4094, "none_of_these": 0.3521}}, "ok": true}
+{"id": "emotion/test/20/none_absent", "latency_ms": 149.3, "model_latency_ms": 148.8, "probabilities": {"emotion": {"fear": 0.0065, "none_of_these": 0.529, "joy": 0.0563, "surprise": 0.0072, "love": 0.3966, "anger": 0.0044}}, "ok": true}
+{"id": "emotion/test/20/permuted", "latency_ms": 86.67, "model_latency_ms": 86.2, "probabilities": {"emotion": {"anger": 0.0035, "surprise": 0.0086, "sadness": 0.2581, "fear": 0.0115, "joy": 0.0822, "love": 0.6362}}, "ok": true}
+{"id": "emotion/test/1635/none_present", "latency_ms": 230.06, "model_latency_ms": 229.6, "probabilities": {"emotion": {"none_of_these": 0.3543, "joy": 0.6211, "love": 0.0205, "fear": 0.0004, "sadness": 0.0005, "anger": 0.0005, "surprise": 0.0027}}, "ok": true}
+{"id": "emotion/test/1635/none_absent", "latency_ms": 150.76, "model_latency_ms": 150.3, "probabilities": {"emotion": {"love": 0.0465, "surprise": 0.0053, "anger": 0.001, "sadness": 0.0033, "fear": 0.0022, "none_of_these": 0.9417}}, "ok": true}
+{"id": "emotion/test/1635/permuted", "latency_ms": 86.83, "model_latency_ms": 86.4, "probabilities": {"emotion": {"joy": 0.9741, "fear": 0.0011, "love": 0.0178, "sadness": 0.0011, "anger": 0.001, "surprise": 0.0049}}, "ok": true}
+{"id": "emotion/test/1435/none_present", "latency_ms": 233.83, "model_latency_ms": 233.3, "probabilities": {"emotion": {"none_of_these": 0.407, "love": 0.02, "surprise": 0.0153, "joy": 0.3325, "sadness": 0.0874, "fear": 0.011, "anger": 0.1266}}, "ok": true}
+{"id": "emotion/test/1435/none_absent", "latency_ms": 149.76, "model_latency_ms": 149.2, "probabilities": {"emotion": {"love": 0.0249, "none_of_these": 0.4402, "anger": 0.3783, "joy": 0.1272, "surprise": 0.0182, "fear": 0.0111}}, "ok": true}
+{"id": "emotion/test/1435/permuted", "latency_ms": 87.07, "model_latency_ms": 86.6, "probabilities": {"emotion": {"joy": 0.3222, "surprise": 0.0568, "love": 0.0597, "sadness": 0.2143, "fear": 0.0336, "anger": 0.3135}}, "ok": true}
+{"id": "emotion/test/639/none_present", "latency_ms": 225.03, "model_latency_ms": 224.6, "probabilities": {"emotion": {"none_of_these": 0.327, "sadness": 0.0026, "love": 0.3842, "joy": 0.2452, "surprise": 0.0347, "fear": 0.0039, "anger": 0.0024}}, "ok": true}
+{"id": "emotion/test/639/none_absent", "latency_ms": 150.7, "model_latency_ms": 150.3, "probabilities": {"emotion": {"none_of_these": 0.4366, "sadness": 0.0035, "anger": 0.003, "love": 0.505, "surprise": 0.0466, "fear": 0.0053}}, "ok": true}
+{"id": "emotion/test/639/permuted", "latency_ms": 87.77, "model_latency_ms": 87.4, "probabilities": {"emotion": {"surprise": 0.06, "sadness": 0.0075, "love": 0.4891, "joy": 0.43, "fear": 0.0085, "anger": 0.005}}, "ok": true}
+{"id": "emotion/test/281/none_present", "latency_ms": 224.88, "model_latency_ms": 224.4, "probabilities": {"emotion": {"none_of_these": 0.5044, "surprise": 0.0041, "fear": 0.0082, "anger": 0.032, "love": 0.0002, "joy": 0.0002, "sadness": 0.4509}}, "ok": true}
+{"id": "emotion/test/281/none_absent", "latency_ms": 149.1, "model_latency_ms": 148.7, "probabilities": {"emotion": {"none_of_these": 0.9281, "fear": 0.0138, "surprise": 0.0061, "anger": 0.0515, "love": 0.0003, "joy": 0.0003}}, "ok": true}
+{"id": "emotion/test/281/permuted", "latency_ms": 86.67, "model_latency_ms": 86.3, "probabilities": {"emotion": {"surprise": 0.0151, "anger": 0.0677, "fear": 0.024, "love": 0.0005, "joy": 0.0005, "sadness": 0.8922}}, "ok": true}
+{"id": "emotion/test/790/none_present", "latency_ms": 234.15, "model_latency_ms": 233.6, "probabilities": {"emotion": {"love": 0.1953, "anger": 0.003, "joy": 0.3685, "none_of_these": 0.3757, "surprise": 0.0211, "fear": 0.0034, "sadness": 0.0329}}, "ok": true}
+{"id": "emotion/test/790/none_absent", "latency_ms": 150.48, "model_latency_ms": 150.0, "probabilities": {"emotion": {"anger": 0.0024, "fear": 0.007, "love": 0.2326, "none_of_these": 0.6588, "surprise": 0.0422, "sadness": 0.057}}, "ok": true}
+{"id": "emotion/test/790/permuted", "latency_ms": 86.61, "model_latency_ms": 86.2, "probabilities": {"emotion": {"love": 0.3058, "anger": 0.0047, "joy": 0.5789, "surprise": 0.0473, "fear": 0.0069, "sadness": 0.0564}}, "ok": true}
+{"id": "emotion/test/1948/none_present", "latency_ms": 235.26, "model_latency_ms": 234.8, "probabilities": {"emotion": {"fear": 0.0379, "anger": 0.0614, "surprise": 0.0998, "love": 0.0023, "joy": 0.0012, "none_of_these": 0.5658, "sadness": 0.2315}}, "ok": true}
+{"id": "emotion/test/1948/none_absent", "latency_ms": 150.08, "model_latency_ms": 149.7, "probabilities": {"emotion": {"surprise": 0.1658, "fear": 0.0651, "anger": 0.076, "love": 0.0026, "none_of_these": 0.6892, "joy": 0.0013}}, "ok": true}
+{"id": "emotion/test/1948/permuted", "latency_ms": 86.74, "model_latency_ms": 86.3, "probabilities": {"emotion": {"fear": 0.1013, "anger": 0.1676, "love": 0.0061, "joy": 0.004, "surprise": 0.1748, "sadness": 0.5461}}, "ok": true}
+{"id": "emotion/test/616/none_present", "latency_ms": 229.88, "model_latency_ms": 229.5, "probabilities": {"emotion": {"anger": 0.0613, "sadness": 0.3112, "surprise": 0.0192, "none_of_these": 0.5812, "joy": 0.0008, "fear": 0.0249, "love": 0.0015}}, "ok": true}
+{"id": "emotion/test/616/none_absent", "latency_ms": 149.03, "model_latency_ms": 148.6, "probabilities": {"emotion": {"joy": 0.0015, "none_of_these": 0.8154, "fear": 0.058, "love": 0.0021, "surprise": 0.0172, "anger": 0.1058}}, "ok": true}
+{"id": "emotion/test/616/permuted", "latency_ms": 87.24, "model_latency_ms": 86.9, "probabilities": {"emotion": {"sadness": 0.7351, "surprise": 0.047, "anger": 0.1507, "joy": 0.0032, "fear": 0.0597, "love": 0.0043}}, "ok": true}
+{"id": "emotion/test/1171/none_present", "latency_ms": 232.06, "model_latency_ms": 231.5, "probabilities": {"emotion": {"anger": 0.0017, "love": 0.0221, "sadness": 0.0052, "none_of_these": 0.6611, "fear": 0.004, "surprise": 0.0202, "joy": 0.2856}}, "ok": true}
+{"id": "emotion/test/1171/none_absent", "latency_ms": 152.28, "model_latency_ms": 151.8, "probabilities": {"emotion": {"fear": 0.0023, "anger": 0.0029, "sadness": 0.0083, "none_of_these": 0.9152, "surprise": 0.0313, "love": 0.04}}, "ok": true}
+{"id": "emotion/test/1171/permuted", "latency_ms": 86.64, "model_latency_ms": 86.2, "probabilities": {"emotion": {"anger": 0.0043, "love": 0.0587, "sadness": 0.0141, "surprise": 0.0692, "fear": 0.0084, "joy": 0.8454}}, "ok": true}
+{"id": "sciq/test/936/none_present", "latency_ms": 441.04, "model_latency_ms": 440.4, "probabilities": {"answer": {"c": 0.0028, "none_of_these": 0.0744, "d": 0.0017, "a": 0.0008, "b": 0.9203}}, "ok": true}
+{"id": "sciq/test/936/none_absent", "latency_ms": 151.55, "model_latency_ms": 150.9, "probabilities": {"answer": {"none_of_these": 0.916, "d": 0.0337, "a": 0.0094, "c": 0.0409}}, "ok": true}
+{"id": "sciq/test/936/permuted", "latency_ms": 148.93, "model_latency_ms": 148.4, "probabilities": {"answer": {"d": 0.0031, "c": 0.0041, "a": 0.0013, "b": 0.9915}}, "ok": true}
+{"id": "sciq/test/925/none_present", "latency_ms": 235.41, "model_latency_ms": 234.9, "probabilities": {"answer": {"none_of_these": 0.3357, "b": 0.075, "a": 0.0721, "c": 0.0435, "d": 0.4738}}, "ok": true}
+{"id": "sciq/test/925/none_absent", "latency_ms": 152.43, "model_latency_ms": 151.9, "probabilities": {"answer": {"c": 0.1004, "a": 0.1103, "b": 0.1604, "none_of_these": 0.6289}}, "ok": true}
+{"id": "sciq/test/925/permuted", "latency_ms": 149.64, "model_latency_ms": 149.1, "probabilities": {"answer": {"c": 0.0711, "a": 0.0772, "b": 0.1124, "d": 0.7393}}, "ok": true}
+{"id": "sciq/test/269/none_present", "latency_ms": 365.75, "model_latency_ms": 365.1, "probabilities": {"answer": {"c": 0.0004, "b": 0.0019, "d": 0.0004, "none_of_these": 0.0353, "a": 0.962}}, "ok": true}
+{"id": "sciq/test/269/none_absent", "latency_ms": 151.21, "model_latency_ms": 150.7, "probabilities": {"answer": {"c": 0.0056, "d": 0.0055, "none_of_these": 0.9084, "b": 0.0805}}, "ok": true}
+{"id": "sciq/test/269/permuted", "latency_ms": 148.27, "model_latency_ms": 147.8, "probabilities": {"answer": {"b": 0.0038, "c": 0.0003, "d": 0.0005, "a": 0.9954}}, "ok": true}
+{"id": "sciq/test/258/none_present", "latency_ms": 363.58, "model_latency_ms": 363.0, "probabilities": {"answer": {"a": 0.0014, "c": 0.0245, "b": 0.0024, "none_of_these": 0.086, "d": 0.8857}}, "ok": true}
+{"id": "sciq/test/258/none_absent", "latency_ms": 149.75, "model_latency_ms": 149.2, "probabilities": {"answer": {"a": 0.01, "b": 0.0195, "c": 0.1604, "none_of_these": 0.81}}, "ok": true}
+{"id": "sciq/test/258/permuted", "latency_ms": 87.27, "model_latency_ms": 86.8, "probabilities": {"answer": {"a": 0.0018, "b": 0.0034, "c": 0.0257, "d": 0.9691}}, "ok": true}
+{"id": "sciq/test/46/none_present", "latency_ms": 369.42, "model_latency_ms": 368.9, "probabilities": {"answer": {"d": 0.0015, "none_of_these": 0.0674, "b": 0.8902, "c": 0.0387, "a": 0.0021}}, "ok": true}
+{"id": "sciq/test/46/none_absent", "latency_ms": 151.49, "model_latency_ms": 151.0, "probabilities": {"answer": {"none_of_these": 0.5596, "d": 0.0113, "c": 0.4207, "a": 0.0085}}, "ok": true}
+{"id": "sciq/test/46/permuted", "latency_ms": 148.78, "model_latency_ms": 148.3, "probabilities": {"answer": {"d": 0.0013, "c": 0.0407, "b": 0.9548, "a": 0.0031}}, "ok": true}
+{"id": "sciq/test/670/none_present", "latency_ms": 298.88, "model_latency_ms": 298.4, "probabilities": {"answer": {"d": 0.0073, "a": 0.8652, "b": 0.0104, "c": 0.0063, "none_of_these": 0.1109}}, "ok": true}
+{"id": "sciq/test/670/none_absent", "latency_ms": 149.55, "model_latency_ms": 149.1, "probabilities": {"answer": {"none_of_these": 0.9167, "b": 0.0306, "c": 0.0173, "d": 0.0353}}, "ok": true}
+{"id": "sciq/test/670/permuted", "latency_ms": 87.48, "model_latency_ms": 87.1, "probabilities": {"answer": {"d": 0.0082, "a": 0.9726, "b": 0.012, "c": 0.0073}}, "ok": true}
+{"id": "sciq/test/731/none_present", "latency_ms": 498.47, "model_latency_ms": 497.8, "probabilities": {"answer": {"none_of_these": 0.0743, "b": 0.9179, "d": 0.0017, "c": 0.0029, "a": 0.0033}}, "ok": true}
+{"id": "sciq/test/731/none_absent", "latency_ms": 150.04, "model_latency_ms": 149.4, "probabilities": {"answer": {"none_of_these": 0.9794, "c": 0.0061, "d": 0.006, "a": 0.0085}}, "ok": true}
+{"id": "sciq/test/731/permuted", "latency_ms": 87.45, "model_latency_ms": 86.9, "probabilities": {"answer": {"d": 0.001, "b": 0.9887, "c": 0.0046, "a": 0.0057}}, "ok": true}
+{"id": "sciq/test/955/none_present", "latency_ms": 301.8, "model_latency_ms": 301.3, "probabilities": {"answer": {"c": 0.0005, "none_of_these": 0.0854, "d": 0.0009, "a": 0.0002, "b": 0.9131}}, "ok": true}
+{"id": "sciq/test/955/none_absent", "latency_ms": 149.29, "model_latency_ms": 148.8, "probabilities": {"answer": {"none_of_these": 0.994, "d": 0.004, "a": 0.0011, "c": 0.0009}}, "ok": true}
+{"id": "sciq/test/955/permuted", "latency_ms": 87.19, "model_latency_ms": 86.8, "probabilities": {"answer": {"d": 0.0013, "c": 0.0003, "a": 0.0003, "b": 0.9981}}, "ok": true}
+{"id": "sciq/test/490/none_present", "latency_ms": 494.0, "model_latency_ms": 493.4, "probabilities": {"answer": {"b": 0.0442, "none_of_these": 0.0726, "a": 0.8687, "c": 0.0071, "d": 0.0074}}, "ok": true}
+{"id": "sciq/test/490/none_absent", "latency_ms": 151.22, "model_latency_ms": 150.6, "probabilities": {"answer": {"d": 0.0653, "b": 0.1431, "c": 0.0536, "none_of_these": 0.738}}, "ok": true}
+{"id": "sciq/test/490/permuted", "latency_ms": 149.51, "model_latency_ms": 149.0, "probabilities": {"answer": {"c": 0.006, "a": 0.9725, "b": 0.0134, "d": 0.0081}}, "ok": true}
+{"id": "sciq/test/633/none_present", "latency_ms": 439.37, "model_latency_ms": 438.8, "probabilities": {"answer": {"c": 0.0167, "b": 0.0044, "d": 0.917, "a": 0.0066, "none_of_these": 0.0553}}, "ok": true}
+{"id": "sciq/test/633/none_absent", "latency_ms": 151.11, "model_latency_ms": 150.6, "probabilities": {"answer": {"c": 0.1653, "b": 0.0397, "none_of_these": 0.7729, "a": 0.0221}}, "ok": true}
+{"id": "sciq/test/633/permuted", "latency_ms": 86.96, "model_latency_ms": 86.5, "probabilities": {"answer": {"c": 0.0177, "b": 0.0047, "d": 0.9707, "a": 0.0069}}, "ok": true}
+{"id": "sciq/test/889/none_present", "latency_ms": 301.27, "model_latency_ms": 300.8, "probabilities": {"answer": {"none_of_these": 0.0631, "b": 0.004, "d": 0.9151, "c": 0.0009, "a": 0.0169}}, "ok": true}
+{"id": "sciq/test/889/none_absent", "latency_ms": 151.45, "model_latency_ms": 151.0, "probabilities": {"answer": {"none_of_these": 0.6357, "b": 0.0383, "c": 0.003, "a": 0.323}}, "ok": true}
+{"id": "sciq/test/889/permuted", "latency_ms": 149.98, "model_latency_ms": 149.6, "probabilities": {"answer": {"d": 0.9575, "b": 0.009, "c": 0.0014, "a": 0.0322}}, "ok": true}
+{"id": "sciq/test/291/none_present", "latency_ms": 882.96, "model_latency_ms": 882.1, "probabilities": {"answer": {"b": 0.0026, "none_of_these": 0.1123, "d": 0.0004, "a": 0.0076, "c": 0.8771}}, "ok": true}
+{"id": "sciq/test/291/none_absent", "latency_ms": 152.33, "model_latency_ms": 151.5, "probabilities": {"answer": {"b": 0.015, "none_of_these": 0.9257, "a": 0.0579, "d": 0.0014}}, "ok": true}
+{"id": "sciq/test/291/permuted", "latency_ms": 150.47, "model_latency_ms": 149.7, "probabilities": {"answer": {"b": 0.0031, "d": 0.0005, "a": 0.0104, "c": 0.986}}, "ok": true}
+{"id": "contrastive/authorization/v3-legacy-transfer-authorization-0000/a", "latency_ms": 294.13, "model_latency_ms": 293.6, "probabilities": {"decision": {"true": 0.9935, "false": 0.00649999999999995}}, "ok": true}
+{"id": "contrastive/authorization/v3-legacy-transfer-authorization-0000/b", "latency_ms": 293.82, "model_latency_ms": 293.4, "probabilities": {"decision": {"true": 0.0056, "false": 0.9944}}, "ok": true}
+{"id": "contrastive/authorization/v3-legacy-transfer-authorization-0001/a", "latency_ms": 293.66, "model_latency_ms": 293.2, "probabilities": {"decision": {"true": 0.9895, "false": 0.010499999999999954}}, "ok": true}
+{"id": "contrastive/authorization/v3-legacy-transfer-authorization-0001/b", "latency_ms": 224.7, "model_latency_ms": 224.3, "probabilities": {"decision": {"true": 0.0082, "false": 0.9918}}, "ok": true}
+{"id": "contrastive/authorization/v3-legacy-transfer-authorization-0002/a", "latency_ms": 293.69, "model_latency_ms": 293.3, "probabilities": {"decision": {"true": 0.9928, "false": 0.007199999999999984}}, "ok": true}
+{"id": "contrastive/authorization/v3-legacy-transfer-authorization-0002/b", "latency_ms": 224.71, "model_latency_ms": 224.2, "probabilities": {"decision": {"true": 0.007, "false": 0.993}}, "ok": true}
+{"id": "contrastive/authorization/v3-legacy-transfer-authorization-0003/a", "latency_ms": 235.18, "model_latency_ms": 234.7, "probabilities": {"decision": {"true": 0.9953, "false": 0.0047000000000000375}}, "ok": true}
+{"id": "contrastive/authorization/v3-legacy-transfer-authorization-0003/b", "latency_ms": 233.95, "model_latency_ms": 233.4, "probabilities": {"decision": {"true": 0.0028, "false": 0.9972}}, "ok": true}
+{"id": "contrastive/authorization/v3-legacy-transfer-authorization-0004/a", "latency_ms": 294.06, "model_latency_ms": 293.6, "probabilities": {"decision": {"true": 0.9933, "false": 0.006700000000000039}}, "ok": true}
+{"id": "contrastive/authorization/v3-legacy-transfer-authorization-0004/b", "latency_ms": 293.0, "model_latency_ms": 292.6, "probabilities": {"decision": {"true": 0.0068, "false": 0.9932}}, "ok": true}
+{"id": "contrastive/authorization/v3-legacy-transfer-authorization-0005/a", "latency_ms": 224.24, "model_latency_ms": 223.8, "probabilities": {"decision": {"true": 0.9903, "false": 0.009700000000000042}}, "ok": true}
+{"id": "contrastive/authorization/v3-legacy-transfer-authorization-0005/b", "latency_ms": 226.8, "model_latency_ms": 226.3, "probabilities": {"decision": {"true": 0.0066, "false": 0.9934}}, "ok": true}
+{"id": "contrastive/authorization/v3-legacy-transfer-authorization-0006/a", "latency_ms": 294.75, "model_latency_ms": 294.3, "probabilities": {"decision": {"true": 0.9942, "false": 0.005800000000000027}}, "ok": true}
+{"id": "contrastive/authorization/v3-legacy-transfer-authorization-0006/b", "latency_ms": 292.8, "model_latency_ms": 292.4, "probabilities": {"decision": {"true": 0.0042, "false": 0.9958}}, "ok": true}
+{"id": "contrastive/authorization/v3-legacy-transfer-authorization-0007/a", "latency_ms": 234.65, "model_latency_ms": 234.2, "probabilities": {"decision": {"true": 0.9949, "false": 0.005099999999999993}}, "ok": true}
+{"id": "contrastive/authorization/v3-legacy-transfer-authorization-0007/b", "latency_ms": 224.42, "model_latency_ms": 224.0, "probabilities": {"decision": {"true": 0.0046, "false": 0.9954}}, "ok": true}
+{"id": "contrastive/authorization/v3-legacy-transfer-authorization-0008/a", "latency_ms": 234.83, "model_latency_ms": 234.4, "probabilities": {"decision": {"true": 0.9944, "false": 0.005600000000000049}}, "ok": true}
+{"id": "contrastive/authorization/v3-legacy-transfer-authorization-0008/b", "latency_ms": 224.2, "model_latency_ms": 223.8, "probabilities": {"decision": {"true": 0.0064, "false": 0.9936}}, "ok": true}
+{"id": "contrastive/authorization/v3-legacy-transfer-authorization-0009/a", "latency_ms": 233.69, "model_latency_ms": 233.3, "probabilities": {"decision": {"true": 0.9953, "false": 0.0047000000000000375}}, "ok": true}
+{"id": "contrastive/authorization/v3-legacy-transfer-authorization-0009/b", "latency_ms": 235.09, "model_latency_ms": 234.7, "probabilities": {"decision": {"true": 0.0035, "false": 0.9965}}, "ok": true}
+{"id": "contrastive/authorization/v3-legacy-transfer-authorization-0010/a", "latency_ms": 233.45, "model_latency_ms": 233.1, "probabilities": {"decision": {"true": 0.9949, "false": 0.005099999999999993}}, "ok": true}
+{"id": "contrastive/authorization/v3-legacy-transfer-authorization-0010/b", "latency_ms": 234.68, "model_latency_ms": 234.3, "probabilities": {"decision": {"true": 0.0045, "false": 0.9955}}, "ok": true}
+{"id": "contrastive/authorization/v3-legacy-transfer-authorization-0011/a", "latency_ms": 233.62, "model_latency_ms": 233.2, "probabilities": {"decision": {"true": 0.9957, "false": 0.0042999999999999705}}, "ok": true}
+{"id": "contrastive/authorization/v3-legacy-transfer-authorization-0011/b", "latency_ms": 223.78, "model_latency_ms": 223.4, "probabilities": {"decision": {"true": 0.0034, "false": 0.9966}}, "ok": true}
+{"id": "contrastive/authorization/v3-legacy-transfer-authorization-0012/a", "latency_ms": 225.29, "model_latency_ms": 224.9, "probabilities": {"decision": {"true": 0.9928, "false": 0.007199999999999984}}, "ok": true}
+{"id": "contrastive/authorization/v3-legacy-transfer-authorization-0012/b", "latency_ms": 233.9, "model_latency_ms": 233.5, "probabilities": {"decision": {"true": 0.0038, "false": 0.9962}}, "ok": true}
+{"id": "contrastive/authorization/v3-legacy-transfer-authorization-0013/a", "latency_ms": 233.71, "model_latency_ms": 233.4, "probabilities": {"decision": {"true": 0.995, "false": 0.0050000000000000044}}, "ok": true}
+{"id": "contrastive/authorization/v3-legacy-transfer-authorization-0013/b", "latency_ms": 225.16, "model_latency_ms": 224.8, "probabilities": {"decision": {"true": 0.004, "false": 0.996}}, "ok": true}
+{"id": "contrastive/authorization/v3-legacy-transfer-authorization-0014/a", "latency_ms": 224.09, "model_latency_ms": 223.7, "probabilities": {"decision": {"true": 0.9897, "false": 0.010299999999999976}}, "ok": true}
+{"id": "contrastive/authorization/v3-legacy-transfer-authorization-0014/b", "latency_ms": 234.77, "model_latency_ms": 234.4, "probabilities": {"decision": {"true": 0.0075, "false": 0.9925}}, "ok": true}
+{"id": "contrastive/authorization/v3-legacy-transfer-authorization-0015/a", "latency_ms": 233.44, "model_latency_ms": 233.1, "probabilities": {"decision": {"true": 0.9953, "false": 0.0047000000000000375}}, "ok": true}
+{"id": "contrastive/authorization/v3-legacy-transfer-authorization-0015/b", "latency_ms": 233.62, "model_latency_ms": 233.3, "probabilities": {"decision": {"true": 0.004, "false": 0.996}}, "ok": true}
+{"id": "contrastive/authorization/v3-legacy-transfer-authorization-0016/a", "latency_ms": 234.36, "model_latency_ms": 234.0, "probabilities": {"decision": {"true": 0.9942, "false": 0.005800000000000027}}, "ok": true}
+{"id": "contrastive/authorization/v3-legacy-transfer-authorization-0016/b", "latency_ms": 224.04, "model_latency_ms": 223.7, "probabilities": {"decision": {"true": 0.008, "false": 0.992}}, "ok": true}
+{"id": "contrastive/authorization/v3-legacy-transfer-authorization-0017/a", "latency_ms": 224.33, "model_latency_ms": 223.9, "probabilities": {"decision": {"true": 0.9894, "false": 0.010600000000000054}}, "ok": true}
+{"id": "contrastive/authorization/v3-legacy-transfer-authorization-0017/b", "latency_ms": 225.37, "model_latency_ms": 225.0, "probabilities": {"decision": {"true": 0.0084, "false": 0.9916}}, "ok": true}
+{"id": "contrastive/authorization/v3-legacy-transfer-authorization-0018/a", "latency_ms": 292.24, "model_latency_ms": 291.8, "probabilities": {"decision": {"true": 0.9932, "false": 0.006800000000000028}}, "ok": true}
+{"id": "contrastive/authorization/v3-legacy-transfer-authorization-0018/b", "latency_ms": 294.07, "model_latency_ms": 293.7, "probabilities": {"decision": {"true": 0.0061, "false": 0.9939}}, "ok": true}
+{"id": "contrastive/authorization/v3-legacy-transfer-authorization-0019/a", "latency_ms": 234.02, "model_latency_ms": 233.6, "probabilities": {"decision": {"true": 0.9939, "false": 0.006099999999999994}}, "ok": true}
+{"id": "contrastive/authorization/v3-legacy-transfer-authorization-0019/b", "latency_ms": 225.12, "model_latency_ms": 224.8, "probabilities": {"decision": {"true": 0.0068, "false": 0.9932}}, "ok": true}
+{"id": "contrastive/deadline/v3-legacy-transfer-deadline-0000/a", "latency_ms": 300.15, "model_latency_ms": 298.7, "probabilities": {"decision": {"0": 0.9471, "1": 0.0293, "2": 0.0236}}, "ok": true}
+{"id": "contrastive/deadline/v3-legacy-transfer-deadline-0000/b", "latency_ms": 299.75, "model_latency_ms": 299.2, "probabilities": {"decision": {"0": 0.0897, "1": 0.881, "2": 0.0293}}, "ok": true}
+{"id": "contrastive/deadline/v3-legacy-transfer-deadline-0001/a", "latency_ms": 299.71, "model_latency_ms": 299.2, "probabilities": {"decision": {"0": 0.3825, "1": 0.5368, "2": 0.0807}}, "ok": true}
+{"id": "contrastive/deadline/v3-legacy-transfer-deadline-0001/b", "latency_ms": 301.11, "model_latency_ms": 300.6, "probabilities": {"decision": {"0": 0.0359, "1": 0.9529, "2": 0.0112}}, "ok": true}
+{"id": "contrastive/deadline/v3-legacy-transfer-deadline-0002/a", "latency_ms": 299.32, "model_latency_ms": 298.8, "probabilities": {"decision": {"0": 0.8339, "1": 0.0843, "2": 0.0818}}, "ok": true}
+{"id": "contrastive/deadline/v3-legacy-transfer-deadline-0002/b", "latency_ms": 299.95, "model_latency_ms": 299.5, "probabilities": {"decision": {"0": 0.0651, "1": 0.9158, "2": 0.0192}}, "ok": true}
+{"id": "contrastive/deadline/v3-legacy-transfer-deadline-0003/a", "latency_ms": 298.74, "model_latency_ms": 298.2, "probabilities": {"decision": {"0": 0.332, "1": 0.4826, "2": 0.1854}}, "ok": true}
+{"id": "contrastive/deadline/v3-legacy-transfer-deadline-0003/b", "latency_ms": 299.45, "model_latency_ms": 298.9, "probabilities": {"decision": {"0": 0.008, "1": 0.7828, "2": 0.2092}}, "ok": true}
+{"id": "contrastive/deadline/v3-legacy-transfer-deadline-0004/a", "latency_ms": 298.89, "model_latency_ms": 298.4, "probabilities": {"decision": {"0": 0.4064, "1": 0.5553, "2": 0.0384}}, "ok": true}
+{"id": "contrastive/deadline/v3-legacy-transfer-deadline-0004/b", "latency_ms": 299.86, "model_latency_ms": 299.3, "probabilities": {"decision": {"0": 0.0864, "1": 0.8977, "2": 0.0159}}, "ok": true}
+{"id": "contrastive/deadline/v3-legacy-transfer-deadline-0005/a", "latency_ms": 300.19, "model_latency_ms": 299.6, "probabilities": {"decision": {"0": 0.2003, "1": 0.5818, "2": 0.2179}}, "ok": true}
+{"id": "contrastive/deadline/v3-legacy-transfer-deadline-0005/b", "latency_ms": 300.11, "model_latency_ms": 299.6, "probabilities": {"decision": {"0": 0.0104, "1": 0.5063, "2": 0.4833}}, "ok": true}
+{"id": "contrastive/deadline/v3-legacy-transfer-deadline-0006/a", "latency_ms": 299.33, "model_latency_ms": 298.8, "probabilities": {"decision": {"0": 0.9572, "1": 0.0274, "2": 0.0154}}, "ok": true}
+{"id": "contrastive/deadline/v3-legacy-transfer-deadline-0006/b", "latency_ms": 301.24, "model_latency_ms": 300.7, "probabilities": {"decision": {"0": 0.0116, "1": 0.976, "2": 0.0124}}, "ok": true}
+{"id": "contrastive/deadline/v3-legacy-transfer-deadline-0007/a", "latency_ms": 298.0, "model_latency_ms": 297.4, "probabilities": {"decision": {"0": 0.212, "1": 0.7398, "2": 0.0482}}, "ok": true}
+{"id": "contrastive/deadline/v3-legacy-transfer-deadline-0007/b", "latency_ms": 299.89, "model_latency_ms": 299.3, "probabilities": {"decision": {"0": 0.0297, "1": 0.9595, "2": 0.0108}}, "ok": true}
+{"id": "contrastive/deadline/v3-legacy-transfer-deadline-0008/a", "latency_ms": 299.34, "model_latency_ms": 298.8, "probabilities": {"decision": {"0": 0.629, "1": 0.3366, "2": 0.0344}}, "ok": true}
+{"id": "contrastive/deadline/v3-legacy-transfer-deadline-0008/b", "latency_ms": 299.95, "model_latency_ms": 299.4, "probabilities": {"decision": {"0": 0.0204, "1": 0.8289, "2": 0.1507}}, "ok": true}
+{"id": "contrastive/deadline/v3-legacy-transfer-deadline-0009/a", "latency_ms": 298.43, "model_latency_ms": 297.9, "probabilities": {"decision": {"0": 0.9822, "1": 0.0102, "2": 0.0076}}, "ok": true}
+{"id": "contrastive/deadline/v3-legacy-transfer-deadline-0009/b", "latency_ms": 299.67, "model_latency_ms": 299.1, "probabilities": {"decision": {"0": 0.0125, "1": 0.9816, "2": 0.0059}}, "ok": true}
+{"id": "contrastive/deadline/v3-legacy-transfer-deadline-0010/a", "latency_ms": 298.22, "model_latency_ms": 297.7, "probabilities": {"decision": {"0": 0.9928, "1": 0.0043, "2": 0.003}}, "ok": true}
+{"id": "contrastive/deadline/v3-legacy-transfer-deadline-0010/b", "latency_ms": 300.12, "model_latency_ms": 299.6, "probabilities": {"decision": {"0": 0.0019, "1": 0.0097, "2": 0.9884}}, "ok": true}
+{"id": "contrastive/deadline/v3-legacy-transfer-deadline-0011/a", "latency_ms": 300.33, "model_latency_ms": 299.8, "probabilities": {"decision": {"0": 0.9274, "1": 0.0325, "2": 0.0401}}, "ok": true}
+{"id": "contrastive/deadline/v3-legacy-transfer-deadline-0011/b", "latency_ms": 298.69, "model_latency_ms": 298.2, "probabilities": {"decision": {"0": 0.0075, "1": 0.9848, "2": 0.0077}}, "ok": true}
+{"id": "contrastive/deadline/v3-legacy-transfer-deadline-0012/a", "latency_ms": 299.49, "model_latency_ms": 299.0, "probabilities": {"decision": {"0": 0.978, "1": 0.0135, "2": 0.0085}}, "ok": true}
+{"id": "contrastive/deadline/v3-legacy-transfer-deadline-0012/b", "latency_ms": 298.65, "model_latency_ms": 298.2, "probabilities": {"decision": {"0": 0.0025, "1": 0.0266, "2": 0.9708}}, "ok": true}
+{"id": "contrastive/deadline/v3-legacy-transfer-deadline-0013/a", "latency_ms": 299.8, "model_latency_ms": 299.3, "probabilities": {"decision": {"0": 0.3988, "1": 0.5479, "2": 0.0533}}, "ok": true}
+{"id": "contrastive/deadline/v3-legacy-transfer-deadline-0013/b", "latency_ms": 298.94, "model_latency_ms": 298.4, "probabilities": {"decision": {"0": 0.0127, "1": 0.6189, "2": 0.3684}}, "ok": true}
+{"id": "contrastive/deadline/v3-legacy-transfer-deadline-0014/a", "latency_ms": 299.25, "model_latency_ms": 298.7, "probabilities": {"decision": {"0": 0.335, "1": 0.6345, "2": 0.0306}}, "ok": true}
+{"id": "contrastive/deadline/v3-legacy-transfer-deadline-0014/b", "latency_ms": 298.72, "model_latency_ms": 298.3, "probabilities": {"decision": {"0": 0.0132, "1": 0.3855, "2": 0.6013}}, "ok": true}
+{"id": "contrastive/deadline/v3-legacy-transfer-deadline-0015/a", "latency_ms": 299.52, "model_latency_ms": 299.1, "probabilities": {"decision": {"0": 0.9743, "1": 0.0135, "2": 0.0122}}, "ok": true}
+{"id": "contrastive/deadline/v3-legacy-transfer-deadline-0015/b", "latency_ms": 297.94, "model_latency_ms": 297.5, "probabilities": {"decision": {"0": 0.203, "1": 0.7677, "2": 0.0293}}, "ok": true}
+{"id": "contrastive/deadline/v3-legacy-transfer-deadline-0016/a", "latency_ms": 299.52, "model_latency_ms": 299.0, "probabilities": {"decision": {"0": 0.6264, "1": 0.336, "2": 0.0377}}, "ok": true}
+{"id": "contrastive/deadline/v3-legacy-transfer-deadline-0016/b", "latency_ms": 298.55, "model_latency_ms": 298.0, "probabilities": {"decision": {"0": 0.0262, "1": 0.9138, "2": 0.06}}, "ok": true}
+{"id": "contrastive/deadline/v3-legacy-transfer-deadline-0017/a", "latency_ms": 299.04, "model_latency_ms": 298.5, "probabilities": {"decision": {"0": 0.9947, "1": 0.0025, "2": 0.0028}}, "ok": true}
+{"id": "contrastive/deadline/v3-legacy-transfer-deadline-0017/b", "latency_ms": 299.15, "model_latency_ms": 298.7, "probabilities": {"decision": {"0": 0.0283, "1": 0.952, "2": 0.0197}}, "ok": true}
+{"id": "contrastive/deadline/v3-legacy-transfer-deadline-0018/a", "latency_ms": 298.87, "model_latency_ms": 298.4, "probabilities": {"decision": {"0": 0.3813, "1": 0.5482, "2": 0.0705}}, "ok": true}
+{"id": "contrastive/deadline/v3-legacy-transfer-deadline-0018/b", "latency_ms": 298.56, "model_latency_ms": 298.1, "probabilities": {"decision": {"0": 0.0136, "1": 0.8771, "2": 0.1093}}, "ok": true}
+{"id": "contrastive/deadline/v3-legacy-transfer-deadline-0019/a", "latency_ms": 299.57, "model_latency_ms": 299.1, "probabilities": {"decision": {"0": 0.3722, "1": 0.5852, "2": 0.0426}}, "ok": true}
+{"id": "contrastive/deadline/v3-legacy-transfer-deadline-0019/b", "latency_ms": 298.72, "model_latency_ms": 298.2, "probabilities": {"decision": {"0": 0.0537, "1": 0.55, "2": 0.3963}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_and_or/0/relevant/a", "latency_ms": 376.83, "model_latency_ms": 376.2, "probabilities": {"decision": {"reject": 0.013, "accept": 0.987}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_and_or/0/relevant/b", "latency_ms": 376.96, "model_latency_ms": 376.3, "probabilities": {"decision": {"reject": 0.978, "accept": 0.022}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_and_or/0/irrelevant/a", "latency_ms": 87.19, "model_latency_ms": 86.7, "probabilities": {"decision": {"reject": 0.013, "accept": 0.987}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_and_or/0/irrelevant/b", "latency_ms": 375.52, "model_latency_ms": 375.0, "probabilities": {"decision": {"reject": 0.0125, "accept": 0.9875}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_and_or/1/relevant/a", "latency_ms": 375.79, "model_latency_ms": 375.2, "probabilities": {"decision": {"accept": 0.0095, "reject": 0.9905}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_and_or/1/relevant/b", "latency_ms": 374.81, "model_latency_ms": 374.3, "probabilities": {"decision": {"accept": 0.9874, "reject": 0.0126}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_and_or/1/irrelevant/a", "latency_ms": 87.4, "model_latency_ms": 86.8, "probabilities": {"decision": {"accept": 0.0095, "reject": 0.9905}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_and_or/1/irrelevant/b", "latency_ms": 372.89, "model_latency_ms": 372.4, "probabilities": {"decision": {"accept": 0.009, "reject": 0.991}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_and_or/2/relevant/a", "latency_ms": 431.68, "model_latency_ms": 431.1, "probabilities": {"decision": {"reject": 0.4019, "accept": 0.5981}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_and_or/2/relevant/b", "latency_ms": 430.98, "model_latency_ms": 430.4, "probabilities": {"decision": {"reject": 0.9808, "accept": 0.0192}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_and_or/2/irrelevant/a", "latency_ms": 87.46, "model_latency_ms": 86.9, "probabilities": {"decision": {"reject": 0.4019, "accept": 0.5981}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_and_or/2/irrelevant/b", "latency_ms": 431.24, "model_latency_ms": 430.7, "probabilities": {"decision": {"reject": 0.3925, "accept": 0.6075}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_and_or/3/relevant/a", "latency_ms": 305.97, "model_latency_ms": 305.4, "probabilities": {"decision": {"reject": 0.9879, "accept": 0.0121}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_and_or/3/relevant/b", "latency_ms": 305.32, "model_latency_ms": 304.8, "probabilities": {"decision": {"reject": 0.223, "accept": 0.777}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_and_or/3/irrelevant/a", "latency_ms": 87.03, "model_latency_ms": 86.6, "probabilities": {"decision": {"reject": 0.9879, "accept": 0.0121}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_and_or/3/irrelevant/b", "latency_ms": 305.07, "model_latency_ms": 304.6, "probabilities": {"decision": {"reject": 0.9882, "accept": 0.0118}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_and_or/4/relevant/a", "latency_ms": 376.99, "model_latency_ms": 376.5, "probabilities": {"decision": {"accept": 0.1208, "reject": 0.8792}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_and_or/4/relevant/b", "latency_ms": 376.87, "model_latency_ms": 376.3, "probabilities": {"decision": {"accept": 0.9887, "reject": 0.0113}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_and_or/4/irrelevant/a", "latency_ms": 88.41, "model_latency_ms": 87.9, "probabilities": {"decision": {"accept": 0.1208, "reject": 0.8792}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_and_or/4/irrelevant/b", "latency_ms": 375.96, "model_latency_ms": 375.5, "probabilities": {"decision": {"accept": 0.1286, "reject": 0.8714}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_and_or/5/relevant/a", "latency_ms": 376.3, "model_latency_ms": 375.8, "probabilities": {"decision": {"reject": 0.9818, "accept": 0.0182}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_and_or/5/relevant/b", "latency_ms": 376.08, "model_latency_ms": 375.5, "probabilities": {"decision": {"reject": 0.0251, "accept": 0.9749}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_and_or/5/irrelevant/a", "latency_ms": 87.09, "model_latency_ms": 86.6, "probabilities": {"decision": {"reject": 0.9818, "accept": 0.0182}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_and_or/5/irrelevant/b", "latency_ms": 375.71, "model_latency_ms": 375.3, "probabilities": {"decision": {"reject": 0.9819, "accept": 0.0181}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_and_or/6/relevant/a", "latency_ms": 305.48, "model_latency_ms": 304.9, "probabilities": {"decision": {"reject": 0.9914, "accept": 0.0086}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_and_or/6/relevant/b", "latency_ms": 304.54, "model_latency_ms": 304.0, "probabilities": {"decision": {"reject": 0.016, "accept": 0.984}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_and_or/6/irrelevant/a", "latency_ms": 87.89, "model_latency_ms": 87.4, "probabilities": {"decision": {"reject": 0.9914, "accept": 0.0086}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_and_or/6/irrelevant/b", "latency_ms": 304.95, "model_latency_ms": 304.5, "probabilities": {"decision": {"reject": 0.9913, "accept": 0.0087}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_and_or/7/relevant/a", "latency_ms": 306.21, "model_latency_ms": 305.6, "probabilities": {"decision": {"accept": 0.0082, "reject": 0.9918}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_and_or/7/relevant/b", "latency_ms": 304.53, "model_latency_ms": 304.1, "probabilities": {"decision": {"accept": 0.9928, "reject": 0.0072}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_and_or/7/irrelevant/a", "latency_ms": 86.92, "model_latency_ms": 86.5, "probabilities": {"decision": {"accept": 0.0082, "reject": 0.9918}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_and_or/7/irrelevant/b", "latency_ms": 306.49, "model_latency_ms": 306.0, "probabilities": {"decision": {"accept": 0.0087, "reject": 0.9913}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_or_not/0/relevant/a", "latency_ms": 375.75, "model_latency_ms": 375.2, "probabilities": {"decision": {"reject": 0.0154, "accept": 0.9846}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_or_not/0/relevant/b", "latency_ms": 374.88, "model_latency_ms": 374.3, "probabilities": {"decision": {"reject": 0.9829, "accept": 0.0171}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_or_not/0/irrelevant/a", "latency_ms": 87.49, "model_latency_ms": 87.0, "probabilities": {"decision": {"reject": 0.0154, "accept": 0.9846}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_or_not/0/irrelevant/b", "latency_ms": 374.9, "model_latency_ms": 374.4, "probabilities": {"decision": {"reject": 0.0173, "accept": 0.9827}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_or_not/1/relevant/a", "latency_ms": 376.03, "model_latency_ms": 375.5, "probabilities": {"decision": {"reject": 0.9909, "accept": 0.0091}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_or_not/1/relevant/b", "latency_ms": 377.0, "model_latency_ms": 376.4, "probabilities": {"decision": {"reject": 0.0182, "accept": 0.9818}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_or_not/1/irrelevant/a", "latency_ms": 88.24, "model_latency_ms": 87.7, "probabilities": {"decision": {"reject": 0.9909, "accept": 0.0091}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_or_not/1/irrelevant/b", "latency_ms": 377.31, "model_latency_ms": 376.8, "probabilities": {"decision": {"reject": 0.9909, "accept": 0.0091}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_or_not/2/relevant/a", "latency_ms": 427.21, "model_latency_ms": 426.6, "probabilities": {"decision": {"accept": 0.1021, "reject": 0.8979}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_or_not/2/relevant/b", "latency_ms": 427.62, "model_latency_ms": 427.1, "probabilities": {"decision": {"accept": 0.8552, "reject": 0.1448}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_or_not/2/irrelevant/a", "latency_ms": 86.99, "model_latency_ms": 86.4, "probabilities": {"decision": {"accept": 0.1021, "reject": 0.8979}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_or_not/2/irrelevant/b", "latency_ms": 428.3, "model_latency_ms": 427.8, "probabilities": {"decision": {"accept": 0.1002, "reject": 0.8998}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_or_not/3/relevant/a", "latency_ms": 375.1, "model_latency_ms": 374.6, "probabilities": {"decision": {"accept": 0.9828, "reject": 0.0172}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_or_not/3/relevant/b", "latency_ms": 375.81, "model_latency_ms": 375.3, "probabilities": {"decision": {"accept": 0.0305, "reject": 0.9695}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_or_not/3/irrelevant/a", "latency_ms": 86.97, "model_latency_ms": 86.5, "probabilities": {"decision": {"accept": 0.9828, "reject": 0.0172}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_or_not/3/irrelevant/b", "latency_ms": 376.24, "model_latency_ms": 375.7, "probabilities": {"decision": {"accept": 0.9825, "reject": 0.0175}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_or_not/4/relevant/a", "latency_ms": 434.48, "model_latency_ms": 433.9, "probabilities": {"decision": {"reject": 0.0449, "accept": 0.9551}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_or_not/4/relevant/b", "latency_ms": 432.39, "model_latency_ms": 431.8, "probabilities": {"decision": {"reject": 0.0588, "accept": 0.9412}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_or_not/4/irrelevant/a", "latency_ms": 87.04, "model_latency_ms": 86.6, "probabilities": {"decision": {"reject": 0.0449, "accept": 0.9551}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_or_not/4/irrelevant/b", "latency_ms": 433.0, "model_latency_ms": 432.5, "probabilities": {"decision": {"reject": 0.0588, "accept": 0.9412}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_or_not/5/relevant/a", "latency_ms": 502.18, "model_latency_ms": 501.6, "probabilities": {"decision": {"reject": 0.3615, "accept": 0.6385}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_or_not/5/relevant/b", "latency_ms": 501.44, "model_latency_ms": 500.8, "probabilities": {"decision": {"reject": 0.3786, "accept": 0.6214}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_or_not/5/irrelevant/a", "latency_ms": 87.34, "model_latency_ms": 86.8, "probabilities": {"decision": {"reject": 0.3615, "accept": 0.6385}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_or_not/5/irrelevant/b", "latency_ms": 500.78, "model_latency_ms": 500.2, "probabilities": {"decision": {"reject": 0.354, "accept": 0.646}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_or_not/6/relevant/a", "latency_ms": 373.48, "model_latency_ms": 373.0, "probabilities": {"decision": {"accept": 0.2091, "reject": 0.7909}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_or_not/6/relevant/b", "latency_ms": 373.24, "model_latency_ms": 372.7, "probabilities": {"decision": {"accept": 0.9597, "reject": 0.0403}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_or_not/6/irrelevant/a", "latency_ms": 87.11, "model_latency_ms": 86.6, "probabilities": {"decision": {"accept": 0.2091, "reject": 0.7909}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_or_not/6/irrelevant/b", "latency_ms": 373.65, "model_latency_ms": 373.1, "probabilities": {"decision": {"accept": 0.2019, "reject": 0.7981}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_or_not/7/relevant/a", "latency_ms": 375.5, "model_latency_ms": 375.0, "probabilities": {"decision": {"accept": 0.9465, "reject": 0.0535}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_or_not/7/relevant/b", "latency_ms": 375.86, "model_latency_ms": 375.4, "probabilities": {"decision": {"accept": 0.0208, "reject": 0.9792}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_or_not/7/irrelevant/a", "latency_ms": 87.3, "model_latency_ms": 86.8, "probabilities": {"decision": {"accept": 0.9465, "reject": 0.0535}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_or_not/7/irrelevant/b", "latency_ms": 376.02, "model_latency_ms": 375.5, "probabilities": {"decision": {"accept": 0.9458, "reject": 0.0542}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_conditional/0/relevant/a", "latency_ms": 304.92, "model_latency_ms": 304.4, "probabilities": {"decision": {"accept": 0.0459, "reject": 0.9541}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_conditional/0/relevant/b", "latency_ms": 305.54, "model_latency_ms": 305.0, "probabilities": {"decision": {"accept": 0.9457, "reject": 0.0543}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_conditional/0/irrelevant/a", "latency_ms": 86.99, "model_latency_ms": 86.5, "probabilities": {"decision": {"accept": 0.0459, "reject": 0.9541}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_conditional/0/irrelevant/b", "latency_ms": 304.67, "model_latency_ms": 304.2, "probabilities": {"decision": {"accept": 0.0635, "reject": 0.9365}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_conditional/1/relevant/a", "latency_ms": 371.34, "model_latency_ms": 370.8, "probabilities": {"decision": {"reject": 0.0315, "accept": 0.9685}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_conditional/1/relevant/b", "latency_ms": 372.61, "model_latency_ms": 372.1, "probabilities": {"decision": {"reject": 0.9882, "accept": 0.0118}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_conditional/1/irrelevant/a", "latency_ms": 87.12, "model_latency_ms": 86.6, "probabilities": {"decision": {"reject": 0.0315, "accept": 0.9685}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_conditional/1/irrelevant/b", "latency_ms": 371.24, "model_latency_ms": 370.7, "probabilities": {"decision": {"reject": 0.0326, "accept": 0.9674}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_conditional/2/relevant/a", "latency_ms": 431.02, "model_latency_ms": 430.5, "probabilities": {"decision": {"accept": 0.0235, "reject": 0.9765}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_conditional/2/relevant/b", "latency_ms": 430.84, "model_latency_ms": 430.2, "probabilities": {"decision": {"accept": 0.7136, "reject": 0.2864}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_conditional/2/irrelevant/a", "latency_ms": 87.35, "model_latency_ms": 86.8, "probabilities": {"decision": {"accept": 0.0235, "reject": 0.9765}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_conditional/2/irrelevant/b", "latency_ms": 431.08, "model_latency_ms": 430.5, "probabilities": {"decision": {"accept": 0.0289, "reject": 0.9711}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_conditional/3/relevant/a", "latency_ms": 428.25, "model_latency_ms": 427.7, "probabilities": {"decision": {"reject": 0.8648, "accept": 0.1352}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_conditional/3/relevant/b", "latency_ms": 428.2, "model_latency_ms": 427.6, "probabilities": {"decision": {"reject": 0.1448, "accept": 0.8552}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_conditional/3/irrelevant/a", "latency_ms": 86.98, "model_latency_ms": 86.4, "probabilities": {"decision": {"reject": 0.8648, "accept": 0.1352}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_conditional/3/irrelevant/b", "latency_ms": 428.16, "model_latency_ms": 427.6, "probabilities": {"decision": {"reject": 0.898, "accept": 0.102}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_conditional/4/relevant/a", "latency_ms": 431.58, "model_latency_ms": 430.9, "probabilities": {"decision": {"reject": 0.6531, "accept": 0.3469}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_conditional/4/relevant/b", "latency_ms": 428.8, "model_latency_ms": 428.2, "probabilities": {"decision": {"reject": 0.4165, "accept": 0.5835}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_conditional/4/irrelevant/a", "latency_ms": 87.58, "model_latency_ms": 87.0, "probabilities": {"decision": {"reject": 0.6531, "accept": 0.3469}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_conditional/4/irrelevant/b", "latency_ms": 429.45, "model_latency_ms": 428.9, "probabilities": {"decision": {"reject": 0.6553, "accept": 0.3447}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_conditional/5/relevant/a", "latency_ms": 378.66, "model_latency_ms": 378.1, "probabilities": {"decision": {"accept": 0.8027, "reject": 0.1973}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_conditional/5/relevant/b", "latency_ms": 378.06, "model_latency_ms": 377.5, "probabilities": {"decision": {"accept": 0.3756, "reject": 0.6244}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_conditional/5/irrelevant/a", "latency_ms": 87.09, "model_latency_ms": 86.6, "probabilities": {"decision": {"accept": 0.8027, "reject": 0.1973}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_conditional/5/irrelevant/b", "latency_ms": 377.34, "model_latency_ms": 376.9, "probabilities": {"decision": {"accept": 0.8485, "reject": 0.1515}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_conditional/6/relevant/a", "latency_ms": 429.44, "model_latency_ms": 428.9, "probabilities": {"decision": {"accept": 0.1167, "reject": 0.8833}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_conditional/6/relevant/b", "latency_ms": 429.23, "model_latency_ms": 428.7, "probabilities": {"decision": {"accept": 0.9216, "reject": 0.0784}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_conditional/6/irrelevant/a", "latency_ms": 86.78, "model_latency_ms": 86.2, "probabilities": {"decision": {"accept": 0.1167, "reject": 0.8833}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_conditional/6/irrelevant/b", "latency_ms": 429.29, "model_latency_ms": 428.7, "probabilities": {"decision": {"accept": 0.1159, "reject": 0.8841}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_conditional/7/relevant/a", "latency_ms": 371.46, "model_latency_ms": 370.9, "probabilities": {"decision": {"accept": 0.8406, "reject": 0.1594}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_conditional/7/relevant/b", "latency_ms": 371.61, "model_latency_ms": 371.1, "probabilities": {"decision": {"accept": 0.0146, "reject": 0.9854}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_conditional/7/irrelevant/a", "latency_ms": 86.71, "model_latency_ms": 86.3, "probabilities": {"decision": {"accept": 0.8406, "reject": 0.1594}}, "ok": true}
+{"id": "composition/v3-composition-transfer/held_conditional/7/irrelevant/b", "latency_ms": 371.66, "model_latency_ms": 371.2, "probabilities": {"decision": {"accept": 0.8807, "reject": 0.1193}}, "ok": true}

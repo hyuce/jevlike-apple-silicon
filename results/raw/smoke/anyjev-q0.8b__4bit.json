@@ -1,0 +1,20 @@
+{
+  "combo": {
+    "id": "anyjev-q0.8b/4bit",
+    "model": "anyjev-q0.8b",
+    "variant": "4-bit",
+    "backend": "none",
+    "kind": null,
+    "params": {},
+    "needs": [],
+    "repo": "anyjev",
+    "hf": "Qwen/Qwen3.5-0.8B-Base@dc7cdfe2ee4154fa7e30f5b51ca41bfa40174e68 (Kev-0.8B base)",
+    "unsupported": "not attempted: AnyJev 0.3.0 offers backends hf (transformers), vllm, sglang and llamacpp (GGUF); its README lists an MLX backend as an open roadmap item, and none of the shipped paths provides a 4-bit model on Apple Silicon without a GGUF/llama.cpp setup that this study did not build",
+    "notes": "4-bit training-free numbers come from jevmlx on MLX instead"
+  },
+  "request_path": "<project>/code/smoke_request.json",
+  "request_sha256": "c800242e8a37638b3e374f3815a10a7da1240e8b8eca32fe63bd273181e88ed3",
+  "repo_sha_actual": "35311c58955716cb8955ce1368a665988bc63735",
+  "started": "2026-11-13T15:55:04+0300",
+  "result": "not attempted (unsupported)"
+}

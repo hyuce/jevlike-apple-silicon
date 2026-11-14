@@ -1,0 +1,56 @@
+{
+  "before": {
+    "label": "before kev-4b/full-bf16-merged",
+    "time": "2026-11-13T19:14:53+0300",
+    "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+    "pmset_batt": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=<redacted>)\t79%; AC attached; not charging present: true",
+    "memory_pressure": "The system has 17179869184 (1048576 pages with a page size of 16384).\nSystem-wide memory free percentage: 76%",
+    "swapusage": "vm.swapusage: total = 5120.00M  used = 3467.25M  free = 1652.75M  (encrypted)",
+    "mem_total_gb": 17.18,
+    "mem_available_gb": 8.382,
+    "swap_used_gb": 3.636,
+    "cpu_percent": 12.7
+  },
+  "after": {
+    "label": "after kev-4b/full-bf16-merged",
+    "time": "2026-11-13T19:18:40+0300",
+    "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+    "pmset_batt": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=<redacted>)\t79%; AC attached; not charging present: true",
+    "memory_pressure": "The system has 17179869184 (1048576 pages with a page size of 16384).\nSystem-wide memory free percentage: 76%",
+    "swapusage": "vm.swapusage: total = 5120.00M  used = 4244.06M  free = 875.94M  (encrypted)",
+    "mem_total_gb": 17.18,
+    "mem_available_gb": 10.945,
+    "swap_used_gb": 4.45,
+    "cpu_percent": 6.1
+  },
+  "guard": {
+    "returncode": 0,
+    "killed_reason": null,
+    "wall_s": 226.09,
+    "peak_rss_gb": 3.074,
+    "peak_phys_footprint_gb": 10.588,
+    "guard_metric": "physical footprint",
+    "min_avail_gb": 0.747,
+    "swap_start_gb": 3.636,
+    "swap_peak_gb": 5.369,
+    "swap_guard": "active",
+    "tail": [
+      "[err] Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.",
+      "[out] [worker] kev-4b/full-bf16-merged: 50/764 answered this session",
+      "[out] [worker] kev-4b/full-bf16-merged: 100/764 answered this session",
+      "[out] [worker] kev-4b/full-bf16-merged: 150/764 answered this session",
+      "[out] [worker] kev-4b/full-bf16-merged: 200/764 answered this session",
+      "[out] [worker] kev-4b/full-bf16-merged: 250/764 answered this session",
+      "[out] [worker] kev-4b/full-bf16-merged: 300/764 answered this session",
+      "[out] [worker] kev-4b/full-bf16-merged: 350/764 answered this session",
+      "[out] [worker] kev-4b/full-bf16-merged: 400/764 answered this session",
+      "[out] [worker] kev-4b/full-bf16-merged: 450/764 answered this session",
+      "[out] [worker] kev-4b/full-bf16-merged: 500/764 answered this session",
+      "[out] [worker] kev-4b/full-bf16-merged: 550/764 answered this session",
+      "[out] [worker] kev-4b/full-bf16-merged: 600/764 answered this session",
+      "[out] [worker] kev-4b/full-bf16-merged: 650/764 answered this session",
+      "[out] [worker] kev-4b/full-bf16-merged: 700/764 answered this session",
+      "[out] [worker] kev-4b/full-bf16-merged: 750/764 answered this session"
+    ]
+  }
+}

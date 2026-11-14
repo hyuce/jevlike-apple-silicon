@@ -1,0 +1,52 @@
+{
+  "before": {
+    "label": "before kev-0.8b/fp32",
+    "time": "2026-11-13T18:55:04+0300",
+    "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+    "pmset_batt": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=<redacted>)\t79%; AC attached; not charging present: true",
+    "memory_pressure": "The system has 17179869184 (1048576 pages with a page size of 16384).\nSystem-wide memory free percentage: 74%",
+    "swapusage": "vm.swapusage: total = 3072.00M  used = 2053.25M  free = 1018.75M  (encrypted)",
+    "mem_total_gb": 17.18,
+    "mem_available_gb": 6.182,
+    "swap_used_gb": 2.153,
+    "cpu_percent": 6.1
+  },
+  "after": {
+    "label": "after kev-0.8b/fp32",
+    "time": "2026-11-13T18:59:40+0300",
+    "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+    "pmset_batt": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=<redacted>)\t79%; AC attached; not charging present: true",
+    "memory_pressure": "The system has 17179869184 (1048576 pages with a page size of 16384).\nSystem-wide memory free percentage: 63%",
+    "swapusage": "vm.swapusage: total = 8192.00M  used = 6639.44M  free = 1552.56M  (encrypted)",
+    "mem_total_gb": 17.18,
+    "mem_available_gb": 2.767,
+    "swap_used_gb": 6.962,
+    "cpu_percent": 13.9
+  },
+  "guard": {
+    "returncode": 86,
+    "killed_reason": null,
+    "wall_s": 275.87,
+    "peak_rss_gb": 2.962,
+    "peak_phys_footprint_gb": 12.315,
+    "guard_metric": "physical footprint",
+    "min_avail_gb": 0.117,
+    "swap_start_gb": 2.153,
+    "swap_peak_gb": 7.516,
+    "swap_guard": "active",
+    "tail": [
+      "[err] ",
+      "[err] Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]",
+      "[err] Fetching 9 files: 100%|██████████| 9/9 [00:00<00:00, 2829.32it/s]",
+      "[err] Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.",
+      "[err] ",
+      "[err] Loading weights:   0%|          | 0/320 [00:00<?, ?it/s]",
+      "[err] Loading weights:   0%|          | 1/320 [00:01<07:56,  1.49s/it]",
+      "[err] Loading weights: 100%|██████████| 320/320 [00:01<00:00, 213.37it/s]",
+      "[err] [transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.",
+      "[err] [transformers] `chunk_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.",
+      "[err] ~/.local/share/uv/python/cpython-3.12.16-macos-aarch64-none/lib/python3.12/multiprocessing/resource_tracker.py:279: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown",
+      "[err]   warnings.warn('resource_tracker: There appear to be %d '"
+    ]
+  }
+}

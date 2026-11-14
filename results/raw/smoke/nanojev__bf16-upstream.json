@@ -1,0 +1,79 @@
+{
+  "combo": {
+    "id": "nanojev/bf16-upstream",
+    "model": "nanojev",
+    "variant": "bf16 (upstream entry point)",
+    "backend": "torch-cuda-only",
+    "kind": "nanojev",
+    "params": {
+      "checkpoint_dir": "~/jevlike_cache/models/nanojev/unified-games-v1",
+      "repo": "~/jevlike_cache/repos/nanojev",
+      "mode": "upstream",
+      "precision": "bf16"
+    },
+    "needs": [
+      "dl-nanojev"
+    ],
+    "repo": "nanojev",
+    "hf": "C-Tianyu/NanoJev@047b927b30882a1138fc504821b82ac145a4b81a (tag unified-games-v1)",
+    "notes": "upstream DecisionPredictor as shipped (device cuda:0); expected to refuse a Mac"
+  },
+  "request_path": "<project>/code/smoke_request.json",
+  "request_sha256": "c800242e8a37638b3e374f3815a10a7da1240e8b8eca32fe63bd273181e88ed3",
+  "repo_sha_actual": "45b629283ddeb3b3784806f352bbf5e97f71dd40",
+  "started": "2026-11-13T15:53:33+0300",
+  "before": {
+    "label": "before nanojev/bf16-upstream",
+    "time": "2026-11-13T15:53:43+0300",
+    "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+    "pmset_batt": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=<redacted>)\t80%; AC attached; not charging present: true",
+    "memory_pressure": "The system has 17179869184 (1048576 pages with a page size of 16384).\nSystem-wide memory free percentage: 82%",
+    "swapusage": "vm.swapusage: total = 5120.00M  used = 3689.38M  free = 1430.62M  (encrypted)",
+    "mem_total_gb": 17.18,
+    "mem_available_gb": 9.158,
+    "swap_used_gb": 3.869,
+    "cpu_percent": 22.5
+  },
+  "guard": {
+    "returncode": 0,
+    "killed_reason": null,
+    "wall_s": 2.99,
+    "peak_rss_gb": 0.432,
+    "peak_phys_footprint_gb": 0.337,
+    "guard_metric": "physical footprint",
+    "min_avail_gb": 8.802,
+    "swap_start_gb": 3.869,
+    "swap_peak_gb": 3.869,
+    "swap_guard": "active",
+    "tail": []
+  },
+  "worker": {
+    "combo_id": "nanojev/bf16-upstream",
+    "started": "2026-11-13T15:53:44+0300",
+    "stage": "load",
+    "ok": false,
+    "import_s": 0.496,
+    "error": "ValueError: 此原型推理入口需要可用CUDA设备；本命令未启用CPU或远程回退",
+    "traceback": "Traceback (most recent call last):\n  File \"<project>/code/smoke_test.py\", line 213, in worker\n    runner = build_runner(combo[\"kind\"], combo[\"params\"])\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<project>/code/adapters.py\", line 378, in build_runner\n    return RUNNERS[kind](**params)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<project>/code/adapters.py\", line 219, in __init__\n    self.engine = P.DecisionPredictor(checkpoint_dir, precision=precision)\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"~/jevlike_cache/repos/nanojev/scripts/predict_toy_decisions.py\", line 201, in __init__\n    raise ValueError(\"此原型推理入口需要可用CUDA设备；本命令未启用CPU或远程回退\")\nValueError: 此原型推理入口需要可用CUDA设备；本命令未启用CPU或远程回退\n",
+    "rss_peak_gb": 0.431,
+    "phys_footprint_peak_gb": 0.337,
+    "mlx_active_peak_gb": 0.0,
+    "mps_driver_peak_gb": 0.0,
+    "sampler_samples": 24,
+    "phys_footprint_lifetime_max_gb": 0.339,
+    "finished": "2026-11-13T15:53:46+0300"
+  },
+  "after": {
+    "label": "after nanojev/bf16-upstream",
+    "time": "2026-11-13T15:53:47+0300",
+    "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+    "pmset_batt": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=<redacted>)\t80%; AC attached; not charging present: true",
+    "memory_pressure": "The system has 17179869184 (1048576 pages with a page size of 16384).\nSystem-wide memory free percentage: 83%",
+    "swapusage": "vm.swapusage: total = 5120.00M  used = 3681.38M  free = 1438.62M  (encrypted)",
+    "mem_total_gb": 17.18,
+    "mem_available_gb": 9.137,
+    "swap_used_gb": 3.86,
+    "cpu_percent": 26.4
+  },
+  "finished": "2026-11-13T15:53:47+0300"
+}

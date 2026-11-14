@@ -1,0 +1,22 @@
+# smoke test 2026-11-13T17:20:56+0300  python=~/jevlike_cache/venv/bin/python
+cache=~/jevlike_cache  HF_HOME=~/jevlike_cache/hf  results=<project>/results
+request=<project>/code/smoke_request.json sha256=c800242e8a37638b3e374f3815a10a7da1240e8b8eca32fe63bd273181e88ed3  questions=['defective', 'department', 'urgency']
+guards: rss>14 GB | avail<0.75 GB & swap+>2 GB | timeout 1800 s
+repo kev      pin 2074cc442562 have 2074cc442562
+repo laya     pin 3a38cbe83f6e have 3a38cbe83f6e
+repo nanojev  pin 45b629283dde have 45b629283dde
+repo jevmlx   pin 5f94ae262c1c have 5f94ae262c1c
+repo anyjev   pin 35311c589557 have 35311c589557
+repo laya-mlx pin 2159c6c9988e have 2159c6c9988e
+  anyjev-q0.8b/fp32            torch-mps        ready
+[run ] anyjev-q0.8b/fp32  (available 6.36 GB after 10 s settle)
+       pmset therm: 'Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded'
+[err] 
+[err] Loading weights:   0%|          | 0/320 [00:00<?, ?it/s]
+[err] Loading weights:   0%|          | 1/320 [00:01<08:28,  1.59s/it]
+[err] Loading weights: 100%|██████████| 320/320 [00:01<00:00, 199.91it/s]
+[err] [transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[err] [transformers] `chunk_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
+[guard] returncode=0 killed_reason=None wall_s=13.2 peak_rss_gb=3.245 peak_phys_footprint_gb=6.353
+[FAIL  ] anyjev-q0.8b/fp32: load_s= peak_mem_gb=6.353 latency_ms= error=invalid response: defective: noul=nan not a probability; urgency: probabilities sum to nan; urgency: score=nan outside [0, 2]
+# finished 2026-11-13T17:21:20+0300: 0/1 combinations ran; CSV: <project>/results/feasibility_matrix.csv

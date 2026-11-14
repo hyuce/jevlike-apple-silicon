@@ -1,0 +1,217 @@
+{
+  "combo": {
+    "id": "laya-multilingual/fp32",
+    "model": "laya-multilingual",
+    "variant": "fp32",
+    "backend": "torch-mps",
+    "kind": "laya",
+    "params": {
+      "model_id": "convaiinnovations/laya-multilingual",
+      "revision": "1720e3e3357cfe1e281542e223f8273b0890ca34",
+      "device": "mps",
+      "precision": "fp32"
+    },
+    "needs": [
+      "dl-laya-multilingual"
+    ],
+    "repo": "laya",
+    "hf": "convaiinnovations/laya-multilingual@1720e3e3357cfe1e281542e223f8273b0890ca34 (mmBERT-base encoder, ~322M)",
+    "notes": "mmBERT-base checkpoint; autocast off"
+  },
+  "request_path": "<project>/code/smoke_request.json",
+  "request_sha256": "c800242e8a37638b3e374f3815a10a7da1240e8b8eca32fe63bd273181e88ed3",
+  "repo_sha_actual": "3a38cbe83f6ef556f3125fb0065fdc5a55d05792",
+  "started": "2026-11-13T15:52:38+0300",
+  "before": {
+    "label": "before laya-multilingual/fp32",
+    "time": "2026-11-13T15:52:48+0300",
+    "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+    "pmset_batt": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=<redacted>)\t80%; AC attached; not charging present: true",
+    "memory_pressure": "The system has 17179869184 (1048576 pages with a page size of 16384).\nSystem-wide memory free percentage: 83%",
+    "swapusage": "vm.swapusage: total = 5120.00M  used = 3761.38M  free = 1358.62M  (encrypted)",
+    "mem_total_gb": 17.18,
+    "mem_available_gb": 10.03,
+    "swap_used_gb": 3.944,
+    "cpu_percent": 21.7
+  },
+  "guard": {
+    "returncode": 0,
+    "killed_reason": null,
+    "wall_s": 5.49,
+    "peak_rss_gb": 2.804,
+    "peak_phys_footprint_gb": 2.773,
+    "guard_metric": "physical footprint",
+    "min_avail_gb": 7.361,
+    "swap_start_gb": 3.944,
+    "swap_peak_gb": 3.944,
+    "swap_guard": "active",
+    "tail": [
+      "[err] ",
+      "[err] Fetching 5 files:   0%|          | 0/5 [00:00<?, ?it/s]",
+      "[err] Fetching 5 files: 100%|██████████| 5/5 [00:00<00:00, 4002.96it/s]"
+    ]
+  },
+  "worker": {
+    "combo_id": "laya-multilingual/fp32",
+    "started": "2026-11-13T15:52:49+0300",
+    "stage": "done",
+    "ok": true,
+    "import_s": 0.506,
+    "load_s": 3.839,
+    "info": {
+      "runner": "laya",
+      "model_id": "convaiinnovations/laya-multilingual",
+      "revision": "1720e3e3357cfe1e281542e223f8273b0890ca34",
+      "device": "mps",
+      "autocast_dtype": "torch.float16",
+      "amp_enabled": false,
+      "mps_amp_min_rows": 5,
+      "precision_requested": "fp32",
+      "dtype_for_3_rows": "torch.float32"
+    },
+    "mem_after_load": {
+      "rss": 1150205952,
+      "phys_footprint": 2106705816,
+      "mlx_active": 0,
+      "mps_driver": 1340489728
+    },
+    "latency_ms_single": 653.9,
+    "response": {
+      "model": "kev-latest",
+      "answers": {
+        "defective": {
+          "type": "noul",
+          "noul": 0.9845,
+          "confidence": 0.9845,
+          "answer_confidence": 0.9845,
+          "action": {
+            "act_probability": 1.0
+          }
+        },
+        "department": {
+          "type": "choice",
+          "choice": "returns",
+          "probabilities": {
+            "returns": 0.5313,
+            "shipping": 0.4679,
+            "billing": 0.0007
+          },
+          "confidence": 0.3659,
+          "answer_confidence": 0.5313,
+          "action": {
+            "act_probability": 1.0
+          }
+        },
+        "urgency": {
+          "type": "score",
+          "score": 1.2726,
+          "legend": {
+            "0": "Low",
+            "1": "Medium",
+            "2": "High"
+          },
+          "probabilities": {
+            "0": 0.2247,
+            "1": 0.2781,
+            "2": 0.4973
+          },
+          "confidence": 0.0545,
+          "answer_confidence": 0.4973,
+          "action": {
+            "act_probability": 1.0
+          }
+        }
+      },
+      "latency_ms": 653.9,
+      "usage": {
+        "input_tokens": 233,
+        "output_tokens": 0,
+        "state_tokens": 40,
+        "state_tokens_dropped": 0,
+        "truncated": false,
+        "truncated_questions": []
+      }
+    },
+    "latency_ms_warm": 43.5,
+    "response_warm": {
+      "model": "kev-latest",
+      "answers": {
+        "defective": {
+          "type": "noul",
+          "noul": 0.9845,
+          "confidence": 0.9845,
+          "answer_confidence": 0.9845,
+          "action": {
+            "act_probability": 1.0
+          }
+        },
+        "department": {
+          "type": "choice",
+          "choice": "returns",
+          "probabilities": {
+            "returns": 0.5313,
+            "shipping": 0.4679,
+            "billing": 0.0007
+          },
+          "confidence": 0.3659,
+          "answer_confidence": 0.5313,
+          "action": {
+            "act_probability": 1.0
+          }
+        },
+        "urgency": {
+          "type": "score",
+          "score": 1.2726,
+          "legend": {
+            "0": "Low",
+            "1": "Medium",
+            "2": "High"
+          },
+          "probabilities": {
+            "0": 0.2247,
+            "1": 0.2781,
+            "2": 0.4973
+          },
+          "confidence": 0.0545,
+          "answer_confidence": 0.4973,
+          "action": {
+            "act_probability": 1.0
+          }
+        }
+      },
+      "latency_ms": 43.5,
+      "usage": {
+        "input_tokens": 233,
+        "output_tokens": 0,
+        "state_tokens": 40,
+        "state_tokens_dropped": 0,
+        "truncated": false,
+        "truncated_questions": []
+      }
+    },
+    "validation": {
+      "valid": true,
+      "problems": []
+    },
+    "rss_peak_gb": 2.804,
+    "phys_footprint_peak_gb": 2.807,
+    "mlx_active_peak_gb": 0.0,
+    "mps_driver_peak_gb": 1.353,
+    "sampler_samples": 41,
+    "phys_footprint_lifetime_max_gb": 2.907,
+    "finished": "2026-11-13T15:52:54+0300"
+  },
+  "after": {
+    "label": "after laya-multilingual/fp32",
+    "time": "2026-11-13T15:52:54+0300",
+    "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+    "pmset_batt": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=<redacted>)\t80%; AC attached; not charging present: true",
+    "memory_pressure": "The system has 17179869184 (1048576 pages with a page size of 16384).\nSystem-wide memory free percentage: 83%",
+    "swapusage": "vm.swapusage: total = 5120.00M  used = 3745.38M  free = 1374.62M  (encrypted)",
+    "mem_total_gb": 17.18,
+    "mem_available_gb": 7.373,
+    "swap_used_gb": 3.927,
+    "cpu_percent": 24.9
+  },
+  "finished": "2026-11-13T15:52:54+0300"
+}

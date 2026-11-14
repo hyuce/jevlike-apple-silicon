@@ -1,0 +1,219 @@
+{
+  "combo": {
+    "id": "laya/fp32-cpu",
+    "model": "laya",
+    "variant": "fp32 (CPU)",
+    "backend": "torch-cpu",
+    "kind": "laya",
+    "params": {
+      "model_id": "convaiinnovations/laya",
+      "revision": "85cc74ddae6109077ebe2853a9b3077fb6606a78",
+      "device": "cpu",
+      "precision": "fp32"
+    },
+    "needs": [
+      "dl-laya"
+    ],
+    "repo": "laya",
+    "hf": "convaiinnovations/laya@85cc74ddae6109077ebe2853a9b3077fb6606a78 (ModernBERT-large encoder, ~421M)",
+    "notes": "CPU fallback reference"
+  },
+  "request_path": "<project>/code/smoke_request.json",
+  "request_sha256": "c800242e8a37638b3e374f3815a10a7da1240e8b8eca32fe63bd273181e88ed3",
+  "repo_sha_actual": "3a38cbe83f6ef556f3125fb0065fdc5a55d05792",
+  "started": "2026-11-13T15:52:24+0300",
+  "before": {
+    "label": "before laya/fp32-cpu",
+    "time": "2026-11-13T15:52:34+0300",
+    "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+    "pmset_batt": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=<redacted>)\t80%; AC attached; not charging present: true",
+    "memory_pressure": "The system has 17179869184 (1048576 pages with a page size of 16384).\nSystem-wide memory free percentage: 83%",
+    "swapusage": "vm.swapusage: total = 5120.00M  used = 3777.38M  free = 1342.62M  (encrypted)",
+    "mem_total_gb": 17.18,
+    "mem_available_gb": 10.086,
+    "swap_used_gb": 3.961,
+    "cpu_percent": 25.8
+  },
+  "guard": {
+    "returncode": 0,
+    "killed_reason": null,
+    "wall_s": 3.68,
+    "peak_rss_gb": 2.208,
+    "peak_phys_footprint_gb": 2.081,
+    "guard_metric": "physical footprint",
+    "min_avail_gb": 8.566,
+    "swap_start_gb": 3.961,
+    "swap_peak_gb": 3.961,
+    "swap_guard": "active",
+    "tail": [
+      "[err] ",
+      "[err] Fetching 5 files:   0%|          | 0/5 [00:00<?, ?it/s]",
+      "[err] Fetching 5 files: 100%|██████████| 5/5 [00:00<00:00, 4015.99it/s]",
+      "[err] ~/jevlike_cache/repos/laya/laya/agent.py:2259: RuntimeWarning: laya: this checkpoint ships invalid temperatures or values outside [0.5, 5]; using choice:11+=0.10058280825614929 -> 0.5. Treat confidence from the affected entries as uncalibrated.",
+      "[err]   return Agent(model_id_or_path, device=device, token=token, subfolder=subfolder, fast=fast,"
+    ]
+  },
+  "worker": {
+    "combo_id": "laya/fp32-cpu",
+    "started": "2026-11-13T15:52:34+0300",
+    "stage": "done",
+    "ok": true,
+    "import_s": 0.499,
+    "load_s": 2.304,
+    "info": {
+      "runner": "laya",
+      "model_id": "convaiinnovations/laya",
+      "revision": "85cc74ddae6109077ebe2853a9b3077fb6606a78",
+      "device": "cpu",
+      "autocast_dtype": "torch.float32",
+      "amp_enabled": false,
+      "mps_amp_min_rows": 5,
+      "precision_requested": "fp32",
+      "dtype_for_3_rows": "torch.float32"
+    },
+    "mem_after_load": {
+      "rss": 2183856128,
+      "phys_footprint": 2061077000,
+      "mlx_active": 0,
+      "mps_driver": 393216
+    },
+    "latency_ms_single": 210.1,
+    "response": {
+      "model": "kev-latest",
+      "answers": {
+        "defective": {
+          "type": "noul",
+          "noul": 0.9413,
+          "confidence": 0.9413,
+          "answer_confidence": 0.9413,
+          "action": {
+            "act_probability": 1.0
+          }
+        },
+        "department": {
+          "type": "choice",
+          "choice": "returns",
+          "probabilities": {
+            "returns": 0.6941,
+            "shipping": 0.279,
+            "billing": 0.0269
+          },
+          "confidence": 0.3565,
+          "answer_confidence": 0.6941,
+          "action": {
+            "act_probability": 1.0
+          }
+        },
+        "urgency": {
+          "type": "score",
+          "score": 0.8585,
+          "legend": {
+            "0": "Low",
+            "1": "Medium",
+            "2": "High"
+          },
+          "probabilities": {
+            "0": 0.3822,
+            "1": 0.3771,
+            "2": 0.2407
+          },
+          "confidence": 0.0186,
+          "answer_confidence": 0.3822,
+          "action": {
+            "act_probability": 1.0
+          }
+        }
+      },
+      "latency_ms": 210.1,
+      "usage": {
+        "input_tokens": 231,
+        "output_tokens": 0,
+        "state_tokens": 39,
+        "state_tokens_dropped": 0,
+        "truncated": false,
+        "truncated_questions": []
+      }
+    },
+    "latency_ms_warm": 187.8,
+    "response_warm": {
+      "model": "kev-latest",
+      "answers": {
+        "defective": {
+          "type": "noul",
+          "noul": 0.9413,
+          "confidence": 0.9413,
+          "answer_confidence": 0.9413,
+          "action": {
+            "act_probability": 1.0
+          }
+        },
+        "department": {
+          "type": "choice",
+          "choice": "returns",
+          "probabilities": {
+            "returns": 0.6941,
+            "shipping": 0.279,
+            "billing": 0.0269
+          },
+          "confidence": 0.3565,
+          "answer_confidence": 0.6941,
+          "action": {
+            "act_probability": 1.0
+          }
+        },
+        "urgency": {
+          "type": "score",
+          "score": 0.8585,
+          "legend": {
+            "0": "Low",
+            "1": "Medium",
+            "2": "High"
+          },
+          "probabilities": {
+            "0": 0.3822,
+            "1": 0.3771,
+            "2": 0.2407
+          },
+          "confidence": 0.0186,
+          "answer_confidence": 0.3822,
+          "action": {
+            "act_probability": 1.0
+          }
+        }
+      },
+      "latency_ms": 187.8,
+      "usage": {
+        "input_tokens": 231,
+        "output_tokens": 0,
+        "state_tokens": 39,
+        "state_tokens_dropped": 0,
+        "truncated": false,
+        "truncated_questions": []
+      }
+    },
+    "validation": {
+      "valid": true,
+      "problems": []
+    },
+    "rss_peak_gb": 2.208,
+    "phys_footprint_peak_gb": 2.081,
+    "mlx_active_peak_gb": 0.0,
+    "mps_driver_peak_gb": 0.0,
+    "sampler_samples": 31,
+    "phys_footprint_lifetime_max_gb": 2.081,
+    "finished": "2026-11-13T15:52:38+0300"
+  },
+  "after": {
+    "label": "after laya/fp32-cpu",
+    "time": "2026-11-13T15:52:38+0300",
+    "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+    "pmset_batt": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=<redacted>)\t80%; AC attached; not charging present: true",
+    "memory_pressure": "The system has 17179869184 (1048576 pages with a page size of 16384).\nSystem-wide memory free percentage: 83%",
+    "swapusage": "vm.swapusage: total = 5120.00M  used = 3769.38M  free = 1350.62M  (encrypted)",
+    "mem_total_gb": 17.18,
+    "mem_available_gb": 8.566,
+    "swap_used_gb": 3.952,
+    "cpu_percent": 32.9
+  },
+  "finished": "2026-11-13T15:52:38+0300"
+}

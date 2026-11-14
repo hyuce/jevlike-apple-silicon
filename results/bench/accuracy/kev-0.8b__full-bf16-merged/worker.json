@@ -1,0 +1,31 @@
+{
+  "combo_id": "kev-0.8b/full-bf16-merged",
+  "started": "2026-11-13T19:13:45+0300",
+  "n_total": 764,
+  "n_already_done": 0,
+  "ok": true,
+  "load_s": 3.5,
+  "info": {
+    "runner": "kev",
+    "run": "~/jevlike_cache/models/merged/kev-0.8b-stream/checkpoint",
+    "resolved_path": "~/jevlike_cache/models/merged/kev-0.8b-stream/checkpoint",
+    "full_weights": true,
+    "backend": "mlx",
+    "dtype": "bfloat16",
+    "device": "mps",
+    "load_options": "LoadOptions(dtype=None, merge=True, attn=None, lora_scale=1.0, temperature=None, backend='mlx', cuda_graphs=None, fused=None)",
+    "temperature": 2.3510958125672174,
+    "base": "Qwen/Qwen3.5-0.8B-Base",
+    "base_revision": "dc7cdfe2ee4154fa7e30f5b51ca41bfa40174e68",
+    "weights_dtype": "bf16",
+    "quantization": null
+  },
+  "rss_peak_gb": 2.177,
+  "phys_footprint_peak_gb": 3.704,
+  "mlx_active_peak_gb": 2.109,
+  "mps_driver_peak_gb": 3.135,
+  "sampler_samples": 435,
+  "phys_footprint_lifetime_max_gb": 3.72,
+  "mlx_peak_gb": 2.118,
+  "finished": "2026-11-13T19:14:32+0300"
+}

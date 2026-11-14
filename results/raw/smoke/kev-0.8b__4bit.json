@@ -1,0 +1,206 @@
+{
+  "combo": {
+    "id": "kev-0.8b/4bit",
+    "model": "kev-0.8b",
+    "variant": "4-bit",
+    "backend": "mlx",
+    "kind": "kev",
+    "params": {
+      "run": "jaredpalmer/kev-0.8b@9a45d25eb2ab761841196625383fa1dff0e56c1e",
+      "device": "mps",
+      "backend": "mlx",
+      "quant_bits": 4,
+      "group_size": 64
+    },
+    "needs": [
+      "dl-kev-0.8b",
+      "dl-qwen3.5-0.8b-base"
+    ],
+    "repo": "kev",
+    "hf": "jaredpalmer/kev-0.8b@9a45d25eb2ab761841196625383fa1dff0e56c1e (README Kev 1.0 weights rev); base Qwen/Qwen3.5-0.8B-Base@dc7cdfe2ee4154fa7e30f5b51ca41bfa40174e68 (Kev-0.8B base)",
+    "notes": "OURS: mlx.nn.quantize(affine, group_size=64) on the merged bf16 Qwen3.5 backbone with mlx-lm's predicate; pointer head kept fp32 (torch); Kev has no native quantized path"
+  },
+  "request_path": "<project>/code/smoke_request.json",
+  "request_sha256": "c800242e8a37638b3e374f3815a10a7da1240e8b8eca32fe63bd273181e88ed3",
+  "repo_sha_actual": "2074cc44256200bb37540103fa4572901faa10f3",
+  "started": "2026-11-13T15:50:10+0300",
+  "before": {
+    "label": "before kev-0.8b/4bit",
+    "time": "2026-11-13T15:50:20+0300",
+    "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+    "pmset_batt": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=<redacted>)\t80%; AC attached; not charging present: true",
+    "memory_pressure": "The system has 17179869184 (1048576 pages with a page size of 16384).\nSystem-wide memory free percentage: 78%",
+    "swapusage": "vm.swapusage: total = 4096.00M  used = 2943.56M  free = 1152.44M  (encrypted)",
+    "mem_total_gb": 17.18,
+    "mem_available_gb": 10.136,
+    "swap_used_gb": 3.087,
+    "cpu_percent": 28.1
+  },
+  "guard": {
+    "returncode": 0,
+    "killed_reason": null,
+    "wall_s": 4.29,
+    "peak_rss_gb": 3.252,
+    "peak_phys_footprint_gb": 3.169,
+    "guard_metric": "physical footprint",
+    "min_avail_gb": 7.353,
+    "swap_start_gb": 3.087,
+    "swap_peak_gb": 3.087,
+    "swap_guard": "active",
+    "tail": [
+      "[err] ",
+      "[err] Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]",
+      "[err] Fetching 9 files: 100%|██████████| 9/9 [00:00<00:00, 3851.13it/s]",
+      "[err] ",
+      "[err] Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]",
+      "[err] Fetching 9 files: 100%|██████████| 9/9 [00:00<00:00, 5189.54it/s]"
+    ]
+  },
+  "worker": {
+    "combo_id": "kev-0.8b/4bit",
+    "started": "2026-11-13T15:50:20+0300",
+    "stage": "done",
+    "ok": true,
+    "import_s": 0.548,
+    "load_s": 2.851,
+    "info": {
+      "runner": "kev",
+      "run": "jaredpalmer/kev-0.8b@9a45d25eb2ab761841196625383fa1dff0e56c1e",
+      "resolved_path": "~/jevlike_cache/hf/hub/models--jaredpalmer--kev-0.8b/snapshots/9a45d25eb2ab761841196625383fa1dff0e56c1e",
+      "full_weights": false,
+      "backend": "mlx",
+      "dtype": "uint32",
+      "device": "mps",
+      "load_options": "LoadOptions(dtype=None, merge=True, attn=None, lora_scale=1.0, temperature=None, backend='mlx', cuda_graphs=None, fused=None)",
+      "temperature": 2.3510958125672174,
+      "base": "Qwen/Qwen3.5-0.8B-Base",
+      "base_revision": "dc7cdfe2ee4154fa7e30f5b51ca41bfa40174e68",
+      "weights_dtype": "fp32",
+      "quantization": {
+        "method": "mlx.nn.quantize(model.text, mode='affine') with mlx-lm's quantize_model predicate",
+        "bits": 4,
+        "group_size": 64,
+        "quantized_modules": 187,
+        "skipped_modules": [],
+        "backbone_bytes_before": 1504791232,
+        "backbone_bytes_after": 423942848,
+        "pointer_head_dtypes": [
+          "torch.float32"
+        ],
+        "pointer_head_quantized": false,
+        "seconds": 0.055
+      }
+    },
+    "mem_after_load": {
+      "rss": 1978744832,
+      "phys_footprint": 2308459376,
+      "mlx_active": 423942856,
+      "mps_driver": 969736192
+    },
+    "latency_ms_single": 248.1,
+    "response": {
+      "model": "kev-latest",
+      "answers": {
+        "defective": {
+          "type": "noul",
+          "noul": 0.8034
+        },
+        "department": {
+          "type": "choice",
+          "choice": "returns",
+          "confidence": 0.7327,
+          "probabilities": {
+            "returns": 0.8218,
+            "shipping": 0.1667,
+            "billing": 0.0115
+          }
+        },
+        "urgency": {
+          "type": "score",
+          "score": 1.0818,
+          "legend": {
+            "0": "Low",
+            "1": "Medium",
+            "2": "High"
+          },
+          "probabilities": {
+            "0": 0.2704,
+            "1": 0.3775,
+            "2": 0.3521
+          },
+          "confidence": 0.0663
+        }
+      },
+      "usage": {
+        "input_tokens": 121,
+        "output_tokens": 176
+      },
+      "latency_ms": 246.8
+    },
+    "latency_ms_warm": 61.9,
+    "response_warm": {
+      "model": "kev-latest",
+      "answers": {
+        "defective": {
+          "type": "noul",
+          "noul": 0.8034
+        },
+        "department": {
+          "type": "choice",
+          "choice": "returns",
+          "confidence": 0.7327,
+          "probabilities": {
+            "returns": 0.8218,
+            "shipping": 0.1667,
+            "billing": 0.0115
+          }
+        },
+        "urgency": {
+          "type": "score",
+          "score": 1.0818,
+          "legend": {
+            "0": "Low",
+            "1": "Medium",
+            "2": "High"
+          },
+          "probabilities": {
+            "0": 0.2704,
+            "1": 0.3775,
+            "2": 0.3521
+          },
+          "confidence": 0.0663
+        }
+      },
+      "usage": {
+        "input_tokens": 121,
+        "output_tokens": 176
+      },
+      "latency_ms": 61.1
+    },
+    "validation": {
+      "valid": true,
+      "problems": []
+    },
+    "rss_peak_gb": 3.146,
+    "phys_footprint_peak_gb": 3.052,
+    "mlx_active_peak_gb": 2.396,
+    "mps_driver_peak_gb": 2.503,
+    "sampler_samples": 35,
+    "phys_footprint_lifetime_max_gb": 3.236,
+    "mlx_peak_gb": 2.573,
+    "finished": "2026-11-13T15:50:24+0300"
+  },
+  "after": {
+    "label": "after kev-0.8b/4bit",
+    "time": "2026-11-13T15:50:25+0300",
+    "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+    "pmset_batt": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=<redacted>)\t80%; AC attached; not charging present: true",
+    "memory_pressure": "The system has 17179869184 (1048576 pages with a page size of 16384).\nSystem-wide memory free percentage: 78%",
+    "swapusage": "vm.swapusage: total = 4096.00M  used = 2943.56M  free = 1152.44M  (encrypted)",
+    "mem_total_gb": 17.18,
+    "mem_available_gb": 10.134,
+    "swap_used_gb": 3.087,
+    "cpu_percent": 24.1
+  },
+  "finished": "2026-11-13T15:50:25+0300"
+}

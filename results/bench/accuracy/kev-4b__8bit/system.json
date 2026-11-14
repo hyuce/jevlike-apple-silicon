@@ -1,0 +1,55 @@
+{
+  "before": {
+    "label": "before kev-4b/8bit",
+    "time": "2026-11-13T19:19:00+0300",
+    "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+    "pmset_batt": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=<redacted>)\t79%; AC attached; not charging present: true",
+    "memory_pressure": "The system has 17179869184 (1048576 pages with a page size of 16384).\nSystem-wide memory free percentage: 78%",
+    "swapusage": "vm.swapusage: total = 5120.00M  used = 4204.06M  free = 915.94M  (encrypted)",
+    "mem_total_gb": 17.18,
+    "mem_available_gb": 10.885,
+    "swap_used_gb": 4.408,
+    "cpu_percent": 10.0
+  },
+  "after": {
+    "label": "after kev-4b/8bit",
+    "time": "2026-11-13T19:22:33+0300",
+    "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+    "pmset_batt": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=<redacted>)\t79%; AC attached; not charging present: true",
+    "memory_pressure": "The system has 17179869184 (1048576 pages with a page size of 16384).\nSystem-wide memory free percentage: 82%",
+    "swapusage": "vm.swapusage: total = 6144.00M  used = 4675.94M  free = 1468.06M  (encrypted)",
+    "mem_total_gb": 17.18,
+    "mem_available_gb": 10.893,
+    "swap_used_gb": 4.903,
+    "cpu_percent": 15.6
+  },
+  "guard": {
+    "returncode": 0,
+    "killed_reason": null,
+    "wall_s": 212.86,
+    "peak_rss_gb": 4.643,
+    "peak_phys_footprint_gb": 9.574,
+    "guard_metric": "physical footprint",
+    "min_avail_gb": 2.374,
+    "swap_start_gb": 4.408,
+    "swap_peak_gb": 5.369,
+    "swap_guard": "active",
+    "tail": [
+      "[out] [worker] kev-4b/8bit: 50/764 answered this session",
+      "[out] [worker] kev-4b/8bit: 100/764 answered this session",
+      "[out] [worker] kev-4b/8bit: 150/764 answered this session",
+      "[out] [worker] kev-4b/8bit: 200/764 answered this session",
+      "[out] [worker] kev-4b/8bit: 250/764 answered this session",
+      "[out] [worker] kev-4b/8bit: 300/764 answered this session",
+      "[out] [worker] kev-4b/8bit: 350/764 answered this session",
+      "[out] [worker] kev-4b/8bit: 400/764 answered this session",
+      "[out] [worker] kev-4b/8bit: 450/764 answered this session",
+      "[out] [worker] kev-4b/8bit: 500/764 answered this session",
+      "[out] [worker] kev-4b/8bit: 550/764 answered this session",
+      "[out] [worker] kev-4b/8bit: 600/764 answered this session",
+      "[out] [worker] kev-4b/8bit: 650/764 answered this session",
+      "[out] [worker] kev-4b/8bit: 700/764 answered this session",
+      "[out] [worker] kev-4b/8bit: 750/764 answered this session"
+    ]
+  }
+}

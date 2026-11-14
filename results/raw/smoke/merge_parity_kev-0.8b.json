@@ -1,0 +1,19 @@
+{
+  "a": "~/jevlike_cache/models/merged/kev-0.8b-official/checkpoint",
+  "b": "~/jevlike_cache/models/merged/kev-0.8b-stream/checkpoint",
+  "tensors_a": 320,
+  "tensors_b": 320,
+  "only_in_a": [],
+  "only_in_b": [],
+  "compared": 320,
+  "bitwise_equal_tensors": 320,
+  "shape_or_dtype_mismatch": [],
+  "max_abs_diff_overall": 0.0,
+  "elements_differing": 0,
+  "elements_total": 752393024,
+  "differing_tensors": [],
+  "config_diff": {},
+  "pointer_head_equal": true,
+  "meta_diff": {},
+  "verdict": "identical"
+}

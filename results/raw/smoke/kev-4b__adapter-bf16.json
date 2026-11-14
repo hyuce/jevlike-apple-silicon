@@ -1,0 +1,71 @@
+{
+  "combo": {
+    "id": "kev-4b/adapter-bf16",
+    "model": "kev-4b",
+    "variant": "adapter-bf16",
+    "backend": "mlx",
+    "kind": "kev",
+    "params": {
+      "run": "jaredpalmer/kev-4b@139fdd94f1b6a6ad80cc15e08fcb99cac885a101",
+      "device": "mps",
+      "backend": "mlx"
+    },
+    "needs": [
+      "dl-kev-4b",
+      "dl-qwen3.5-4b-base"
+    ],
+    "repo": "kev",
+    "hf": "jaredpalmer/kev-4b@139fdd94f1b6a6ad80cc15e08fcb99cac885a101 (README Kev 1.0 weights rev); base Qwen/Qwen3.5-4B-Base@1001bb4d826a52d1f399e183466143f4da7b741b (Kev-4B base)",
+    "notes": "boundary test: kev.serve default (LoRA merged in memory); source reports a 15.9 GB loading peak"
+  },
+  "request_path": "<project>/code/smoke_request.json",
+  "request_sha256": "c800242e8a37638b3e374f3815a10a7da1240e8b8eca32fe63bd273181e88ed3",
+  "repo_sha_actual": "2074cc44256200bb37540103fa4572901faa10f3",
+  "started": "2026-11-13T15:56:37+0300",
+  "before": {
+    "label": "before kev-4b/adapter-bf16",
+    "time": "2026-11-13T15:56:47+0300",
+    "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+    "pmset_batt": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=<redacted>)\t80%; AC attached; not charging present: true",
+    "memory_pressure": "The system has 17179869184 (1048576 pages with a page size of 16384).\nSystem-wide memory free percentage: 82%",
+    "swapusage": "vm.swapusage: total = 5120.00M  used = 4454.06M  free = 665.94M  (encrypted)",
+    "mem_total_gb": 17.18,
+    "mem_available_gb": 11.413,
+    "swap_used_gb": 4.67,
+    "cpu_percent": 21.6
+  },
+  "guard": {
+    "returncode": -9,
+    "killed_reason": "memory guard: process physical footprint 14.03 GB > limit 14 GB after 17.1 s",
+    "wall_s": 17.5,
+    "peak_rss_gb": 5.564,
+    "peak_phys_footprint_gb": 14.026,
+    "guard_metric": "physical footprint",
+    "min_avail_gb": 2.728,
+    "swap_start_gb": 4.67,
+    "swap_peak_gb": 7.806,
+    "swap_guard": "active",
+    "tail": [
+      "[err] ",
+      "[err] Fetching 13 files:   0%|          | 0/13 [00:00<?, ?it/s]",
+      "[err] Fetching 13 files: 100%|██████████| 13/13 [00:00<00:00, 6606.00it/s]",
+      "[err] ",
+      "[err] Fetching 10 files:   0%|          | 0/10 [00:00<?, ?it/s]",
+      "[err] Fetching 10 files: 100%|██████████| 10/10 [00:00<00:00, 6502.80it/s]"
+    ]
+  },
+  "worker": null,
+  "after": {
+    "label": "after kev-4b/adapter-bf16",
+    "time": "2026-11-13T15:57:05+0300",
+    "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+    "pmset_batt": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=<redacted>)\t80%; AC attached; not charging present: true",
+    "memory_pressure": "The system has 17179869184 (1048576 pages with a page size of 16384).\nSystem-wide memory free percentage: 82%",
+    "swapusage": "vm.swapusage: total = 8192.00M  used = 6937.06M  free = 1254.94M  (encrypted)",
+    "mem_total_gb": 17.18,
+    "mem_available_gb": 12.027,
+    "swap_used_gb": 7.274,
+    "cpu_percent": 17.3
+  },
+  "finished": "2026-11-13T15:57:05+0300"
+}

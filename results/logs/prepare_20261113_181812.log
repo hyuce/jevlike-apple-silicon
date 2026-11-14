@@ -1,0 +1,23 @@
+[err] [run_kev_script] pre-existing 'scripts' resolution: ('~/jevlike_cache/repos/laya-mlx/scripts/__init__.py', ['~/jevlike_cache/repos/laya-mlx/scripts'])
+[err] 
+[err] Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]
+[err] Fetching 9 files: 100%|██████████| 9/9 [00:00<00:00, 4877.73it/s]
+[err] Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[err] 
+[out] loading Qwen/Qwen3.5-0.8B-Base@dc7cdfe2ee4154fa7e30f5b51ca41bfa40174e68 (fp32) with the adapter of jaredpalmer/kev-0.8b@9a45d25eb2ab761841196625383fa1dff0e56c1e
+[err] Loading weights:   0%|          | 0/320 [00:00<?, ?it/s]
+[err] Loading weights:   0%|          | 1/320 [00:01<07:48,  1.47s/it]
+[err] Loading weights: 100%|██████████| 320/320 [00:01<00:00, 217.10it/s]
+[out] load_base_and_adapter: 3.8 s
+[out] merge: 1.1 s
+[err] 
+[err] Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]
+[err] Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.74it/s]
+[err] Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.74it/s]
+[out] write_backbone: 0.6 s
+[out] hash_output: 0.7 s
+[out] -> ~/jevlike_cache/models/merged/kev-0.8b-official/checkpoint: weights 024714fddf04, 320 tensors, 6.3 s
+[out] {"task": "merge-kev-0.8b-official", "ok": true}
+[guard] returncode=0 killed_reason=None wall_s=11.7 peak_rss_gb=5.931 peak_phys_footprint_gb=4.387
+[out] {"task": "compare-kev-0.8b-merges", "ok": true}
+[guard] returncode=0 killed_reason=None wall_s=5.4 peak_rss_gb=4.091 peak_phys_footprint_gb=5.676

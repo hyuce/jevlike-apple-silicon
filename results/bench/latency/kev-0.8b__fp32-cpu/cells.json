@@ -1,0 +1,42 @@
+[
+  {
+    "cell": "A_q1",
+    "n_questions": 1,
+    "target_tokens": null,
+    "state_tokens_qwen": null,
+    "cold": [
+      7616.841,
+      7600.043,
+      7791.892,
+      7819.323,
+      7855.927,
+      7800.664,
+      7823.04,
+      7827.617,
+      7812.762,
+      7818.932
+    ],
+    "warm": [
+      3882.88,
+      3897.168,
+      3922.169,
+      3846.846,
+      3871.553,
+      3893.097,
+      3904.276,
+      3900.236,
+      3916.854,
+      3878.278
+    ],
+    "errors": [],
+    "status": "ok",
+    "peaks": {
+      "rss_peak_gb": 5.424,
+      "phys_footprint_peak_gb": 3.816,
+      "mlx_active_peak_gb": 0.0,
+      "mps_driver_peak_gb": 0.0,
+      "sampler_samples": 1409,
+      "phys_footprint_lifetime_max_gb": 3.816
+    }
+  }
+]

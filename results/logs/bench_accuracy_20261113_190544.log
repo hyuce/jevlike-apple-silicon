@@ -1,0 +1,157 @@
+[err] 
+[err] Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]
+[err] Fetching 9 files: 100%|██████████| 9/9 [00:00<00:00, 2848.10it/s]
+[err] Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[err] 
+[err] Loading weights:   0%|          | 0/320 [00:00<?, ?it/s]
+[err] Loading weights:  90%|████████▉ | 287/320 [00:00<00:00, 2582.14it/s]
+[err] Loading weights: 100%|██████████| 320/320 [00:00<00:00, 2059.96it/s]
+[err] [transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[err] [transformers] `chunk_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
+[out] [worker] kev-0.8b/fp32: 50/764 answered this session
+[out] [worker] kev-0.8b/fp32: 100/764 answered this session
+[out] [worker] kev-0.8b/fp32: 150/764 answered this session
+[out] [worker] kev-0.8b/fp32: 200/764 answered this session
+[out] [worker] kev-0.8b/fp32: 250/764 answered this session
+[out] [worker] kev-0.8b/fp32: 300/764 answered this session
+[out] [worker] kev-0.8b/fp32: 350/764 answered this session
+[out] [worker] kev-0.8b/fp32: 400/764 answered this session
+[out] [worker] kev-0.8b/fp32: 450/764 answered this session
+[out] [worker] kev-0.8b/fp32: 500/764 answered this session
+[out] [worker] kev-0.8b/fp32: 550/764 answered this session
+[out] [worker] kev-0.8b/fp32: 600/764 answered this session
+[out] [worker] kev-0.8b/fp32: 650/764 answered this session
+[out] [worker] kev-0.8b/fp32: 700/764 answered this session
+[out] [worker] kev-0.8b/fp32: 750/764 answered this session
+[guard] returncode=0 killed_reason=None wall_s=239.1 peak_rss_gb=5.187 peak_phys_footprint_gb=8.881
+[err] 
+[err] Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]
+[err] Fetching 9 files: 100%|██████████| 9/9 [00:00<00:00, 3176.70it/s]
+[err] 
+[err] Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]
+[err] Fetching 9 files: 100%|██████████| 9/9 [00:00<00:00, 3199.59it/s]
+[out] [worker] kev-0.8b/bf16: 50/764 answered this session
+[out] [worker] kev-0.8b/bf16: 100/764 answered this session
+[out] [worker] kev-0.8b/bf16: 150/764 answered this session
+[out] [worker] kev-0.8b/bf16: 200/764 answered this session
+[out] [worker] kev-0.8b/bf16: 250/764 answered this session
+[out] [worker] kev-0.8b/bf16: 300/764 answered this session
+[out] [worker] kev-0.8b/bf16: 350/764 answered this session
+[out] [worker] kev-0.8b/bf16: 400/764 answered this session
+[out] [worker] kev-0.8b/bf16: 450/764 answered this session
+[out] [worker] kev-0.8b/bf16: 500/764 answered this session
+[out] [worker] kev-0.8b/bf16: 550/764 answered this session
+[out] [worker] kev-0.8b/bf16: 600/764 answered this session
+[out] [worker] kev-0.8b/bf16: 650/764 answered this session
+[out] [worker] kev-0.8b/bf16: 700/764 answered this session
+[out] [worker] kev-0.8b/bf16: 750/764 answered this session
+[guard] returncode=0 killed_reason=None wall_s=47.6 peak_rss_gb=3.163 peak_phys_footprint_gb=3.701
+[err] 
+[err] Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]
+[err] Fetching 9 files: 100%|██████████| 9/9 [00:00<00:00, 2976.09it/s]
+[err] 
+[err] Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]
+[err] Fetching 9 files: 100%|██████████| 9/9 [00:00<00:00, 3527.92it/s]
+[out] [worker] kev-0.8b/8bit: 50/764 answered this session
+[out] [worker] kev-0.8b/8bit: 100/764 answered this session
+[out] [worker] kev-0.8b/8bit: 150/764 answered this session
+[out] [worker] kev-0.8b/8bit: 200/764 answered this session
+[out] [worker] kev-0.8b/8bit: 250/764 answered this session
+[out] [worker] kev-0.8b/8bit: 300/764 answered this session
+[out] [worker] kev-0.8b/8bit: 350/764 answered this session
+[out] [worker] kev-0.8b/8bit: 400/764 answered this session
+[out] [worker] kev-0.8b/8bit: 450/764 answered this session
+[out] [worker] kev-0.8b/8bit: 500/764 answered this session
+[out] [worker] kev-0.8b/8bit: 550/764 answered this session
+[out] [worker] kev-0.8b/8bit: 600/764 answered this session
+[out] [worker] kev-0.8b/8bit: 650/764 answered this session
+[out] [worker] kev-0.8b/8bit: 700/764 answered this session
+[out] [worker] kev-0.8b/8bit: 750/764 answered this session
+[guard] returncode=0 killed_reason=None wall_s=44.0 peak_rss_gb=3.212 peak_phys_footprint_gb=3.120
+[err] 
+[err] Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]
+[err] Fetching 9 files: 100%|██████████| 9/9 [00:00<00:00, 3060.29it/s]
+[err] 
+[err] Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]
+[err] Fetching 9 files: 100%|██████████| 9/9 [00:00<00:00, 2923.99it/s]
+[out] [worker] kev-0.8b/4bit: 50/764 answered this session
+[out] [worker] kev-0.8b/4bit: 100/764 answered this session
+[out] [worker] kev-0.8b/4bit: 150/764 answered this session
+[out] [worker] kev-0.8b/4bit: 200/764 answered this session
+[out] [worker] kev-0.8b/4bit: 250/764 answered this session
+[out] [worker] kev-0.8b/4bit: 300/764 answered this session
+[out] [worker] kev-0.8b/4bit: 350/764 answered this session
+[out] [worker] kev-0.8b/4bit: 400/764 answered this session
+[out] [worker] kev-0.8b/4bit: 450/764 answered this session
+[out] [worker] kev-0.8b/4bit: 500/764 answered this session
+[out] [worker] kev-0.8b/4bit: 550/764 answered this session
+[out] [worker] kev-0.8b/4bit: 600/764 answered this session
+[out] [worker] kev-0.8b/4bit: 650/764 answered this session
+[out] [worker] kev-0.8b/4bit: 700/764 answered this session
+[out] [worker] kev-0.8b/4bit: 750/764 answered this session
+[guard] returncode=0 killed_reason=None wall_s=44.0 peak_rss_gb=3.120 peak_phys_footprint_gb=3.033
+[out] [worker] kev-0.8b/full-bf16-merged: 50/764 answered this session
+[out] [worker] kev-0.8b/full-bf16-merged: 100/764 answered this session
+[out] [worker] kev-0.8b/full-bf16-merged: 150/764 answered this session
+[out] [worker] kev-0.8b/full-bf16-merged: 200/764 answered this session
+[out] [worker] kev-0.8b/full-bf16-merged: 250/764 answered this session
+[out] [worker] kev-0.8b/full-bf16-merged: 300/764 answered this session
+[out] [worker] kev-0.8b/full-bf16-merged: 350/764 answered this session
+[out] [worker] kev-0.8b/full-bf16-merged: 400/764 answered this session
+[out] [worker] kev-0.8b/full-bf16-merged: 450/764 answered this session
+[out] [worker] kev-0.8b/full-bf16-merged: 500/764 answered this session
+[out] [worker] kev-0.8b/full-bf16-merged: 550/764 answered this session
+[out] [worker] kev-0.8b/full-bf16-merged: 600/764 answered this session
+[out] [worker] kev-0.8b/full-bf16-merged: 650/764 answered this session
+[out] [worker] kev-0.8b/full-bf16-merged: 700/764 answered this session
+[out] [worker] kev-0.8b/full-bf16-merged: 750/764 answered this session
+[guard] returncode=0 killed_reason=None wall_s=48.1 peak_rss_gb=2.177 peak_phys_footprint_gb=3.644
+[err] Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[out] [worker] kev-4b/full-bf16-merged: 50/764 answered this session
+[out] [worker] kev-4b/full-bf16-merged: 100/764 answered this session
+[out] [worker] kev-4b/full-bf16-merged: 150/764 answered this session
+[out] [worker] kev-4b/full-bf16-merged: 200/764 answered this session
+[out] [worker] kev-4b/full-bf16-merged: 250/764 answered this session
+[out] [worker] kev-4b/full-bf16-merged: 300/764 answered this session
+[out] [worker] kev-4b/full-bf16-merged: 350/764 answered this session
+[out] [worker] kev-4b/full-bf16-merged: 400/764 answered this session
+[out] [worker] kev-4b/full-bf16-merged: 450/764 answered this session
+[out] [worker] kev-4b/full-bf16-merged: 500/764 answered this session
+[out] [worker] kev-4b/full-bf16-merged: 550/764 answered this session
+[out] [worker] kev-4b/full-bf16-merged: 600/764 answered this session
+[out] [worker] kev-4b/full-bf16-merged: 650/764 answered this session
+[out] [worker] kev-4b/full-bf16-merged: 700/764 answered this session
+[out] [worker] kev-4b/full-bf16-merged: 750/764 answered this session
+[guard] returncode=0 killed_reason=None wall_s=226.1 peak_rss_gb=3.074 peak_phys_footprint_gb=10.588
+[out] [worker] kev-4b/8bit: 50/764 answered this session
+[out] [worker] kev-4b/8bit: 100/764 answered this session
+[out] [worker] kev-4b/8bit: 150/764 answered this session
+[out] [worker] kev-4b/8bit: 200/764 answered this session
+[out] [worker] kev-4b/8bit: 250/764 answered this session
+[out] [worker] kev-4b/8bit: 300/764 answered this session
+[out] [worker] kev-4b/8bit: 350/764 answered this session
+[out] [worker] kev-4b/8bit: 400/764 answered this session
+[out] [worker] kev-4b/8bit: 450/764 answered this session
+[out] [worker] kev-4b/8bit: 500/764 answered this session
+[out] [worker] kev-4b/8bit: 550/764 answered this session
+[out] [worker] kev-4b/8bit: 600/764 answered this session
+[out] [worker] kev-4b/8bit: 650/764 answered this session
+[out] [worker] kev-4b/8bit: 700/764 answered this session
+[out] [worker] kev-4b/8bit: 750/764 answered this session
+[guard] returncode=0 killed_reason=None wall_s=212.9 peak_rss_gb=4.643 peak_phys_footprint_gb=9.574
+[out] [worker] kev-4b/4bit: 50/764 answered this session
+[out] [worker] kev-4b/4bit: 100/764 answered this session
+[out] [worker] kev-4b/4bit: 150/764 answered this session
+[out] [worker] kev-4b/4bit: 200/764 answered this session
+[out] [worker] kev-4b/4bit: 250/764 answered this session
+[out] [worker] kev-4b/4bit: 300/764 answered this session
+[out] [worker] kev-4b/4bit: 350/764 answered this session
+[out] [worker] kev-4b/4bit: 400/764 answered this session
+[out] [worker] kev-4b/4bit: 450/764 answered this session
+[out] [worker] kev-4b/4bit: 500/764 answered this session
+[out] [worker] kev-4b/4bit: 550/764 answered this session
+[out] [worker] kev-4b/4bit: 600/764 answered this session
+[out] [worker] kev-4b/4bit: 650/764 answered this session
+[out] [worker] kev-4b/4bit: 700/764 answered this session
+[out] [worker] kev-4b/4bit: 750/764 answered this session
+[guard] returncode=0 killed_reason=None wall_s=214.3 peak_rss_gb=4.175 peak_phys_footprint_gb=9.231

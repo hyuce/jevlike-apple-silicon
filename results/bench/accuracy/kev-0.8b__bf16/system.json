@@ -1,0 +1,61 @@
+{
+  "before": {
+    "label": "before kev-0.8b/bf16",
+    "time": "2026-11-13T19:10:27+0300",
+    "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+    "pmset_batt": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=<redacted>)\t79%; AC attached; not charging present: true",
+    "memory_pressure": "The system has 17179869184 (1048576 pages with a page size of 16384).\nSystem-wide memory free percentage: 75%",
+    "swapusage": "vm.swapusage: total = 5120.00M  used = 3547.25M  free = 1572.75M  (encrypted)",
+    "mem_total_gb": 17.18,
+    "mem_available_gb": 10.444,
+    "swap_used_gb": 3.72,
+    "cpu_percent": 1.7
+  },
+  "after": {
+    "label": "after kev-0.8b/bf16",
+    "time": "2026-11-13T19:11:15+0300",
+    "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+    "pmset_batt": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=<redacted>)\t79%; AC attached; not charging present: true",
+    "memory_pressure": "The system has 17179869184 (1048576 pages with a page size of 16384).\nSystem-wide memory free percentage: 74%",
+    "swapusage": "vm.swapusage: total = 5120.00M  used = 3523.25M  free = 1596.75M  (encrypted)",
+    "mem_total_gb": 17.18,
+    "mem_available_gb": 9.242,
+    "swap_used_gb": 3.694,
+    "cpu_percent": 27.3
+  },
+  "guard": {
+    "returncode": 0,
+    "killed_reason": null,
+    "wall_s": 47.55,
+    "peak_rss_gb": 3.163,
+    "peak_phys_footprint_gb": 3.701,
+    "guard_metric": "physical footprint",
+    "min_avail_gb": 4.948,
+    "swap_start_gb": 3.72,
+    "swap_peak_gb": 3.72,
+    "swap_guard": "active",
+    "tail": [
+      "[err] ",
+      "[err] Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]",
+      "[err] Fetching 9 files: 100%|██████████| 9/9 [00:00<00:00, 3176.70it/s]",
+      "[err] ",
+      "[err] Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]",
+      "[err] Fetching 9 files: 100%|██████████| 9/9 [00:00<00:00, 3199.59it/s]",
+      "[out] [worker] kev-0.8b/bf16: 50/764 answered this session",
+      "[out] [worker] kev-0.8b/bf16: 100/764 answered this session",
+      "[out] [worker] kev-0.8b/bf16: 150/764 answered this session",
+      "[out] [worker] kev-0.8b/bf16: 200/764 answered this session",
+      "[out] [worker] kev-0.8b/bf16: 250/764 answered this session",
+      "[out] [worker] kev-0.8b/bf16: 300/764 answered this session",
+      "[out] [worker] kev-0.8b/bf16: 350/764 answered this session",
+      "[out] [worker] kev-0.8b/bf16: 400/764 answered this session",
+      "[out] [worker] kev-0.8b/bf16: 450/764 answered this session",
+      "[out] [worker] kev-0.8b/bf16: 500/764 answered this session",
+      "[out] [worker] kev-0.8b/bf16: 550/764 answered this session",
+      "[out] [worker] kev-0.8b/bf16: 600/764 answered this session",
+      "[out] [worker] kev-0.8b/bf16: 650/764 answered this session",
+      "[out] [worker] kev-0.8b/bf16: 700/764 answered this session",
+      "[out] [worker] kev-0.8b/bf16: 750/764 answered this session"
+    ]
+  }
+}

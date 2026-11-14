@@ -1,0 +1,184 @@
+{
+  "combo": {
+    "id": "anyjev-q0.8b/fp32",
+    "model": "anyjev-q0.8b",
+    "variant": "fp32",
+    "backend": "torch-mps",
+    "kind": "anyjev",
+    "params": {
+      "model_name": "Qwen/Qwen3.5-0.8B-Base",
+      "revision": "dc7cdfe2ee4154fa7e30f5b51ca41bfa40174e68",
+      "device": "mps",
+      "dtype": "float32"
+    },
+    "needs": [
+      "dl-qwen3.5-0.8b-base"
+    ],
+    "repo": "anyjev",
+    "hf": "Qwen/Qwen3.5-0.8B-Base@dc7cdfe2ee4154fa7e30f5b51ca41bfa40174e68 (Kev-0.8B base)",
+    "notes": "diagnostic: fp32 on MPS after bf16 NaN; AnyJev Decider L0 over HFBackend on Qwen3.5-0.8B-Base"
+  },
+  "request_path": "<project>/code/smoke_request.json",
+  "request_sha256": "c800242e8a37638b3e374f3815a10a7da1240e8b8eca32fe63bd273181e88ed3",
+  "repo_sha_actual": "35311c58955716cb8955ce1368a665988bc63735",
+  "started": "2026-11-13T18:19:07+0300",
+  "before": {
+    "label": "before anyjev-q0.8b/fp32",
+    "time": "2026-11-13T18:19:17+0300",
+    "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+    "pmset_batt": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=<redacted>)\t79%; AC attached; not charging present: true",
+    "memory_pressure": "The system has 17179869184 (1048576 pages with a page size of 16384).\nSystem-wide memory free percentage: 63%",
+    "swapusage": "vm.swapusage: total = 3072.00M  used = 1854.06M  free = 1217.94M  (encrypted)",
+    "mem_total_gb": 17.18,
+    "mem_available_gb": 6.822,
+    "swap_used_gb": 1.944,
+    "cpu_percent": 16.0
+  },
+  "guard": {
+    "returncode": 0,
+    "killed_reason": null,
+    "wall_s": 11.09,
+    "peak_rss_gb": 4.569,
+    "peak_phys_footprint_gb": 5.717,
+    "guard_metric": "physical footprint",
+    "min_avail_gb": 2.064,
+    "swap_start_gb": 1.944,
+    "swap_peak_gb": 2.111,
+    "swap_guard": "active",
+    "tail": [
+      "[err] ",
+      "[err] Loading weights:   0%|          | 0/320 [00:00<?, ?it/s]",
+      "[err] Loading weights:   0%|          | 1/320 [00:00<03:06,  1.71it/s]",
+      "[err] Loading weights: 100%|██████████| 320/320 [00:00<00:00, 542.42it/s]",
+      "[err] [transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.",
+      "[err] [transformers] `chunk_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel."
+    ]
+  },
+  "worker": {
+    "combo_id": "anyjev-q0.8b/fp32",
+    "started": "2026-11-13T18:19:18+0300",
+    "stage": "done",
+    "ok": true,
+    "import_s": 0.617,
+    "load_s": 4.939,
+    "info": {
+      "runner": "anyjev",
+      "model": "Qwen/Qwen3.5-0.8B-Base",
+      "revision": "dc7cdfe2ee4154fa7e30f5b51ca41bfa40174e68",
+      "device": "mps",
+      "dtype": "float32",
+      "batch_size": 1,
+      "level": "L0",
+      "prior": "batch",
+      "min_prior_n": 8
+    },
+    "mem_after_load": {
+      "rss": 202276864,
+      "phys_footprint": 4690577616,
+      "mlx_active": 0,
+      "mps_driver": 3240493056
+    },
+    "latency_ms_single": 2797.0,
+    "response": {
+      "model": "kev-latest",
+      "answers": {
+        "defective": {
+          "type": "noul",
+          "noul": 0.478571673903589
+        },
+        "department": {
+          "type": "choice",
+          "choice": "returns",
+          "probabilities": {
+            "returns": 0.905714014369789,
+            "shipping": 0.05136861480314275,
+            "billing": 0.042917370827068216
+          }
+        },
+        "urgency": {
+          "type": "score",
+          "score": 1.39810592056502,
+          "probabilities": {
+            "0": 0.2882392052141152,
+            "1": 0.025415669006749457,
+            "2": 0.6863451257791352
+          },
+          "legend": {
+            "0": "Low",
+            "1": "Medium",
+            "2": "High"
+          }
+        }
+      },
+      "latency_ms": 2796.8,
+      "anyjev_levels": {
+        "defective": "L0",
+        "department": "L0",
+        "urgency": "L0"
+      }
+    },
+    "latency_ms_warm": 1686.2,
+    "response_warm": {
+      "model": "kev-latest",
+      "answers": {
+        "defective": {
+          "type": "noul",
+          "noul": 0.478571673903589
+        },
+        "department": {
+          "type": "choice",
+          "choice": "returns",
+          "probabilities": {
+            "returns": 0.905714014369789,
+            "shipping": 0.05136861480314275,
+            "billing": 0.042917370827068216
+          }
+        },
+        "urgency": {
+          "type": "score",
+          "score": 1.39810592056502,
+          "probabilities": {
+            "0": 0.2882392052141152,
+            "1": 0.025415669006749457,
+            "2": 0.6863451257791352
+          },
+          "legend": {
+            "0": "Low",
+            "1": "Medium",
+            "2": "High"
+          }
+        }
+      },
+      "latency_ms": 1686.1,
+      "anyjev_levels": {
+        "defective": "L0",
+        "department": "L0",
+        "urgency": "L0"
+      }
+    },
+    "validation": {
+      "valid": true,
+      "problems": []
+    },
+    "rss_peak_gb": 4.599,
+    "phys_footprint_peak_gb": 5.706,
+    "mlx_active_peak_gb": 0.0,
+    "mps_driver_peak_gb": 3.326,
+    "sampler_samples": 98,
+    "phys_footprint_lifetime_max_gb": 5.706,
+    "finished": "2026-11-13T18:19:28+0300"
+  },
+  "after": {
+    "label": "after anyjev-q0.8b/fp32",
+    "time": "2026-11-13T18:19:29+0300",
+    "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+    "pmset_batt": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=<redacted>)\t79%; AC attached; not charging present: true",
+    "memory_pressure": "The system has 17179869184 (1048576 pages with a page size of 16384).\nSystem-wide memory free percentage: 63%",
+    "swapusage": "vm.swapusage: total = 3072.00M  used = 2013.12M  free = 1058.88M  (encrypted)",
+    "mem_total_gb": 17.18,
+    "mem_available_gb": 8.015,
+    "swap_used_gb": 2.111,
+    "cpu_percent": 33.7
+  },
+  "finished": "2026-11-13T18:19:29+0300"
+}

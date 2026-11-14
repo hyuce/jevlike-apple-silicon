@@ -1,0 +1,196 @@
+{
+  "combo": {
+    "id": "laya-multilingual/fp16-laya-mlx",
+    "model": "laya-multilingual",
+    "variant": "fp16 (laya-mlx port)",
+    "backend": "mlx",
+    "kind": "layamlx",
+    "params": {
+      "model_id": "aac6fef/laya-multilingual-mlx",
+      "revision": "f2b4faf51023039425946074e2cf1361d2db11d5"
+    },
+    "needs": [
+      "dl-laya-multilingual-mlx"
+    ],
+    "repo": "laya-mlx",
+    "hf": "aac6fef/laya-multilingual-mlx@f2b4faf51023039425946074e2cf1361d2db11d5 (FP16 MLX port of convaiinnovations/laya-multilingual)",
+    "notes": "mizorewww/laya-mlx runtime; port of convaiinnovations/laya-multilingual"
+  },
+  "request_path": "<project>/code/smoke_request.json",
+  "request_sha256": "c800242e8a37638b3e374f3815a10a7da1240e8b8eca32fe63bd273181e88ed3",
+  "repo_sha_actual": "2159c6c9988e4cbfd6281db1888cef45de09cea9",
+  "started": "2026-11-13T15:53:22+0300",
+  "before": {
+    "label": "before laya-multilingual/fp16-laya-mlx",
+    "time": "2026-11-13T15:53:32+0300",
+    "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+    "pmset_batt": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=<redacted>)\t80%; AC attached; not charging present: true",
+    "memory_pressure": "The system has 17179869184 (1048576 pages with a page size of 16384).\nSystem-wide memory free percentage: 83%",
+    "swapusage": "vm.swapusage: total = 5120.00M  used = 3697.38M  free = 1422.62M  (encrypted)",
+    "mem_total_gb": 17.18,
+    "mem_available_gb": 9.214,
+    "swap_used_gb": 3.877,
+    "cpu_percent": 40.8
+  },
+  "guard": {
+    "returncode": 0,
+    "killed_reason": null,
+    "wall_s": 0.91,
+    "peak_rss_gb": 1.127,
+    "peak_phys_footprint_gb": 1.102,
+    "guard_metric": "physical footprint",
+    "min_avail_gb": 7.657,
+    "swap_start_gb": 3.877,
+    "swap_peak_gb": 3.877,
+    "swap_guard": "active",
+    "tail": [
+      "[err] ",
+      "[err] Fetching 6 files:   0%|          | 0/6 [00:00<?, ?it/s]",
+      "[err] Fetching 6 files: 100%|██████████| 6/6 [00:00<00:00, 4458.07it/s]"
+    ]
+  },
+  "worker": {
+    "combo_id": "laya-multilingual/fp16-laya-mlx",
+    "started": "2026-11-13T15:53:32+0300",
+    "stage": "done",
+    "ok": true,
+    "import_s": 0.037,
+    "load_s": 0.62,
+    "info": {
+      "runner": "laya-mlx",
+      "model_id": "aac6fef/laya-multilingual-mlx",
+      "revision": "f2b4faf51023039425946074e2cf1361d2db11d5",
+      "model_dir": "~/jevlike_cache/hf/hub/models--aac6fef--laya-multilingual-mlx/snapshots/f2b4faf51023039425946074e2cf1361d2db11d5",
+      "dtype": "mlx.core.float16"
+    },
+    "mem_after_load": {
+      "rss": 1117274112,
+      "phys_footprint": 875693496,
+      "mlx_active": 643832340,
+      "mps_driver": 0
+    },
+    "latency_ms_single": 44.6,
+    "response": {
+      "model": "kev-latest",
+      "answers": {
+        "defective": {
+          "type": "noul",
+          "noul": 0.9844,
+          "confidence": 0.9844,
+          "answer_confidence": 0.9844,
+          "action": {
+            "act_probability": 1.0
+          }
+        },
+        "department": {
+          "type": "choice",
+          "choice": "returns",
+          "probabilities": {
+            "returns": 0.5303,
+            "shipping": 0.4689,
+            "billing": 0.0007
+          },
+          "confidence": 0.3657,
+          "answer_confidence": 0.5303,
+          "action": {
+            "act_probability": 1.0
+          }
+        },
+        "urgency": {
+          "type": "score",
+          "score": 1.2726,
+          "legend": {
+            "0": "Low",
+            "1": "Medium",
+            "2": "High"
+          },
+          "probabilities": {
+            "0": 0.2245,
+            "1": 0.2783,
+            "2": 0.4971
+          },
+          "confidence": 0.0544,
+          "answer_confidence": 0.4971,
+          "action": {
+            "act_probability": 1.0
+          }
+        }
+      },
+      "latency_ms": 44.5
+    },
+    "latency_ms_warm": 20.7,
+    "response_warm": {
+      "model": "kev-latest",
+      "answers": {
+        "defective": {
+          "type": "noul",
+          "noul": 0.9844,
+          "confidence": 0.9844,
+          "answer_confidence": 0.9844,
+          "action": {
+            "act_probability": 1.0
+          }
+        },
+        "department": {
+          "type": "choice",
+          "choice": "returns",
+          "probabilities": {
+            "returns": 0.5303,
+            "shipping": 0.4689,
+            "billing": 0.0007
+          },
+          "confidence": 0.3657,
+          "answer_confidence": 0.5303,
+          "action": {
+            "act_probability": 1.0
+          }
+        },
+        "urgency": {
+          "type": "score",
+          "score": 1.2726,
+          "legend": {
+            "0": "Low",
+            "1": "Medium",
+            "2": "High"
+          },
+          "probabilities": {
+            "0": 0.2245,
+            "1": 0.2783,
+            "2": 0.4971
+          },
+          "confidence": 0.0544,
+          "answer_confidence": 0.4971,
+          "action": {
+            "act_probability": 1.0
+          }
+        }
+      },
+      "latency_ms": 20.6
+    },
+    "validation": {
+      "valid": true,
+      "problems": []
+    },
+    "rss_peak_gb": 1.127,
+    "phys_footprint_peak_gb": 1.102,
+    "mlx_active_peak_gb": 0.644,
+    "mps_driver_peak_gb": 0.0,
+    "sampler_samples": 6,
+    "phys_footprint_lifetime_max_gb": 1.102,
+    "mlx_peak_gb": 0.859,
+    "finished": "2026-11-13T15:53:33+0300"
+  },
+  "after": {
+    "label": "after laya-multilingual/fp16-laya-mlx",
+    "time": "2026-11-13T15:53:33+0300",
+    "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+    "pmset_batt": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=<redacted>)\t80%; AC attached; not charging present: true",
+    "memory_pressure": "The system has 17179869184 (1048576 pages with a page size of 16384).\nSystem-wide memory free percentage: 83%",
+    "swapusage": "vm.swapusage: total = 5120.00M  used = 3697.38M  free = 1422.62M  (encrypted)",
+    "mem_total_gb": 17.18,
+    "mem_available_gb": 9.221,
+    "swap_used_gb": 3.877,
+    "cpu_percent": 35.9
+  },
+  "finished": "2026-11-13T15:53:33+0300"
+}

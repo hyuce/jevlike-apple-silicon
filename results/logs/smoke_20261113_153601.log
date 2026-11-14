@@ -1,0 +1,40 @@
+# smoke test 2026-11-13T15:36:01+0300  python=~/jevlike_cache/venv/bin/python
+cache=~/jevlike_cache  HF_HOME=~/jevlike_cache/hf  results=<project>/results
+request=<project>/code/smoke_request.json sha256=c800242e8a37638b3e374f3815a10a7da1240e8b8eca32fe63bd273181e88ed3  questions=['defective', 'department', 'urgency']
+guards: rss>14 GB | avail<0.75 GB & swap+>2 GB | timeout 1800 s
+repo kev      pin 2074cc442562 have 2074cc442562
+repo laya     pin 3a38cbe83f6e have 3a38cbe83f6e
+repo nanojev  pin 45b629283dde have 45b629283dde
+repo jevmlx   pin 5f94ae262c1c have 5f94ae262c1c
+repo anyjev   pin 35311c589557 have 35311c589557
+repo laya-mlx pin 2159c6c9988e have 2159c6c9988e
+  kev-0.8b/fp32                torch-mps        missing prerequisites dl-kev-0.8b,dl-qwen3.5-0.8b-base
+  kev-0.8b/fp32-cpu            torch-cpu        missing prerequisites dl-kev-0.8b,dl-qwen3.5-0.8b-base
+  kev-0.8b/bf16                mlx              missing prerequisites dl-kev-0.8b,dl-qwen3.5-0.8b-base
+  kev-0.8b/8bit                mlx              missing prerequisites dl-kev-0.8b,dl-qwen3.5-0.8b-base
+  kev-0.8b/4bit                mlx              missing prerequisites dl-kev-0.8b,dl-qwen3.5-0.8b-base
+  kev-0.8b/full-bf16-merged    mlx              missing prerequisites merge-kev-0.8b-stream
+  kev-4b/full-bf16-merged      mlx              missing prerequisites merge-kev-4b-stream
+  kev-4b/8bit                  mlx              missing prerequisites merge-kev-4b-stream
+  kev-4b/4bit                  mlx              missing prerequisites merge-kev-4b-stream
+  laya/fp32                    torch-mps        missing prerequisites dl-laya
+  laya/fp16                    torch-mps        missing prerequisites dl-laya
+  laya/fp32-cpu                torch-cpu        missing prerequisites dl-laya
+  laya-multilingual/fp32       torch-mps        missing prerequisites dl-laya-multilingual
+  laya-multilingual/fp16       torch-mps        missing prerequisites dl-laya-multilingual
+  laya/fp16-laya-mlx           mlx              missing prerequisites dl-laya-mlx
+  laya-multilingual/fp16-laya-mlx mlx              missing prerequisites dl-laya-multilingual-mlx
+  nanojev/bf16-upstream        torch-cuda-only  missing prerequisites dl-nanojev
+  nanojev/bf16                 torch-mps        missing prerequisites dl-nanojev
+  nanojev/bf16-cpu             torch-cpu        missing prerequisites dl-nanojev
+  anyjev-q0.8b/bf16            torch-mps        missing prerequisites dl-qwen3.5-0.8b-base
+  anyjev-q0.8b/4bit            none             unsupported
+  jevmlx-q0.8b/bf16            mlx              missing prerequisites link-jevmlx-Qwen3.5-0.8B-Base
+  jevmlx-q0.8b/4bit            mlx              missing prerequisites convert-q4-Qwen3.5-0.8B-Base
+  anyjev-q4b/bf16              torch-mps        missing prerequisites dl-qwen3.5-4b-base
+  anyjev-q4b/4bit              none             unsupported
+  jevmlx-q4b/bf16              mlx              missing prerequisites link-jevmlx-Qwen3.5-4B-Base
+  jevmlx-q4b/4bit              mlx              missing prerequisites convert-q4-Qwen3.5-4B-Base
+  jevmlx-default/4bit          mlx              missing prerequisites link-jevmlx-default
+  kev-4b/adapter-bf16          mlx              missing prerequisites dl-kev-4b,dl-qwen3.5-4b-base
+dry run: no model loaded, nothing written except this log

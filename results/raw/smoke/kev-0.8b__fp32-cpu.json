@@ -1,0 +1,194 @@
+{
+  "combo": {
+    "id": "kev-0.8b/fp32-cpu",
+    "model": "kev-0.8b",
+    "variant": "fp32 (CPU)",
+    "backend": "torch-cpu",
+    "kind": "kev",
+    "params": {
+      "run": "jaredpalmer/kev-0.8b@9a45d25eb2ab761841196625383fa1dff0e56c1e",
+      "device": "cpu",
+      "backend": "torch",
+      "dtype": "fp32"
+    },
+    "needs": [
+      "dl-kev-0.8b",
+      "dl-qwen3.5-0.8b-base"
+    ],
+    "repo": "kev",
+    "hf": "jaredpalmer/kev-0.8b@9a45d25eb2ab761841196625383fa1dff0e56c1e (README Kev 1.0 weights rev); base Qwen/Qwen3.5-0.8B-Base@dc7cdfe2ee4154fa7e30f5b51ca41bfa40174e68 (Kev-0.8B base)",
+    "notes": "extra fp32 reference on CPU (the exact path Kev's published numbers use)"
+  },
+  "request_path": "<project>/code/smoke_request.json",
+  "request_sha256": "c800242e8a37638b3e374f3815a10a7da1240e8b8eca32fe63bd273181e88ed3",
+  "repo_sha_actual": "2074cc44256200bb37540103fa4572901faa10f3",
+  "started": "2026-11-13T15:49:02+0300",
+  "before": {
+    "label": "before kev-0.8b/fp32-cpu",
+    "time": "2026-11-13T15:49:12+0300",
+    "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+    "pmset_batt": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=<redacted>)\t80%; AC attached; not charging present: true",
+    "memory_pressure": "The system has 17179869184 (1048576 pages with a page size of 16384).\nSystem-wide memory free percentage: 75%",
+    "swapusage": "vm.swapusage: total = 4096.00M  used = 3023.56M  free = 1072.44M  (encrypted)",
+    "mem_total_gb": 17.18,
+    "mem_available_gb": 8.15,
+    "swap_used_gb": 3.17,
+    "cpu_percent": 30.8
+  },
+  "guard": {
+    "returncode": 0,
+    "killed_reason": null,
+    "wall_s": 24.6,
+    "peak_rss_gb": 5.431,
+    "peak_phys_footprint_gb": 3.816,
+    "guard_metric": "physical footprint",
+    "min_avail_gb": 6.256,
+    "swap_start_gb": 3.17,
+    "swap_peak_gb": 3.17,
+    "swap_guard": "active",
+    "tail": [
+      "[err] ",
+      "[err] Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]",
+      "[err] Fetching 9 files: 100%|██████████| 9/9 [00:00<00:00, 5932.54it/s]",
+      "[err] ",
+      "[err] Loading weights:   0%|          | 0/320 [00:00<?, ?it/s]",
+      "[err] Loading weights:   0%|          | 1/320 [00:00<03:10,  1.68it/s]",
+      "[err] Loading weights: 100%|██████████| 320/320 [00:00<00:00, 532.15it/s]",
+      "[err] [transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.",
+      "[err] [transformers] `chunk_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel."
+    ]
+  },
+  "worker": {
+    "combo_id": "kev-0.8b/fp32-cpu",
+    "started": "2026-11-13T15:49:13+0300",
+    "stage": "done",
+    "ok": true,
+    "import_s": 0.676,
+    "load_s": 4.313,
+    "info": {
+      "runner": "kev",
+      "run": "jaredpalmer/kev-0.8b@9a45d25eb2ab761841196625383fa1dff0e56c1e",
+      "resolved_path": "~/jevlike_cache/hf/hub/models--jaredpalmer--kev-0.8b/snapshots/9a45d25eb2ab761841196625383fa1dff0e56c1e",
+      "full_weights": false,
+      "backend": "torch",
+      "dtype": "float32",
+      "device": "cpu",
+      "load_options": "LoadOptions(dtype=torch.float32, merge=True, attn=None, lora_scale=1.0, temperature=None, backend='torch', cuda_graphs=None, fused=None)",
+      "temperature": 2.3510958125672174,
+      "base": "Qwen/Qwen3.5-0.8B-Base",
+      "base_revision": "dc7cdfe2ee4154fa7e30f5b51ca41bfa40174e68",
+      "weights_dtype": "fp32",
+      "quantization": null
+    },
+    "mem_after_load": {
+      "rss": 5283151872,
+      "phys_footprint": 3681276776,
+      "mlx_active": 0,
+      "mps_driver": 393216
+    },
+    "latency_ms_single": 11321.4,
+    "response": {
+      "model": "kev-latest",
+      "answers": {
+        "defective": {
+          "type": "noul",
+          "noul": 0.7106
+        },
+        "department": {
+          "type": "choice",
+          "choice": "returns",
+          "confidence": 0.8107,
+          "probabilities": {
+            "returns": 0.8738,
+            "shipping": 0.1178,
+            "billing": 0.0084
+          }
+        },
+        "urgency": {
+          "type": "score",
+          "score": 1.1393,
+          "legend": {
+            "0": "Low",
+            "1": "Medium",
+            "2": "High"
+          },
+          "probabilities": {
+            "0": 0.247,
+            "1": 0.3667,
+            "2": 0.3863
+          },
+          "confidence": 0.0
+        }
+      },
+      "usage": {
+        "input_tokens": 121,
+        "output_tokens": 172
+      },
+      "latency_ms": 11319.4
+    },
+    "latency_ms_warm": 7573.8,
+    "response_warm": {
+      "model": "kev-latest",
+      "answers": {
+        "defective": {
+          "type": "noul",
+          "noul": 0.7106
+        },
+        "department": {
+          "type": "choice",
+          "choice": "returns",
+          "confidence": 0.8107,
+          "probabilities": {
+            "returns": 0.8738,
+            "shipping": 0.1178,
+            "billing": 0.0084
+          }
+        },
+        "urgency": {
+          "type": "score",
+          "score": 1.1393,
+          "legend": {
+            "0": "Low",
+            "1": "Medium",
+            "2": "High"
+          },
+          "probabilities": {
+            "0": 0.247,
+            "1": 0.3667,
+            "2": 0.3863
+          },
+          "confidence": 0.0
+        }
+      },
+      "usage": {
+        "input_tokens": 121,
+        "output_tokens": 172
+      },
+      "latency_ms": 7572.9
+    },
+    "validation": {
+      "valid": true,
+      "problems": []
+    },
+    "rss_peak_gb": 5.411,
+    "phys_footprint_peak_gb": 3.805,
+    "mlx_active_peak_gb": 0.0,
+    "mps_driver_peak_gb": 0.0,
+    "sampler_samples": 220,
+    "phys_footprint_lifetime_max_gb": 3.805,
+    "finished": "2026-11-13T15:49:37+0300"
+  },
+  "after": {
+    "label": "after kev-0.8b/fp32-cpu",
+    "time": "2026-11-13T15:49:37+0300",
+    "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+    "pmset_batt": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=<redacted>)\t80%; AC attached; not charging present: true",
+    "memory_pressure": "The system has 17179869184 (1048576 pages with a page size of 16384).\nSystem-wide memory free percentage: 76%",
+    "swapusage": "vm.swapusage: total = 4096.00M  used = 3015.56M  free = 1080.44M  (encrypted)",
+    "mem_total_gb": 17.18,
+    "mem_available_gb": 8.167,
+    "swap_used_gb": 3.162,
+    "cpu_percent": 25.7
+  },
+  "finished": "2026-11-13T15:49:37+0300"
+}

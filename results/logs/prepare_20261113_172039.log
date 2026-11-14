@@ -1,0 +1,11 @@
+[err] ~/jevlike_cache/venv/bin/python: No module named scripts.merge_lora_checkpoint
+[err] Traceback (most recent call last):
+[err]   File "<project>/code/prepare_models.py", line 218, in <module>
+[err]     main()
+[err]   File "<project>/code/prepare_models.py", line 143, in main
+[err]     result = run_task(task)
+[err]              ^^^^^^^^^^^^^^
+[err]   File "<project>/code/prepare_models.py", line 82, in run_task
+[err]     raise RuntimeError(f"merge_lora_checkpoint.py exited {r.returncode}")
+[err] RuntimeError: merge_lora_checkpoint.py exited 1
+[guard] returncode=1 killed_reason=None wall_s=0.1 peak_rss_gb=0.004 peak_phys_footprint_gb=0.007

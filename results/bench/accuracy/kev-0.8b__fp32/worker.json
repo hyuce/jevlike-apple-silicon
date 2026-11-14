@@ -1,0 +1,30 @@
+{
+  "combo_id": "kev-0.8b/fp32",
+  "started": "2026-11-13T19:06:08+0300",
+  "n_total": 764,
+  "n_already_done": 0,
+  "ok": true,
+  "load_s": 6.021,
+  "info": {
+    "runner": "kev",
+    "run": "jaredpalmer/kev-0.8b@9a45d25eb2ab761841196625383fa1dff0e56c1e",
+    "resolved_path": "~/jevlike_cache/hf/hub/models--jaredpalmer--kev-0.8b/snapshots/9a45d25eb2ab761841196625383fa1dff0e56c1e",
+    "full_weights": false,
+    "backend": "torch",
+    "dtype": "float32",
+    "device": "mps",
+    "load_options": "LoadOptions(dtype=torch.float32, merge=True, attn='sdpa', lora_scale=1.0, temperature=None, backend='torch', cuda_graphs=None, fused=None)",
+    "temperature": 2.3510958125672174,
+    "base": "Qwen/Qwen3.5-0.8B-Base",
+    "base_revision": "dc7cdfe2ee4154fa7e30f5b51ca41bfa40174e68",
+    "weights_dtype": "fp32",
+    "quantization": null
+  },
+  "rss_peak_gb": 5.167,
+  "phys_footprint_peak_gb": 8.87,
+  "mlx_active_peak_gb": 0.0,
+  "mps_driver_peak_gb": 3.781,
+  "sampler_samples": 2272,
+  "phys_footprint_lifetime_max_gb": 8.87,
+  "finished": "2026-11-13T19:10:06+0300"
+}

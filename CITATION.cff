@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite them as below."
+title: "Jev-like Decision Models on a 16 GB Apple Silicon Laptop: Feasibility, and What 8- and 4-bit Quantization Do to Calibrated Decisions"
+type: software
+authors:
+  - family-names: "Yüce"
+    given-names: "Hüseyin"
+    email: "huseyin@marmara.edu.tr"
+    affiliation: "Department of Mechatronics Engineering, Faculty of Technology, Marmara University, Istanbul, Türkiye"
+    orcid: "https://orcid.org/0000-0001-5525-7733"
+repository-code: "https://github.com/hyuce/jevlike-apple-silicon"
+license: MIT
+date-released: "2026-11-14"
+keywords:
+  - decision models
+  - calibration
+  - quantization
+  - Apple Silicon
+  - MLX

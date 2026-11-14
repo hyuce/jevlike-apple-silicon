@@ -1,0 +1,1257 @@
+{
+  "dl-kev-0.8b": {
+    "status": "done",
+    "guard": {
+      "returncode": 0,
+      "killed_reason": null,
+      "wall_s": 5.05,
+      "peak_rss_gb": 0.315,
+      "peak_phys_footprint_gb": 0.259,
+      "guard_metric": "physical footprint",
+      "min_avail_gb": 5.458,
+      "swap_start_gb": 0.911,
+      "swap_peak_gb": 0.911,
+      "swap_guard": "active",
+      "tail": [
+        "[err] ",
+        "[err] Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.",
+        "[err] ",
+        "[err] Fetching 9 files:  11%|█         | 1/9 [00:00<00:02,  2.98it/s]",
+        "[err] Fetching 9 files:  67%|██████▋   | 6/9 [00:00<00:00, 13.94it/s]",
+        "[err] Fetching 9 files:  89%|████████▉ | 8/9 [00:02<00:00,  3.16it/s]",
+        "[err] Fetching 9 files: 100%|██████████| 9/9 [00:03<00:00,  2.66it/s]",
+        "[out] {\"task\": \"dl-kev-0.8b\", \"ok\": true}"
+      ]
+    },
+    "before": {
+      "label": "before dl-kev-0.8b",
+      "time": "2026-11-13T15:36:10+0300",
+      "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+      "pmset_batt": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=<redacted>)\t80%; AC attached; not charging present: true",
+      "memory_pressure": "The system has 17179869184 (1048576 pages with a page size of 16384).\nSystem-wide memory free percentage: 66%",
+      "swapusage": "vm.swapusage: total = 2048.00M  used = 868.50M  free = 1179.50M  (encrypted)",
+      "mem_total_gb": 17.18,
+      "mem_available_gb": 5.478,
+      "swap_used_gb": 0.911,
+      "cpu_percent": 0.0
+    },
+    "after": {
+      "label": "after dl-kev-0.8b",
+      "time": "2026-11-13T15:36:16+0300",
+      "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+      "pmset_batt": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=<redacted>)\t80%; AC attached; not charging present: true",
+      "memory_pressure": "The system has 17179869184 (1048576 pages with a page size of 16384).\nSystem-wide memory free percentage: 66%",
+      "swapusage": "vm.swapusage: total = 2048.00M  used = 868.50M  free = 1179.50M  (encrypted)",
+      "mem_total_gb": 17.18,
+      "mem_available_gb": 5.614,
+      "swap_used_gb": 0.911,
+      "cpu_percent": 42.1
+    },
+    "task": {
+      "id": "dl-kev-0.8b",
+      "kind": "download",
+      "key": "kev-0.8b",
+      "patterns": [
+        "*.json",
+        "*.safetensors",
+        "*.pt",
+        "*.txt",
+        "*.jinja"
+      ],
+      "gb": 0.1,
+      "kev_meta": true
+    },
+    "result": {
+      "repo": "jaredpalmer/kev-0.8b",
+      "revision": "9a45d25eb2ab761841196625383fa1dff0e56c1e",
+      "note": "README Kev 1.0 weights rev",
+      "path": "~/jevlike_cache/hf/hub/models--jaredpalmer--kev-0.8b/snapshots/9a45d25eb2ab761841196625383fa1dff0e56c1e",
+      "size_gb": 0.066,
+      "head_meta": {
+        "base": "Qwen/Qwen3.5-0.8B-Base",
+        "base_revision": "dc7cdfe2ee4154fa7e30f5b51ca41bfa40174e68",
+        "lora": 16,
+        "head_dim": 256,
+        "weights": null,
+        "weights_dtype": "fp32",
+        "temperature": 2.3510958125672174,
+        "option_isolation": false
+      },
+      "base_matches_pin": true,
+      "seconds": 4.8
+    },
+    "finished": "2026-11-13T15:36:15+0300"
+  },
+  "dl-kev-4b": {
+    "status": "done",
+    "guard": {
+      "returncode": 0,
+      "killed_reason": null,
+      "wall_s": 13.19,
+      "peak_rss_gb": 0.372,
+      "peak_phys_footprint_gb": 0.316,
+      "guard_metric": "physical footprint",
+      "min_avail_gb": 5.538,
+      "swap_start_gb": 0.911,
+      "swap_peak_gb": 0.911,
+      "swap_guard": "active",
+      "tail": [
+        "[err] ",
+        "[err] Fetching 13 files:   0%|          | 0/13 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.",
+        "[err] ",
+        "[err] Fetching 13 files:   8%|▊         | 1/13 [00:00<00:02,  5.11it/s]",
+        "[err] Fetching 13 files:  54%|█████▍    | 7/13 [00:00<00:00, 21.15it/s]",
+        "[err] Fetching 13 files:  85%|████████▍ | 11/13 [00:00<00:00, 18.40it/s]",
+        "[err] Fetching 13 files: 100%|██████████| 13/13 [00:12<00:00,  1.46s/it]",
+        "[err] Fetching 13 files: 100%|██████████| 13/13 [00:12<00:00,  1.08it/s]",
+        "[out] {\"task\": \"dl-kev-4b\", \"ok\": true}"
+      ]
+    },
+    "before": {
+      "label": "before dl-kev-4b",
+      "time": "2026-11-13T15:36:16+0300",
+      "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+      "pmset_batt": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=<redacted>)\t80%; AC attached; not charging present: true",
+      "memory_pressure": "The system has 17179869184 (1048576 pages with a page size of 16384).\nSystem-wide memory free percentage: 66%",
+      "swapusage": "vm.swapusage: total = 2048.00M  used = 868.50M  free = 1179.50M  (encrypted)",
+      "mem_total_gb": 17.18,
+      "mem_available_gb": 5.61,
+      "swap_used_gb": 0.911,
+      "cpu_percent": 39.3
+    },
+    "after": {
+      "label": "after dl-kev-4b",
+      "time": "2026-11-13T15:36:29+0300",
+      "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+      "pmset_batt": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=<redacted>)\t80%; AC attached; not charging present: true",
+      "memory_pressure": "The system has 17179869184 (1048576 pages with a page size of 16384).\nSystem-wide memory free percentage: 67%",
+      "swapusage": "vm.swapusage: total = 2048.00M  used = 868.50M  free = 1179.50M  (encrypted)",
+      "mem_total_gb": 17.18,
+      "mem_available_gb": 5.59,
+      "swap_used_gb": 0.911,
+      "cpu_percent": 40.2
+    },
+    "task": {
+      "id": "dl-kev-4b",
+      "kind": "download",
+      "key": "kev-4b",
+      "patterns": [
+        "*.json",
+        "*.safetensors",
+        "*.pt",
+        "*.txt",
+        "*.jinja"
+      ],
+      "gb": 0.2,
+      "kev_meta": true
+    },
+    "result": {
+      "repo": "jaredpalmer/kev-4b",
+      "revision": "139fdd94f1b6a6ad80cc15e08fcb99cac885a101",
+      "note": "README Kev 1.0 weights rev",
+      "path": "~/jevlike_cache/hf/hub/models--jaredpalmer--kev-4b/snapshots/139fdd94f1b6a6ad80cc15e08fcb99cac885a101",
+      "size_gb": 0.16,
+      "head_meta": {
+        "base": "Qwen/Qwen3.5-4B-Base",
+        "base_revision": "1001bb4d826a52d1f399e183466143f4da7b741b",
+        "lora": 16,
+        "head_dim": 256,
+        "weights": null,
+        "weights_dtype": "fp32",
+        "temperature": 2.406050072164233,
+        "option_isolation": false
+      },
+      "base_matches_pin": true,
+      "seconds": 13.0
+    },
+    "finished": "2026-11-13T15:36:29+0300"
+  },
+  "dl-qwen3.5-0.8b-base": {
+    "status": "done",
+    "guard": {
+      "returncode": 0,
+      "killed_reason": null,
+      "wall_s": 62.87,
+      "peak_rss_gb": 1.837,
+      "peak_phys_footprint_gb": 1.82,
+      "guard_metric": "physical footprint",
+      "min_avail_gb": 5.385,
+      "swap_start_gb": 0.911,
+      "swap_peak_gb": 0.911,
+      "swap_guard": "active",
+      "tail": [
+        "[err] ",
+        "[err] Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.",
+        "[err] ",
+        "[err] Fetching 9 files:  11%|█         | 1/9 [00:00<00:01,  5.23it/s]",
+        "[err] Fetching 9 files:  78%|███████▊  | 7/9 [00:00<00:00, 14.86it/s]",
+        "[err] Fetching 9 files:  89%|████████▉ | 8/9 [00:20<00:00, 14.86it/s]",
+        "[err] Fetching 9 files: 100%|██████████| 9/9 [01:02<00:00,  9.29s/it]",
+        "[err] Fetching 9 files: 100%|██████████| 9/9 [01:02<00:00,  6.93s/it]",
+        "[out] {\"task\": \"dl-qwen3.5-0.8b-base\", \"ok\": true}"
+      ]
+    },
+    "before": {
+      "label": "before dl-qwen3.5-0.8b-base",
+      "time": "2026-11-13T15:36:30+0300",
+      "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+      "pmset_batt": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=<redacted>)\t80%; AC attached; not charging present: true",
+      "memory_pressure": "The system has 17179869184 (1048576 pages with a page size of 16384).\nSystem-wide memory free percentage: 67%",
+      "swapusage": "vm.swapusage: total = 2048.00M  used = 868.50M  free = 1179.50M  (encrypted)",
+      "mem_total_gb": 17.18,
+      "mem_available_gb": 5.721,
+      "swap_used_gb": 0.911,
+      "cpu_percent": 39.0
+    },
+    "after": {
+      "label": "after dl-qwen3.5-0.8b-base",
+      "time": "2026-11-13T15:37:33+0300",
+      "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+      "pmset_batt": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=<redacted>)\t80%; AC attached; not charging present: true",
+      "memory_pressure": "The system has 17179869184 (1048576 pages with a page size of 16384).\nSystem-wide memory free percentage: 65%",
+      "swapusage": "vm.swapusage: total = 2048.00M  used = 868.50M  free = 1179.50M  (encrypted)",
+      "mem_total_gb": 17.18,
+      "mem_available_gb": 5.455,
+      "swap_used_gb": 0.911,
+      "cpu_percent": 36.1
+    },
+    "task": {
+      "id": "dl-qwen3.5-0.8b-base",
+      "kind": "download",
+      "key": "qwen3.5-0.8b-base",
+      "patterns": [
+        "*.json",
+        "*.safetensors",
+        "*.pt",
+        "*.txt",
+        "*.jinja"
+      ],
+      "gb": 1.8
+    },
+    "result": {
+      "repo": "Qwen/Qwen3.5-0.8B-Base",
+      "revision": "dc7cdfe2ee4154fa7e30f5b51ca41bfa40174e68",
+      "note": "Kev-0.8B base",
+      "path": "~/jevlike_cache/hf/hub/models--Qwen--Qwen3.5-0.8B-Base/snapshots/dc7cdfe2ee4154fa7e30f5b51ca41bfa40174e68",
+      "size_gb": 1.77,
+      "seconds": 62.7
+    },
+    "finished": "2026-11-13T15:37:33+0300"
+  },
+  "dl-qwen3.5-4b-base": {
+    "status": "done",
+    "guard": {
+      "returncode": 0,
+      "killed_reason": null,
+      "wall_s": 319.6,
+      "peak_rss_gb": 3.36,
+      "peak_phys_footprint_gb": 4.067,
+      "guard_metric": "physical footprint",
+      "min_avail_gb": 3.35,
+      "swap_start_gb": 0.911,
+      "swap_peak_gb": 0.911,
+      "swap_guard": "active",
+      "tail": [
+        "[err] ",
+        "[err] Fetching 10 files:   0%|          | 0/10 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.",
+        "[err] ",
+        "[err] Fetching 10 files:  10%|█         | 1/10 [00:00<00:01,  5.41it/s]",
+        "[err] Fetching 10 files:  60%|██████    | 6/10 [00:00<00:00, 22.83it/s]",
+        "[err] Fetching 10 files:  80%|████████  | 8/10 [00:20<00:00, 22.83it/s]",
+        "[err] Fetching 10 files:  90%|█████████ | 9/10 [04:50<00:41, 41.61s/it]",
+        "[err] Fetching 10 files: 100%|██████████| 10/10 [05:18<00:00, 39.30s/it]",
+        "[err] Fetching 10 files: 100%|██████████| 10/10 [05:18<00:00, 31.90s/it]",
+        "[out] {\"task\": \"dl-qwen3.5-4b-base\", \"ok\": true}"
+      ]
+    },
+    "before": {
+      "label": "before dl-qwen3.5-4b-base",
+      "time": "2026-11-13T15:37:33+0300",
+      "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+      "pmset_batt": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=<redacted>)\t80%; AC attached; not charging present: true",
+      "memory_pressure": "The system has 17179869184 (1048576 pages with a page size of 16384).\nSystem-wide memory free percentage: 65%",
+      "swapusage": "vm.swapusage: total = 2048.00M  used = 868.50M  free = 1179.50M  (encrypted)",
+      "mem_total_gb": 17.18,
+      "mem_available_gb": 6.364,
+      "swap_used_gb": 0.911,
+      "cpu_percent": 40.2
+    },
+    "after": {
+      "label": "after dl-qwen3.5-4b-base",
+      "time": "2026-11-13T15:42:53+0300",
+      "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+      "pmset_batt": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=<redacted>)\t80%; AC attached; not charging present: true",
+      "memory_pressure": "The system has 17179869184 (1048576 pages with a page size of 16384).\nSystem-wide memory free percentage: 60%",
+      "swapusage": "vm.swapusage: total = 2048.00M  used = 868.50M  free = 1179.50M  (encrypted)",
+      "mem_total_gb": 17.18,
+      "mem_available_gb": 5.01,
+      "swap_used_gb": 0.911,
+      "cpu_percent": 13.1
+    },
+    "task": {
+      "id": "dl-qwen3.5-4b-base",
+      "kind": "download",
+      "key": "qwen3.5-4b-base",
+      "patterns": [
+        "*.json",
+        "*.safetensors",
+        "*.pt",
+        "*.txt",
+        "*.jinja"
+      ],
+      "gb": 9.4
+    },
+    "result": {
+      "repo": "Qwen/Qwen3.5-4B-Base",
+      "revision": "1001bb4d826a52d1f399e183466143f4da7b741b",
+      "note": "Kev-4B base",
+      "path": "~/jevlike_cache/hf/hub/models--Qwen--Qwen3.5-4B-Base/snapshots/1001bb4d826a52d1f399e183466143f4da7b741b",
+      "size_gb": 9.343,
+      "seconds": 319.4
+    },
+    "finished": "2026-11-13T15:42:53+0300"
+  },
+  "dl-laya": {
+    "status": "done",
+    "guard": {
+      "returncode": 0,
+      "killed_reason": null,
+      "wall_s": 41.06,
+      "peak_rss_gb": 0.684,
+      "peak_phys_footprint_gb": 0.665,
+      "guard_metric": "physical footprint",
+      "min_avail_gb": 4.148,
+      "swap_start_gb": 0.911,
+      "swap_peak_gb": 0.911,
+      "swap_guard": "active",
+      "tail": [
+        "[err] ",
+        "[err] Fetching 5 files:   0%|          | 0/5 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.",
+        "[err] ",
+        "[err] Fetching 5 files:  20%|██        | 1/5 [00:00<00:00,  5.07it/s]",
+        "[err] Fetching 5 files: 100%|██████████| 5/5 [00:40<00:00,  8.58s/it]",
+        "[err] Fetching 5 files: 100%|██████████| 5/5 [00:40<00:00,  8.08s/it]",
+        "[out] {\"task\": \"dl-laya\", \"ok\": true}"
+      ]
+    },
+    "before": {
+      "label": "before dl-laya",
+      "time": "2026-11-13T15:42:53+0300",
+      "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+      "pmset_batt": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=<redacted>)\t80%; AC attached; not charging present: true",
+      "memory_pressure": "The system has 17179869184 (1048576 pages with a page size of 16384).\nSystem-wide memory free percentage: 60%",
+      "swapusage": "vm.swapusage: total = 2048.00M  used = 868.50M  free = 1179.50M  (encrypted)",
+      "mem_total_gb": 17.18,
+      "mem_available_gb": 5.01,
+      "swap_used_gb": 0.911,
+      "cpu_percent": 20.8
+    },
+    "after": {
+      "label": "after dl-laya",
+      "time": "2026-11-13T15:43:34+0300",
+      "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+      "pmset_batt": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=<redacted>)\t80%; AC attached; not charging present: true",
+      "memory_pressure": "The system has 17179869184 (1048576 pages with a page size of 16384).\nSystem-wide memory free percentage: 61%",
+      "swapusage": "vm.swapusage: total = 2048.00M  used = 868.50M  free = 1179.50M  (encrypted)",
+      "mem_total_gb": 17.18,
+      "mem_available_gb": 5.37,
+      "swap_used_gb": 0.911,
+      "cpu_percent": 5.7
+    },
+    "task": {
+      "id": "dl-laya",
+      "kind": "download",
+      "key": "laya",
+      "patterns": [
+        "rl_agent_config.json",
+        "model.safetensors",
+        "tokenizer/*",
+        "encoder/*"
+      ],
+      "gb": 0.9
+    },
+    "result": {
+      "repo": "convaiinnovations/laya",
+      "revision": "85cc74ddae6109077ebe2853a9b3077fb6606a78",
+      "note": "ModernBERT-large encoder, ~421M",
+      "path": "~/jevlike_cache/hf/hub/models--convaiinnovations--laya/snapshots/85cc74ddae6109077ebe2853a9b3077fb6606a78",
+      "size_gb": 0.846,
+      "seconds": 40.9
+    },
+    "finished": "2026-11-13T15:43:34+0300"
+  },
+  "dl-laya-multilingual": {
+    "status": "done",
+    "guard": {
+      "returncode": 0,
+      "killed_reason": null,
+      "wall_s": 32.14,
+      "peak_rss_gb": 0.753,
+      "peak_phys_footprint_gb": 0.734,
+      "guard_metric": "physical footprint",
+      "min_avail_gb": 5.17,
+      "swap_start_gb": 0.911,
+      "swap_peak_gb": 0.911,
+      "swap_guard": "active",
+      "tail": [
+        "[err] ",
+        "[err] Fetching 5 files:   0%|          | 0/5 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.",
+        "[err] ",
+        "[err] Fetching 5 files:  20%|██        | 1/5 [00:00<00:00,  5.01it/s]",
+        "[err] Fetching 5 files:  80%|████████  | 4/5 [00:23<00:06,  6.38s/it]",
+        "[err] Fetching 5 files: 100%|██████████| 5/5 [00:31<00:00,  6.81s/it]",
+        "[err] Fetching 5 files: 100%|██████████| 5/5 [00:31<00:00,  6.32s/it]",
+        "[out] {\"task\": \"dl-laya-multilingual\", \"ok\": true}"
+      ]
+    },
+    "before": {
+      "label": "before dl-laya-multilingual",
+      "time": "2026-11-13T15:43:35+0300",
+      "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+      "pmset_batt": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=<redacted>)\t80%; AC attached; not charging present: true",
+      "memory_pressure": "The system has 17179869184 (1048576 pages with a page size of 16384).\nSystem-wide memory free percentage: 61%",
+      "swapusage": "vm.swapusage: total = 2048.00M  used = 868.50M  free = 1179.50M  (encrypted)",
+      "mem_total_gb": 17.18,
+      "mem_available_gb": 5.368,
+      "swap_used_gb": 0.911,
+      "cpu_percent": 0.0
+    },
+    "after": {
+      "label": "after dl-laya-multilingual",
+      "time": "2026-11-13T15:44:07+0300",
+      "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+      "pmset_batt": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=<redacted>)\t80%; AC attached; not charging present: true",
+      "memory_pressure": "The system has 17179869184 (1048576 pages with a page size of 16384).\nSystem-wide memory free percentage: 63%",
+      "swapusage": "vm.swapusage: total = 2048.00M  used = 868.50M  free = 1179.50M  (encrypted)",
+      "mem_total_gb": 17.18,
+      "mem_available_gb": 5.564,
+      "swap_used_gb": 0.911,
+      "cpu_percent": 22.1
+    },
+    "task": {
+      "id": "dl-laya-multilingual",
+      "kind": "download",
+      "key": "laya-multilingual",
+      "patterns": [
+        "rl_agent_config.json",
+        "model.safetensors",
+        "tokenizer/*",
+        "encoder/*"
+      ],
+      "gb": 0.7
+    },
+    "result": {
+      "repo": "convaiinnovations/laya-multilingual",
+      "revision": "1720e3e3357cfe1e281542e223f8273b0890ca34",
+      "note": "mmBERT-base encoder, ~322M",
+      "path": "~/jevlike_cache/hf/hub/models--convaiinnovations--laya-multilingual/snapshots/1720e3e3357cfe1e281542e223f8273b0890ca34",
+      "size_gb": 0.678,
+      "seconds": 31.9
+    },
+    "finished": "2026-11-13T15:44:07+0300"
+  },
+  "dl-nanojev": {
+    "status": "done",
+    "guard": {
+      "returncode": 0,
+      "killed_reason": null,
+      "wall_s": 95.85,
+      "peak_rss_gb": 1.064,
+      "peak_phys_footprint_gb": 1.994,
+      "guard_metric": "physical footprint",
+      "min_avail_gb": 2.544,
+      "swap_start_gb": 0.911,
+      "swap_peak_gb": 0.911,
+      "swap_guard": "active",
+      "tail": [
+        "[err] ",
+        "[err] Fetching 6 files:   0%|          | 0/6 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.",
+        "[err] ",
+        "[err] Fetching 6 files:  17%|█▋        | 1/6 [00:00<00:01,  3.86it/s]",
+        "[err] Fetching 6 files:  50%|█████     | 3/6 [00:00<00:00,  6.54it/s]",
+        "[err] Fetching 6 files:  83%|████████▎ | 5/6 [00:02<00:00,  1.53it/s]",
+        "[err] Fetching 6 files: 100%|██████████| 6/6 [01:35<00:00, 25.36s/it]",
+        "[err] Fetching 6 files: 100%|██████████| 6/6 [01:35<00:00, 15.89s/it]",
+        "[out] {\"task\": \"dl-nanojev\", \"ok\": true}"
+      ]
+    },
+    "before": {
+      "label": "before dl-nanojev",
+      "time": "2026-11-13T15:44:07+0300",
+      "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+      "pmset_batt": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=<redacted>)\t80%; AC attached; not charging present: true",
+      "memory_pressure": "The system has 17179869184 (1048576 pages with a page size of 16384).\nSystem-wide memory free percentage: 63%",
+      "swapusage": "vm.swapusage: total = 2048.00M  used = 868.50M  free = 1179.50M  (encrypted)",
+      "mem_total_gb": 17.18,
+      "mem_available_gb": 5.563,
+      "swap_used_gb": 0.911,
+      "cpu_percent": 0.0
+    },
+    "after": {
+      "label": "after dl-nanojev",
+      "time": "2026-11-13T15:45:43+0300",
+      "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+      "pmset_batt": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=<redacted>)\t80%; AC attached; not charging present: true",
+      "memory_pressure": "The system has 17179869184 (1048576 pages with a page size of 16384).\nSystem-wide memory free percentage: 50%",
+      "swapusage": "vm.swapusage: total = 2048.00M  used = 868.50M  free = 1179.50M  (encrypted)",
+      "mem_total_gb": 17.18,
+      "mem_available_gb": 4.842,
+      "swap_used_gb": 0.911,
+      "cpu_percent": 23.6
+    },
+    "task": {
+      "id": "dl-nanojev",
+      "kind": "download",
+      "key": "nanojev",
+      "patterns": [
+        "best.safetensors",
+        "config.json",
+        "tokenizer/*",
+        "backbone_config/*"
+      ],
+      "gb": 2.4,
+      "local_dir": "~/jevlike_cache/models/nanojev/unified-games-v1"
+    },
+    "result": {
+      "repo": "C-Tianyu/NanoJev",
+      "revision": "047b927b30882a1138fc504821b82ac145a4b81a",
+      "note": "tag unified-games-v1",
+      "path": "~/jevlike_cache/models/nanojev/unified-games-v1",
+      "size_gb": 2.397,
+      "seconds": 95.7
+    },
+    "finished": "2026-11-13T15:45:43+0300"
+  },
+  "dl-laya-mlx": {
+    "status": "done",
+    "guard": {
+      "returncode": 0,
+      "killed_reason": null,
+      "wall_s": 35.25,
+      "peak_rss_gb": 0.77,
+      "peak_phys_footprint_gb": 0.79,
+      "guard_metric": "physical footprint",
+      "min_avail_gb": 3.435,
+      "swap_start_gb": 0.911,
+      "swap_peak_gb": 0.911,
+      "swap_guard": "active",
+      "tail": [
+        "[err] ",
+        "[err] Fetching 6 files:   0%|          | 0/6 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.",
+        "[err] ",
+        "[err] Fetching 6 files:  17%|█▋        | 1/6 [00:00<00:00,  5.07it/s]",
+        "[err] Fetching 6 files: 100%|██████████| 6/6 [00:34<00:00,  6.07s/it]",
+        "[err] Fetching 6 files: 100%|██████████| 6/6 [00:34<00:00,  5.78s/it]",
+        "[out] {\"task\": \"dl-laya-mlx\", \"ok\": true}"
+      ]
+    },
+    "before": {
+      "label": "before dl-laya-mlx",
+      "time": "2026-11-13T15:45:44+0300",
+      "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+      "pmset_batt": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=<redacted>)\t80%; AC attached; not charging present: true",
+      "memory_pressure": "The system has 17179869184 (1048576 pages with a page size of 16384).\nSystem-wide memory free percentage: 50%",
+      "swapusage": "vm.swapusage: total = 2048.00M  used = 868.50M  free = 1179.50M  (encrypted)",
+      "mem_total_gb": 17.18,
+      "mem_available_gb": 4.842,
+      "swap_used_gb": 0.911,
+      "cpu_percent": 32.5
+    },
+    "after": {
+      "label": "after dl-laya-mlx",
+      "time": "2026-11-13T15:46:19+0300",
+      "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+      "pmset_batt": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=<redacted>)\t80%; AC attached; not charging present: true",
+      "memory_pressure": "The system has 17179869184 (1048576 pages with a page size of 16384).\nSystem-wide memory free percentage: 52%",
+      "swapusage": "vm.swapusage: total = 2048.00M  used = 868.50M  free = 1179.50M  (encrypted)",
+      "mem_total_gb": 17.18,
+      "mem_available_gb": 4.844,
+      "swap_used_gb": 0.911,
+      "cpu_percent": 29.8
+    },
+    "task": {
+      "id": "dl-laya-mlx",
+      "kind": "download",
+      "key": "laya-mlx",
+      "patterns": [
+        "model.safetensors",
+        "rl_agent_config.json",
+        "encoder/config.json",
+        "tokenizer/*",
+        "mlx_config.json"
+      ],
+      "gb": 0.9
+    },
+    "result": {
+      "repo": "aac6fef/laya-mlx",
+      "revision": "20aed815fc6acde75733882e7ec0e3f28aeb9717",
+      "note": "FP16 MLX port of convaiinnovations/laya",
+      "path": "~/jevlike_cache/hf/hub/models--aac6fef--laya-mlx/snapshots/20aed815fc6acde75733882e7ec0e3f28aeb9717",
+      "size_gb": 0.846,
+      "seconds": 35.1
+    },
+    "finished": "2026-11-13T15:46:19+0300"
+  },
+  "dl-laya-multilingual-mlx": {
+    "status": "done",
+    "guard": {
+      "returncode": 0,
+      "killed_reason": null,
+      "wall_s": 35.49,
+      "peak_rss_gb": 0.352,
+      "peak_phys_footprint_gb": 0.702,
+      "guard_metric": "physical footprint",
+      "min_avail_gb": 3.267,
+      "swap_start_gb": 0.911,
+      "swap_peak_gb": 0.911,
+      "swap_guard": "active",
+      "tail": [
+        "[err] ",
+        "[err] Fetching 6 files:   0%|          | 0/6 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.",
+        "[err] ",
+        "[err] Fetching 6 files:  17%|█▋        | 1/6 [00:00<00:00,  5.72it/s]",
+        "[err] Fetching 6 files: 100%|██████████| 6/6 [00:34<00:00,  6.12s/it]",
+        "[err] Fetching 6 files: 100%|██████████| 6/6 [00:34<00:00,  5.82s/it]",
+        "[out] {\"task\": \"dl-laya-multilingual-mlx\", \"ok\": true}"
+      ]
+    },
+    "before": {
+      "label": "before dl-laya-multilingual-mlx",
+      "time": "2026-11-13T15:46:19+0300",
+      "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+      "pmset_batt": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=<redacted>)\t80%; AC attached; not charging present: true",
+      "memory_pressure": "The system has 17179869184 (1048576 pages with a page size of 16384).\nSystem-wide memory free percentage: 50%",
+      "swapusage": "vm.swapusage: total = 2048.00M  used = 868.50M  free = 1179.50M  (encrypted)",
+      "mem_total_gb": 17.18,
+      "mem_available_gb": 4.488,
+      "swap_used_gb": 0.911,
+      "cpu_percent": 37.5
+    },
+    "after": {
+      "label": "after dl-laya-multilingual-mlx",
+      "time": "2026-11-13T15:46:55+0300",
+      "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+      "pmset_batt": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=<redacted>)\t80%; AC attached; not charging present: true",
+      "memory_pressure": "The system has 17179869184 (1048576 pages with a page size of 16384).\nSystem-wide memory free percentage: 49%",
+      "swapusage": "vm.swapusage: total = 2048.00M  used = 868.50M  free = 1179.50M  (encrypted)",
+      "mem_total_gb": 17.18,
+      "mem_available_gb": 3.794,
+      "swap_used_gb": 0.911,
+      "cpu_percent": 34.7
+    },
+    "task": {
+      "id": "dl-laya-multilingual-mlx",
+      "kind": "download",
+      "key": "laya-multilingual-mlx",
+      "patterns": [
+        "model.safetensors",
+        "rl_agent_config.json",
+        "encoder/config.json",
+        "tokenizer/*",
+        "mlx_config.json"
+      ],
+      "gb": 0.7
+    },
+    "result": {
+      "repo": "aac6fef/laya-multilingual-mlx",
+      "revision": "f2b4faf51023039425946074e2cf1361d2db11d5",
+      "note": "FP16 MLX port of convaiinnovations/laya-multilingual",
+      "path": "~/jevlike_cache/hf/hub/models--aac6fef--laya-multilingual-mlx/snapshots/f2b4faf51023039425946074e2cf1361d2db11d5",
+      "size_gb": 0.678,
+      "seconds": 35.3
+    },
+    "finished": "2026-11-13T15:46:55+0300"
+  },
+  "merge-kev-0.8b-official": {
+    "status": "done",
+    "guard": {
+      "returncode": 0,
+      "killed_reason": null,
+      "wall_s": 11.68,
+      "peak_rss_gb": 5.931,
+      "peak_phys_footprint_gb": 4.387,
+      "guard_metric": "physical footprint",
+      "min_avail_gb": 4.413,
+      "swap_start_gb": 1.969,
+      "swap_peak_gb": 1.969,
+      "swap_guard": "active",
+      "tail": [
+        "[err] [run_kev_script] pre-existing 'scripts' resolution: ('~/jevlike_cache/repos/laya-mlx/scripts/__init__.py', ['~/jevlike_cache/repos/laya-mlx/scripts'])",
+        "[err] ",
+        "[err] Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]",
+        "[err] Fetching 9 files: 100%|██████████| 9/9 [00:00<00:00, 4877.73it/s]",
+        "[err] Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.",
+        "[err] ",
+        "[out] loading Qwen/Qwen3.5-0.8B-Base@dc7cdfe2ee4154fa7e30f5b51ca41bfa40174e68 (fp32) with the adapter of jaredpalmer/kev-0.8b@9a45d25eb2ab761841196625383fa1dff0e56c1e",
+        "[err] Loading weights:   0%|          | 0/320 [00:00<?, ?it/s]",
+        "[err] Loading weights:   0%|          | 1/320 [00:01<07:48,  1.47s/it]",
+        "[err] Loading weights: 100%|██████████| 320/320 [00:01<00:00, 217.10it/s]",
+        "[out] load_base_and_adapter: 3.8 s",
+        "[out] merge: 1.1 s",
+        "[err] ",
+        "[err] Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]",
+        "[err] Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.74it/s]",
+        "[err] Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.74it/s]",
+        "[out] write_backbone: 0.6 s",
+        "[out] hash_output: 0.7 s",
+        "[out] -> ~/jevlike_cache/models/merged/kev-0.8b-official/checkpoint: weights 024714fddf04, 320 tensors, 6.3 s",
+        "[out] {\"task\": \"merge-kev-0.8b-official\", \"ok\": true}"
+      ]
+    },
+    "before": {
+      "label": "before merge-kev-0.8b-official",
+      "time": "2026-11-13T18:18:12+0300",
+      "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+      "pmset_batt": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=<redacted>)\t79%; AC attached; not charging present: true",
+      "memory_pressure": "The system has 17179869184 (1048576 pages with a page size of 16384).\nSystem-wide memory free percentage: 74%",
+      "swapusage": "vm.swapusage: total = 3072.00M  used = 1878.06M  free = 1193.94M  (encrypted)",
+      "mem_total_gb": 17.18,
+      "mem_available_gb": 6.232,
+      "swap_used_gb": 1.969,
+      "cpu_percent": 0.0
+    },
+    "after": {
+      "label": "after merge-kev-0.8b-official",
+      "time": "2026-11-13T18:18:24+0300",
+      "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+      "pmset_batt": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=<redacted>)\t79%; AC attached; not charging present: true",
+      "memory_pressure": "The system has 17179869184 (1048576 pages with a page size of 16384).\nSystem-wide memory free percentage: 65%",
+      "swapusage": "vm.swapusage: total = 3072.00M  used = 1878.06M  free = 1193.94M  (encrypted)",
+      "mem_total_gb": 17.18,
+      "mem_available_gb": 6.864,
+      "swap_used_gb": 1.969,
+      "cpu_percent": 17.2
+    },
+    "task": {
+      "id": "merge-kev-0.8b-official",
+      "kind": "kev_official_merge",
+      "lora": "jaredpalmer/kev-0.8b@9a45d25eb2ab761841196625383fa1dff0e56c1e",
+      "out": "~/jevlike_cache/models/merged/kev-0.8b-official",
+      "needs": [
+        "dl-kev-0.8b",
+        "dl-qwen3.5-0.8b-base"
+      ],
+      "gb": 1.8
+    },
+    "result": {
+      "checkpoint": "~/jevlike_cache/models/merged/kev-0.8b-official/checkpoint",
+      "report": {
+        "checkpoint": "~/jevlike_cache/models/merged/kev-0.8b-official/checkpoint",
+        "weights_sha256": "024714fddf0442e0ba56c0dc70312e7a7ce22ca682377be4e39cbea62b2ec457",
+        "head_sha256": "65d6680ee2373e3fddbedd3c0e93200b90d8279f616362884f743d4ec728d9a1",
+        "tensors": 320,
+        "merged_lora": {
+          "source": {
+            "path": "jaredpalmer/kev-0.8b@9a45d25eb2ab761841196625383fa1dff0e56c1e",
+            "resolved": "~/jevlike_cache/hf/hub/models--jaredpalmer--kev-0.8b/snapshots/9a45d25eb2ab761841196625383fa1dff0e56c1e",
+            "weights_sha256": "9b908623acb162118575f4e7a94524f9c139c335be4bfb74d6cfceca01e1885a",
+            "head_sha256": "f400bd12802b2b105ae45d6b03774a158a3db4fccff42413734ddca2e5c920b6"
+          },
+          "base": "Qwen/Qwen3.5-0.8B-Base@dc7cdfe2ee4154fa7e30f5b51ca41bfa40174e68",
+          "adapted_tensors": 186,
+          "formula": "round_to_weights_dtype(fp32(W) + fp32(peft get_delta_weight)) for adapted weights, W unchanged elsewhere",
+          "weights_dtype": {
+            "trained": "fp32",
+            "written": "bf16"
+          }
+        },
+        "temperature": 2.3510958125672174,
+        "head_dim": 256,
+        "like": null,
+        "phases": {
+          "load_base_and_adapter": 3.8,
+          "merge": 1.1,
+          "write_backbone": 0.6,
+          "hash_output": 0.7
+        },
+        "seconds": 6.3
+      },
+      "seconds": 11.6
+    },
+    "finished": "2026-11-13T18:18:23+0300"
+  },
+  "merge-kev-0.8b-stream": {
+    "status": "done",
+    "guard": {
+      "returncode": 0,
+      "killed_reason": null,
+      "wall_s": 8.65,
+      "peak_rss_gb": 2.601,
+      "peak_phys_footprint_gb": 1.477,
+      "guard_metric": "physical footprint",
+      "min_avail_gb": 2.985,
+      "swap_start_gb": 0.911,
+      "swap_peak_gb": 0.911,
+      "swap_guard": "active",
+      "tail": [
+        "[err] ",
+        "[err] Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]",
+        "[err] Fetching 9 files: 100%|██████████| 9/9 [00:00<00:00, 5703.95it/s]",
+        "[err] ",
+        "[err] Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]",
+        "[err] Fetching 9 files: 100%|██████████| 9/9 [00:00<00:00, 6864.65it/s]",
+        "[out] base Qwen/Qwen3.5-0.8B-Base@dc7cdfe2ee4154fa7e30f5b51ca41bfa40174e68 -> ~/jevlike_cache/hf/hub/models--Qwen--Qwen3.5-0.8B-Base/snapshots/dc7cdfe2ee4154fa7e30f5b51ca41bfa40174e68; adapter r=16 alpha=32 scaling=2.0",
+        "[out] 320 backbone tensors, 186 adapted",
+        "[out] -> ~/jevlike_cache/models/merged/kev-0.8b-stream/checkpoint: 320 tensors (186 adapted), 1.50 GB, 4.8 s",
+        "[out] {\"task\": \"merge-kev-0.8b-stream\", \"ok\": true}"
+      ]
+    },
+    "before": {
+      "label": "before merge-kev-0.8b-stream",
+      "time": "2026-11-13T15:47:22+0300",
+      "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+      "pmset_batt": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=<redacted>)\t80%; AC attached; not charging present: true",
+      "memory_pressure": "The system has 17179869184 (1048576 pages with a page size of 16384).\nSystem-wide memory free percentage: 41%",
+      "swapusage": "vm.swapusage: total = 2048.00M  used = 868.50M  free = 1179.50M  (encrypted)",
+      "mem_total_gb": 17.18,
+      "mem_available_gb": 3.402,
+      "swap_used_gb": 0.911,
+      "cpu_percent": 38.0
+    },
+    "after": {
+      "label": "after merge-kev-0.8b-stream",
+      "time": "2026-11-13T15:47:31+0300",
+      "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+      "pmset_batt": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=<redacted>)\t80%; AC attached; not charging present: true",
+      "memory_pressure": "The system has 17179869184 (1048576 pages with a page size of 16384).\nSystem-wide memory free percentage: 46%",
+      "swapusage": "vm.swapusage: total = 2048.00M  used = 868.50M  free = 1179.50M  (encrypted)",
+      "mem_total_gb": 17.18,
+      "mem_available_gb": 3.757,
+      "swap_used_gb": 0.911,
+      "cpu_percent": 37.3
+    },
+    "task": {
+      "id": "merge-kev-0.8b-stream",
+      "kind": "kev_stream_merge",
+      "lora": "jaredpalmer/kev-0.8b@9a45d25eb2ab761841196625383fa1dff0e56c1e",
+      "out": "~/jevlike_cache/models/merged/kev-0.8b-stream",
+      "needs": [
+        "dl-kev-0.8b",
+        "dl-qwen3.5-0.8b-base"
+      ],
+      "gb": 1.8
+    },
+    "result": {
+      "checkpoint": "~/jevlike_cache/models/merged/kev-0.8b-stream/checkpoint",
+      "tensors": 320,
+      "adapted_tensors": 186,
+      "bytes": 1504786048,
+      "shards": {
+        "model.safetensors": "1d03d000cfdfd72fd55e0ca416bf6be8d7d9f5b7f19d4b6c1845da4173cebc26"
+      },
+      "head_sha256": "598031412351f62a130f90cfcbbc0d4ffa3752e3c6842152aeda562b13774dfb",
+      "source": {
+        "path": "jaredpalmer/kev-0.8b@9a45d25eb2ab761841196625383fa1dff0e56c1e",
+        "resolved": "~/jevlike_cache/hf/hub/models--jaredpalmer--kev-0.8b/snapshots/9a45d25eb2ab761841196625383fa1dff0e56c1e",
+        "adapter_sha256": "9b908623acb162118575f4e7a94524f9c139c335be4bfb74d6cfceca01e1885a",
+        "head_sha256": "f400bd12802b2b105ae45d6b03774a158a3db4fccff42413734ddca2e5c920b6"
+      },
+      "formula": "round_to_bf16(fp32(W) + fp32(B) @ fp32(A) * scaling) for adapted weights; round_to_bf16(W) elsewhere",
+      "seconds": 8.0
+    },
+    "finished": "2026-11-13T15:47:31+0300"
+  },
+  "compare-kev-0.8b-merges": {
+    "status": "done",
+    "guard": {
+      "returncode": 0,
+      "killed_reason": null,
+      "wall_s": 5.43,
+      "peak_rss_gb": 4.091,
+      "peak_phys_footprint_gb": 5.676,
+      "guard_metric": "physical footprint",
+      "min_avail_gb": 4.475,
+      "swap_start_gb": 1.969,
+      "swap_peak_gb": 1.969,
+      "swap_guard": "active",
+      "tail": [
+        "[out] {\"task\": \"compare-kev-0.8b-merges\", \"ok\": true}"
+      ]
+    },
+    "before": {
+      "label": "before compare-kev-0.8b-merges",
+      "time": "2026-11-13T18:18:24+0300",
+      "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+      "pmset_batt": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=<redacted>)\t79%; AC attached; not charging present: true",
+      "memory_pressure": "The system has 17179869184 (1048576 pages with a page size of 16384).\nSystem-wide memory free percentage: 65%",
+      "swapusage": "vm.swapusage: total = 3072.00M  used = 1878.06M  free = 1193.94M  (encrypted)",
+      "mem_total_gb": 17.18,
+      "mem_available_gb": 6.864,
+      "swap_used_gb": 1.969,
+      "cpu_percent": 21.5
+    },
+    "after": {
+      "label": "after compare-kev-0.8b-merges",
+      "time": "2026-11-13T18:18:29+0300",
+      "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+      "pmset_batt": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=<redacted>)\t79%; AC attached; not charging present: true",
+      "memory_pressure": "The system has 17179869184 (1048576 pages with a page size of 16384).\nSystem-wide memory free percentage: 62%",
+      "swapusage": "vm.swapusage: total = 3072.00M  used = 1878.06M  free = 1193.94M  (encrypted)",
+      "mem_total_gb": 17.18,
+      "mem_available_gb": 6.25,
+      "swap_used_gb": 1.969,
+      "cpu_percent": 20.1
+    },
+    "task": {
+      "id": "compare-kev-0.8b-merges",
+      "kind": "merge_compare",
+      "a": "~/jevlike_cache/models/merged/kev-0.8b-official/checkpoint",
+      "b": "~/jevlike_cache/models/merged/kev-0.8b-stream/checkpoint",
+      "needs": [
+        "merge-kev-0.8b-official",
+        "merge-kev-0.8b-stream"
+      ],
+      "gb": 0.0
+    },
+    "result": {
+      "report": "<project>/results/raw/smoke/merge_parity_kev-0.8b.json",
+      "verdict": "identical",
+      "max_abs_diff_overall": 0.0,
+      "elements_differing": 0,
+      "config_diff": {},
+      "seconds": 5.1
+    },
+    "finished": "2026-11-13T18:18:29+0300"
+  },
+  "merge-kev-4b-stream": {
+    "status": "done",
+    "guard": {
+      "returncode": 0,
+      "killed_reason": null,
+      "wall_s": 33.08,
+      "peak_rss_gb": 4.458,
+      "peak_phys_footprint_gb": 3.004,
+      "guard_metric": "physical footprint",
+      "min_avail_gb": 2.181,
+      "swap_start_gb": 0.911,
+      "swap_peak_gb": 1.101,
+      "swap_guard": "active",
+      "tail": [
+        "[err] ",
+        "[err] Fetching 13 files:   0%|          | 0/13 [00:00<?, ?it/s]",
+        "[err] Fetching 13 files: 100%|██████████| 13/13 [00:00<00:00, 5829.78it/s]",
+        "[err] ",
+        "[err] Fetching 10 files:   0%|          | 0/10 [00:00<?, ?it/s]",
+        "[err] Fetching 10 files: 100%|██████████| 10/10 [00:00<00:00, 7073.03it/s]",
+        "[out] base Qwen/Qwen3.5-4B-Base@1001bb4d826a52d1f399e183466143f4da7b741b -> ~/jevlike_cache/hf/hub/models--Qwen--Qwen3.5-4B-Base/snapshots/1001bb4d826a52d1f399e183466143f4da7b741b; adapter r=16 alpha=32 scaling=2.0",
+        "[out] 426 backbone tensors, 248 adapted",
+        "[out] -> ~/jevlike_cache/models/merged/kev-4b-stream/checkpoint: 426 tensors (248 adapted), 8.41 GB, 29.1 s",
+        "[out] {\"task\": \"merge-kev-4b-stream\", \"ok\": true}"
+      ]
+    },
+    "before": {
+      "label": "before merge-kev-4b-stream",
+      "time": "2026-11-13T15:47:31+0300",
+      "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+      "pmset_batt": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=<redacted>)\t80%; AC attached; not charging present: true",
+      "memory_pressure": "The system has 17179869184 (1048576 pages with a page size of 16384).\nSystem-wide memory free percentage: 43%",
+      "swapusage": "vm.swapusage: total = 2048.00M  used = 868.50M  free = 1179.50M  (encrypted)",
+      "mem_total_gb": 17.18,
+      "mem_available_gb": 3.757,
+      "swap_used_gb": 0.911,
+      "cpu_percent": 0.0
+    },
+    "after": {
+      "label": "after merge-kev-4b-stream",
+      "time": "2026-11-13T15:48:05+0300",
+      "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+      "pmset_batt": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=<redacted>)\t80%; AC attached; not charging present: true",
+      "memory_pressure": "The system has 17179869184 (1048576 pages with a page size of 16384).\nSystem-wide memory free percentage: 49%",
+      "swapusage": "vm.swapusage: total = 2048.00M  used = 1050.06M  free = 997.94M  (encrypted)",
+      "mem_total_gb": 17.18,
+      "mem_available_gb": 4.914,
+      "swap_used_gb": 1.101,
+      "cpu_percent": 35.0
+    },
+    "task": {
+      "id": "merge-kev-4b-stream",
+      "kind": "kev_stream_merge",
+      "lora": "jaredpalmer/kev-4b@139fdd94f1b6a6ad80cc15e08fcb99cac885a101",
+      "out": "~/jevlike_cache/models/merged/kev-4b-stream",
+      "needs": [
+        "dl-kev-4b",
+        "dl-qwen3.5-4b-base"
+      ],
+      "gb": 8.6
+    },
+    "result": {
+      "checkpoint": "~/jevlike_cache/models/merged/kev-4b-stream/checkpoint",
+      "tensors": 426,
+      "adapted_tensors": 248,
+      "bytes": 8411502592,
+      "shards": {
+        "model-00001-of-00005.safetensors": "7e51ff201b693b3ff47a2d10646cd1435150557c13d741b3484a142ec861bc7c",
+        "model-00002-of-00005.safetensors": "d041c4ac26f45277f47fa5693fef01db4c2d96f43fec9dea145381d8983537ed",
+        "model-00003-of-00005.safetensors": "7988fabef70270352795c5b2c15d51395961ff025e2e535dded4fdaaaa426998",
+        "model-00004-of-00005.safetensors": "8113ac6e30a6e11e3ad7494651ba3314441064ecd458b091a72f91cf92847115",
+        "model-00005-of-00005.safetensors": "26602c8d6ae8155b484be176ca2beda1a54b91f73e3a40efb2d3bd6a8c1f52ad"
+      },
+      "head_sha256": "68f94b4028966e66e0c25f7832f504956839932f04cbab46349c853838b0982a",
+      "source": {
+        "path": "jaredpalmer/kev-4b@139fdd94f1b6a6ad80cc15e08fcb99cac885a101",
+        "resolved": "~/jevlike_cache/hf/hub/models--jaredpalmer--kev-4b/snapshots/139fdd94f1b6a6ad80cc15e08fcb99cac885a101",
+        "adapter_sha256": "90e817356246e7f18bfa7ca3d31794cd4fbeb3332a66a84cb51d9ceae925f2b2",
+        "head_sha256": "dd633435998ecc751ac538717a3742e32149500fabf7d7276287dbf0693f347c"
+      },
+      "formula": "round_to_bf16(fp32(W) + fp32(B) @ fp32(A) * scaling) for adapted weights; round_to_bf16(W) elsewhere",
+      "seconds": 32.5
+    },
+    "finished": "2026-11-13T15:48:04+0300"
+  },
+  "link-jevmlx-Qwen3.5-0.8B-Base": {
+    "status": "done",
+    "guard": {
+      "returncode": 0,
+      "killed_reason": null,
+      "wall_s": 1.28,
+      "peak_rss_gb": 0.049,
+      "peak_phys_footprint_gb": 0.037,
+      "guard_metric": "physical footprint",
+      "min_avail_gb": 3.625,
+      "swap_start_gb": 1.101,
+      "swap_peak_gb": 1.101,
+      "swap_guard": "active",
+      "tail": [
+        "[out] {\"task\": \"link-jevmlx-Qwen3.5-0.8B-Base\", \"ok\": true}"
+      ]
+    },
+    "before": {
+      "label": "before link-jevmlx-Qwen3.5-0.8B-Base",
+      "time": "2026-11-13T15:48:05+0300",
+      "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+      "pmset_batt": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=<redacted>)\t80%; AC attached; not charging present: true",
+      "memory_pressure": "The system has 17179869184 (1048576 pages with a page size of 16384).\nSystem-wide memory free percentage: 50%",
+      "swapusage": "vm.swapusage: total = 2048.00M  used = 1050.06M  free = 997.94M  (encrypted)",
+      "mem_total_gb": 17.18,
+      "mem_available_gb": 4.786,
+      "swap_used_gb": 1.101,
+      "cpu_percent": 38.1
+    },
+    "after": {
+      "label": "after link-jevmlx-Qwen3.5-0.8B-Base",
+      "time": "2026-11-13T15:48:07+0300",
+      "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+      "pmset_batt": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=<redacted>)\t80%; AC attached; not charging present: true",
+      "memory_pressure": "The system has 17179869184 (1048576 pages with a page size of 16384).\nSystem-wide memory free percentage: 50%",
+      "swapusage": "vm.swapusage: total = 2048.00M  used = 1050.06M  free = 997.94M  (encrypted)",
+      "mem_total_gb": 17.18,
+      "mem_available_gb": 4.205,
+      "swap_used_gb": 1.101,
+      "cpu_percent": 33.1
+    },
+    "task": {
+      "id": "link-jevmlx-Qwen3.5-0.8B-Base",
+      "kind": "jevmlx_link",
+      "key": "qwen3.5-0.8b-base",
+      "link": "~/jevlike_cache/models/jevmlx/Qwen3.5-0.8B-Base",
+      "needs": [
+        "dl-qwen3.5-0.8b-base"
+      ],
+      "gb": 0.0
+    },
+    "result": {
+      "link": "~/jevlike_cache/models/jevmlx/Qwen3.5-0.8B-Base",
+      "target": "~/jevlike_cache/hf/hub/models--Qwen--Qwen3.5-0.8B-Base/snapshots/dc7cdfe2ee4154fa7e30f5b51ca41bfa40174e68",
+      "seconds": 1.0
+    },
+    "finished": "2026-11-13T15:48:07+0300"
+  },
+  "convert-q4-Qwen3.5-0.8B-Base": {
+    "status": "done",
+    "guard": {
+      "returncode": 0,
+      "killed_reason": null,
+      "wall_s": 13.78,
+      "peak_rss_gb": 1.353,
+      "peak_phys_footprint_gb": 2.394,
+      "guard_metric": "physical footprint",
+      "min_avail_gb": 3.004,
+      "swap_start_gb": 1.101,
+      "swap_peak_gb": 1.101,
+      "swap_guard": "active",
+      "tail": [
+        "[out] [INFO] Loading",
+        "[out] [INFO] Using dtype: bfloat16",
+        "[out] [INFO] Quantizing",
+        "[out] [INFO] Quantized model with 4.508 bits per weight.",
+        "[out] {\"task\": \"convert-q4-Qwen3.5-0.8B-Base\", \"ok\": true}"
+      ]
+    },
+    "before": {
+      "label": "before convert-q4-Qwen3.5-0.8B-Base",
+      "time": "2026-11-13T15:48:07+0300",
+      "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+      "pmset_batt": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=<redacted>)\t80%; AC attached; not charging present: true",
+      "memory_pressure": "The system has 17179869184 (1048576 pages with a page size of 16384).\nSystem-wide memory free percentage: 51%",
+      "swapusage": "vm.swapusage: total = 2048.00M  used = 1050.06M  free = 997.94M  (encrypted)",
+      "mem_total_gb": 17.18,
+      "mem_available_gb": 4.205,
+      "swap_used_gb": 1.101,
+      "cpu_percent": 41.8
+    },
+    "after": {
+      "label": "after convert-q4-Qwen3.5-0.8B-Base",
+      "time": "2026-11-13T15:48:21+0300",
+      "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+      "pmset_batt": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=<redacted>)\t80%; AC attached; not charging present: true",
+      "memory_pressure": "The system has 17179869184 (1048576 pages with a page size of 16384).\nSystem-wide memory free percentage: 51%",
+      "swapusage": "vm.swapusage: total = 2048.00M  used = 1050.06M  free = 997.94M  (encrypted)",
+      "mem_total_gb": 17.18,
+      "mem_available_gb": 3.82,
+      "swap_used_gb": 1.101,
+      "cpu_percent": 41.2
+    },
+    "task": {
+      "id": "convert-q4-Qwen3.5-0.8B-Base",
+      "kind": "mlx_convert",
+      "src": "~/jevlike_cache/models/jevmlx/Qwen3.5-0.8B-Base",
+      "dst": "~/jevlike_cache/models/jevmlx/Qwen3.5-0.8B-Base-4bit-g64",
+      "bits": 4,
+      "group_size": 64,
+      "needs": [
+        "link-jevmlx-Qwen3.5-0.8B-Base"
+      ],
+      "gb": 0.7
+    },
+    "result": {
+      "path": "~/jevlike_cache/models/jevmlx/Qwen3.5-0.8B-Base-4bit-g64",
+      "size_gb": 0.444,
+      "quantization": {
+        "group_size": 64,
+        "bits": 4,
+        "mode": "affine"
+      },
+      "method": "mlx_lm.convert(quantize=True, q_bits=4, q_group_size=64)",
+      "seconds": 13.2
+    },
+    "finished": "2026-11-13T15:48:20+0300"
+  },
+  "link-jevmlx-Qwen3.5-4B-Base": {
+    "status": "done",
+    "guard": {
+      "returncode": 0,
+      "killed_reason": null,
+      "wall_s": 0.35,
+      "peak_rss_gb": 0.051,
+      "peak_phys_footprint_gb": 0.039,
+      "guard_metric": "physical footprint",
+      "min_avail_gb": 4.878,
+      "swap_start_gb": 1.101,
+      "swap_peak_gb": 1.101,
+      "swap_guard": "active",
+      "tail": [
+        "[out] {\"task\": \"link-jevmlx-Qwen3.5-4B-Base\", \"ok\": true}"
+      ]
+    },
+    "before": {
+      "label": "before link-jevmlx-Qwen3.5-4B-Base",
+      "time": "2026-11-13T15:48:21+0300",
+      "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+      "pmset_batt": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=<redacted>)\t80%; AC attached; not charging present: true",
+      "memory_pressure": "The system has 17179869184 (1048576 pages with a page size of 16384).\nSystem-wide memory free percentage: 51%",
+      "swapusage": "vm.swapusage: total = 2048.00M  used = 1050.06M  free = 997.94M  (encrypted)",
+      "mem_total_gb": 17.18,
+      "mem_available_gb": 5.382,
+      "swap_used_gb": 1.101,
+      "cpu_percent": 41.4
+    },
+    "after": {
+      "label": "after link-jevmlx-Qwen3.5-4B-Base",
+      "time": "2026-11-13T15:48:22+0300",
+      "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+      "pmset_batt": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=<redacted>)\t80%; AC attached; not charging present: true",
+      "memory_pressure": "The system has 17179869184 (1048576 pages with a page size of 16384).\nSystem-wide memory free percentage: 44%",
+      "swapusage": "vm.swapusage: total = 2048.00M  used = 1050.06M  free = 997.94M  (encrypted)",
+      "mem_total_gb": 17.18,
+      "mem_available_gb": 4.878,
+      "swap_used_gb": 1.101,
+      "cpu_percent": 41.2
+    },
+    "task": {
+      "id": "link-jevmlx-Qwen3.5-4B-Base",
+      "kind": "jevmlx_link",
+      "key": "qwen3.5-4b-base",
+      "link": "~/jevlike_cache/models/jevmlx/Qwen3.5-4B-Base",
+      "needs": [
+        "dl-qwen3.5-4b-base"
+      ],
+      "gb": 0.0
+    },
+    "result": {
+      "link": "~/jevlike_cache/models/jevmlx/Qwen3.5-4B-Base",
+      "target": "~/jevlike_cache/hf/hub/models--Qwen--Qwen3.5-4B-Base/snapshots/1001bb4d826a52d1f399e183466143f4da7b741b",
+      "seconds": 0.2
+    },
+    "finished": "2026-11-13T15:48:22+0300"
+  },
+  "convert-q4-Qwen3.5-4B-Base": {
+    "status": "done",
+    "guard": {
+      "returncode": 0,
+      "killed_reason": null,
+      "wall_s": 10.52,
+      "peak_rss_gb": 3.196,
+      "peak_phys_footprint_gb": 6.114,
+      "guard_metric": "physical footprint",
+      "min_avail_gb": 1.936,
+      "swap_start_gb": 1.101,
+      "swap_peak_gb": 3.196,
+      "swap_guard": "active",
+      "tail": [
+        "[out] [INFO] Loading",
+        "[out] [INFO] Using dtype: bfloat16",
+        "[out] [INFO] Quantizing",
+        "[out] [INFO] Quantized model with 4.503 bits per weight.",
+        "[out] {\"task\": \"convert-q4-Qwen3.5-4B-Base\", \"ok\": true}"
+      ]
+    },
+    "before": {
+      "label": "before convert-q4-Qwen3.5-4B-Base",
+      "time": "2026-11-13T15:48:22+0300",
+      "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+      "pmset_batt": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=<redacted>)\t80%; AC attached; not charging present: true",
+      "memory_pressure": "The system has 17179869184 (1048576 pages with a page size of 16384).\nSystem-wide memory free percentage: 45%",
+      "swapusage": "vm.swapusage: total = 2048.00M  used = 1050.06M  free = 997.94M  (encrypted)",
+      "mem_total_gb": 17.18,
+      "mem_available_gb": 4.878,
+      "swap_used_gb": 1.101,
+      "cpu_percent": 39.5
+    },
+    "after": {
+      "label": "after convert-q4-Qwen3.5-4B-Base",
+      "time": "2026-11-13T15:48:33+0300",
+      "pmset_therm": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+      "pmset_batt": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=<redacted>)\t80%; AC attached; not charging present: true",
+      "memory_pressure": "The system has 17179869184 (1048576 pages with a page size of 16384).\nSystem-wide memory free percentage: 60%",
+      "swapusage": "vm.swapusage: total = 4096.00M  used = 3047.56M  free = 1048.44M  (encrypted)",
+      "mem_total_gb": 17.18,
+      "mem_available_gb": 6.557,
+      "swap_used_gb": 3.196,
+      "cpu_percent": 39.9
+    },
+    "task": {
+      "id": "convert-q4-Qwen3.5-4B-Base",
+      "kind": "mlx_convert",
+      "src": "~/jevlike_cache/models/jevmlx/Qwen3.5-4B-Base",
+      "dst": "~/jevlike_cache/models/jevmlx/Qwen3.5-4B-Base-4bit-g64",
+      "bits": 4,
+      "group_size": 64,
+      "needs": [
+        "link-jevmlx-Qwen3.5-4B-Base"
+      ],
+      "gb": 2.6
+    },
+    "result": {
+      "path": "~/jevlike_cache/models/jevmlx/Qwen3.5-4B-Base-4bit-g64",
+      "size_gb": 2.387,
+      "quantization": {
+        "group_size": 64,
+        "bits": 4,
+        "mode": "affine"
+      },
+      "method": "mlx_lm.convert(quantize=True, q_bits=4, q_group_size=64)",
+      "seconds": 9.4
+    },
+    "finished": "2026-11-13T15:48:32+0300"
+  }
+}
